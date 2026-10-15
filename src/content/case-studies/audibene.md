@@ -1,6 +1,34 @@
 ---
-title: 'Experimenting Across 11 Markets: From Behavioral Insights to Better Decisions'
+title: "Experimenting Across 11 Markets: From Behavioral Insights to Better Decisions"
 slug: audibene
+summary: As CRO Manager in Berlin I worked across eleven international markets,
+  contributing to more than 200 A/B experiments that turned customer behavior
+  into testable hypotheses and evaluated whether wins travelled between markets.
+cover: /assets/figma/case-studies/audibene-article.png
+coverAlt: A wide view of the audibene experiment context showing the
+  hearing-care customer journey.
+seoTitle: Experimenting Across 11 Markets — audibene case study
+seoDescription: CRO Manager in Berlin contributing to 200+ A/B experiments
+  across 11 international markets, testing credibility, progressive commitment,
+  perceived progress and local relevance.
+published: true
+publishedAt: 2026-10-15
+featured: true
+order: 3
+gallery:
+  - src: /uploads/stonecreekcoffee-abtest95redirectafterdesktop1xb80cc030-05e5-46f0-8a9b-89bfc0002c36.webp
+    alt: Experiment interface from the audibene CRO programme.
+  - src: /assets/figma/case-studies/index-audibene-2.png
+    alt: Test variant showing messaging and trust elements.
+  - src: /assets/figma/case-studies/index-audibene-3.png
+    alt: Results view from an audibene experiment.
+metrics:
+  - label: A/B Experiments Contributed To
+    value: 200+
+  - label: International Markets
+    value: "11"
+  - label: Cross-functional
+    value: Marketing, Product & Engineering
 client: audibene
 role:
   - CRO Manager
@@ -11,30 +39,7 @@ services:
 period: 2019–2022
 location: Berlin
 evidenceCaption: Hearing-care context · audibene
-summary: As CRO Manager in Berlin I worked across eleven international markets, contributing to more than 200 A/B experiments that turned customer behavior into testable hypotheses and evaluated whether wins travelled between markets.
-published: true
-featured: true
-order: 3
-cover: /assets/figma/case-studies/audibene-article.png
-coverAlt: A wide view of the audibene experiment context showing the hearing-care customer journey.
-seoTitle: Experimenting Across 11 Markets — audibene case study
-seoDescription: CRO Manager in Berlin contributing to 200+ A/B experiments across 11 international markets, testing credibility, progressive commitment, perceived progress and local relevance.
-metrics:
-  - label: A/B Experiments Contributed To
-    value: '200+'
-  - label: International Markets
-    value: '11'
-  - label: Cross-functional
-    value: Marketing, Product & Engineering
-gallery:
-  - src: /assets/figma/case-studies/index-audibene-1.png
-    alt: Experiment interface from the audibene CRO programme.
-  - src: /assets/figma/case-studies/index-audibene-2.png
-    alt: Test variant showing messaging and trust elements.
-  - src: /assets/figma/case-studies/index-audibene-3.png
-    alt: Results view from an audibene experiment.
 ---
-
 Hearing care is a category shaped by trust, personal concerns, and decisions that customers may not feel ready to make.
 
 The same landing page, message, or questionnaire can produce different responses across markets. What reassures a customer in Germany may not provide the same reassurance to someone in another country.
