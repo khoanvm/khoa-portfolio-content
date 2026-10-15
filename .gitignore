@@ -1,0 +1,17 @@
+# Editor and OS noise. Nothing here should ever match content or media.
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Credentials must never enter this public repository.
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+
+# NOTE: public/uploads/ is intentionally NOT ignored. Images uploaded through
+# Pages CMS are committed there by design and are served at /uploads/<file>.
