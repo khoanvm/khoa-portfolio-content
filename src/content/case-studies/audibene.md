@@ -12,11 +12,10 @@ seoDescription: CRO Manager in Berlin contributing to 200+ A/B experiments
   across 11 international markets, testing credibility, progressive commitment,
   perceived progress and local relevance.
 published: true
-publishedAt: 2026-10-15
 featured: true
 order: 3
 gallery:
-  - src: /uploads/stonecreekcoffee-abtest95redirectafterdesktop1xb80cc030-05e5-46f0-8a9b-89bfc0002c36.webp
+  - src: /assets/figma/case-studies/index-audibene-1.png
     alt: Experiment interface from the audibene CRO programme.
   - src: /assets/figma/case-studies/index-audibene-2.png
     alt: Test variant showing messaging and trust elements.

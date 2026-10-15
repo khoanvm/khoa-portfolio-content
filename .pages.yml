@@ -1,42 +1,34 @@
-# Khoa Portfolio - PUBLIC CONTENT repository (Proof of Concept)
+# Khoa Portfolio - PUBLIC CONTENT repository
 #
-# SCOPE
-#   This repository is an isolated Proof of Concept. It holds ONE published
-#   case study (audibene) and its four images so that Pages CMS can be proven to
-#   manage content and images from a PUBLIC repository.
+# ROLE IN THE ARCHITECTURE
+#   This repository is the canonical EDITORIAL source: all four content
+#   collections and their media are managed here through Pages CMS.
+#   The Astro site source, build, QA and deployment stay in the PRIVATE
+#   repository khoanvm/khoa-portfolio. Synchronization is one-way
+#   (public -> private, via a reviewed pull request). This repository never
+#   deploys and holds no source code.
 #
-#   It is NOT the production repository. The Astro site source stays private in
-#   khoanvm/khoa-portfolio, which remains the single source of truth for the
-#   build. Nothing here deploys.
+#   Edit content HERE, in Pages CMS, against khoanvm/khoa-portfolio-content.
+#   Do not edit synchronized articles in the private repository.
 #
-# SAFETY BASIS
-#   Every file in this repository was ALREADY world-readable on production at
-#   https://khoanvm.io.vn before the repository was created:
-#     /case-studies/audibene/                     -> 200 text/html
-#     /assets/figma/case-studies/audibene-article.png -> 200 image/png
-#     /assets/figma/case-studies/index-audibene-1.png -> 200 image/png
-#     /assets/figma/case-studies/index-audibene-2.png -> 200 image/png
-#     /assets/figma/case-studies/index-audibene-3.png -> 200 image/png
-#   Publishing it here discloses nothing that is not already public.
+#   NOTE ON VISIBILITY: every file here is world-readable on GitHub, including
+#   anything with `published: false`. Only publishable content belongs here.
 #
 # WHY THE MEDIA ROOT IS `public`
-#   Pages CMS does not resolve an existing image reference against the whole
-#   repository. `read()` in fields/core/image/index.tsx converts a stored value
-#   from the `output` form to the repo form:
+#   Pages CMS resolves an existing image reference with
 #       swapPrefix(storedValue, media.output, media.input, relative = true)
-#   and the media API rejects any directory that does not start with
-#   `media.input` (app/api/.../media/[name]/[path]/route.ts -> HTTP 400).
-#   With `input: public/uploads` the stored value /assets/figma/... would be
-#   rejected. With `input: public` it resolves to
-#   public/assets/figma/... which is exactly where the file lives.
+#   and the media API rejects any directory not starting with `media.input`
+#   (HTTP 400). With `input: public/uploads` the stored value /assets/... would
+#   be rejected; with `input: public` it resolves to public/assets/..., which is
+#   where the files actually live. Both are required.
 #
-#   NOTE: the inline thumbnail only renders because this repository is PUBLIC.
-#   Pages CMS serves `<img src>` from GitHub's unauthenticated download_url, so
-#   on a PRIVATE repository every thumbnail 404s. See docs/COMPATIBILITY.md.
+#   Because this repository is PUBLIC, inline thumbnails render correctly.
+#   (In a private repository they cannot: Pages CMS points <img src> at
+#   GitHub's unauthenticated download URL, which 404s.)
 #
-# NOTHING IS MIGRATED. No frontmatter value is rewritten and no image path
-# changes: values stay in the original `/assets/...` convention, which is the
-# same public URL the live site already serves.
+# NOTHING IS MIGRATED BY CONFIG CHANGE. Image values keep the original
+# /assets/... convention, which is the same public URL the live site serves.
+# New uploads land in public/uploads and are stored as /uploads/<filename>.
 #
 # Field reference: https://pagescms.org/docs/configuration/
 
@@ -96,8 +88,7 @@ content:
           Case Study cover: 1600 × 800 (2:1), WebP, ideally under 250 KB. The detail
           page renders 2:1.
           To replace: press the bin icon, then Upload and Select reappear on the empty
-          slot. Clearing a reference does not delete the file from GitHub. If the
-          preview shows a grey box, use the View on GitHub button to confirm the image.
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
         options:
           path: public/uploads
           extensions: [webp, jpg, jpeg, png]
@@ -119,8 +110,7 @@ content:
           SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
           KB.
           To replace: press the bin icon, then Upload and Select reappear on the empty
-          slot. Clearing a reference does not delete the file from GitHub. If the
-          preview shows a grey box, use the View on GitHub button to confirm the image.
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
         options:
           path: public/uploads
           extensions: [webp, jpg, jpeg, png]
@@ -155,8 +145,7 @@ content:
               To replace this one: press the bin icon, then Upload and Select reappear
               on the empty slot. Clearing a reference does not delete the file from
               GitHub. To add another image, press Add below the list instead — that
-              creates a new item. If the preview shows a grey box, use the View on
-              GitHub button to confirm the image.
+              creates a new item. Open it at full size with the View on GitHub button.
             options:
               path: public/uploads
               extensions: [webp, jpg, jpeg, png]
@@ -221,8 +210,502 @@ content:
         description: >-
           Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
           Add, change or remove images freely here — there is no single-image slot to
-          fill. If the preview shows a grey box, use the View on GitHub button to
-          confirm the image.
+          fill. Open it at full size with the View on GitHub button.
+
+  - name: insights
+    label: Insights
+    type: collection
+    path: src/content/insights
+    format: yaml-frontmatter
+    exclude:
+      - README.md
+    view:
+      primary: title
+      sort:
+        - field: publishedAt
+          order: desc
+      search:
+        - title
+        - summary
+        - tags
+    operations:
+      create: true
+      delete: true
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        description: >-
+          View live article ↗ — the public URL is https://khoanvm.io.vn/insights/{slug}/
+          (use the value below, or the file name when blank).
+          Only published entries are live; drafts return 404.
+          Lowercase kebab-case.
+        required: false
+      - name: summary
+        label: Summary
+        type: text
+      - name: cover
+        label: Cover image
+        type: image
+        description: >-
+          Insight cover: 800 × 400 (2:1), WebP, ideally under 250 KB. The article page
+          renders 2:1.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: coverAlt
+        label: Cover alt text
+        type: string
+      - name: listingImage
+        label: Listing image
+        type: image
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+        required: false
+        description: >-
+          Listing thumbnail: match the card ratio 37:27 (≈1.37), WebP, ideally
+          under 120 KB. Optional. Shown on the Blogs listing card instead of the
+          cover (Figma 5335:5008 uses a different photograph there). Leave blank
+          to use the cover image.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+      - name: listingImageAlt
+        label: Listing image alt text
+        type: string
+        required: false
+        description: Optional. Falls back to the cover alt text when left blank.
+      - name: seoTitle
+        label: SEO title
+        type: string
+      - name: seoDescription
+        label: SEO description
+        type: text
+      - name: seoImage
+        label: SEO / social image
+        type: image
+        description: >-
+          SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+          KB.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: published
+        label: Published
+        type: boolean
+      - name: publishedAt
+        label: Published date
+        type: date
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: order
+        label: Manual order
+        type: number
+      - name: readingMinutes
+        label: Reading minutes
+        type: number
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: gallery
+        label: Gallery
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.alt}'
+        fields:
+          - name: src
+            label: Image
+            type: image
+            description: >-
+              Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+              WebP, ideally under 200 KB.
+              To replace this one: press the bin icon, then Upload and Select reappear
+              on the empty slot. Clearing a reference does not delete the file from
+              GitHub. To add another image, press Add below the list instead — that
+              creates a new item. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+            required: true
+          - name: alt
+            label: Alt text
+            type: string
+            required: true
+          - name: caption
+            label: Caption
+            type: string
+      - name: metrics
+        label: Metrics and outcomes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.label}'
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: value
+            label: Value
+            type: string
+            required: true
+          - name: detail
+            label: Detail
+            type: string
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          path: public/uploads
+        description: >-
+          Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+          Add, change or remove images freely here — there is no single-image slot to
+          fill. Open it at full size with the View on GitHub button.
+
+  - name: experiences
+    label: Experience
+    type: collection
+    path: src/content/experiences
+    format: yaml-frontmatter
+    exclude:
+      - README.md
+    view:
+      primary: role
+      sort:
+        - field: order
+          order: asc
+        - field: startDate
+          order: desc
+      search:
+        - role
+        - organization
+        - title
+    operations:
+      create: true
+      delete: true
+    fields:
+      - name: title
+        label: Entry title
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        description: >-
+          View live article ↗ — the public URL is https://khoanvm.io.vn/experiences/{slug}/
+          (use the value below, or the file name when blank).
+          Only published entries are live; drafts return 404.
+          Lowercase kebab-case.
+        required: false
+      - name: summary
+        label: Summary
+        type: text
+      - name: cover
+        label: Cover image
+        type: image
+        description: >-
+          Cover: 1600 × 800 (2:1), WebP, ideally under 250 KB. The detail page renders
+          2:1.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: coverAlt
+        label: Cover alt text
+        type: string
+      - name: seoTitle
+        label: SEO title
+        type: string
+      - name: seoDescription
+        label: SEO description
+        type: text
+      - name: seoImage
+        label: SEO / social image
+        type: image
+        description: >-
+          SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+          KB.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: published
+        label: Published
+        type: boolean
+      - name: publishedAt
+        label: Published date
+        type: date
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: order
+        label: Manual order
+        type: number
+      - name: role
+        label: Job title
+        type: string
+      - name: organization
+        label: Organisation
+        type: string
+      - name: type
+        label: Type
+        type: string
+        description: For example full-time, contract, freelance.
+      - name: location
+        label: Location
+        type: string
+      - name: startDate
+        label: Start date
+        type: date
+      - name: endDate
+        label: End date
+        type: date
+        description: Leave blank for a current role.
+      - name: link
+        label: Public link
+        type: string
+      - name: gallery
+        label: Gallery
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.alt}'
+        fields:
+          - name: src
+            label: Image
+            type: image
+            description: >-
+              Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+              WebP, ideally under 200 KB.
+              To replace this one: press the bin icon, then Upload and Select reappear
+              on the empty slot. Clearing a reference does not delete the file from
+              GitHub. To add another image, press Add below the list instead — that
+              creates a new item. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+            required: true
+          - name: alt
+            label: Alt text
+            type: string
+            required: true
+          - name: caption
+            label: Caption
+            type: string
+      - name: metrics
+        label: Metrics and outcomes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.label}'
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: value
+            label: Value
+            type: string
+            required: true
+          - name: detail
+            label: Detail
+            type: string
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          path: public/uploads
+        description: >-
+          Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+          Add, change or remove images freely here — there is no single-image slot to
+          fill. Open it at full size with the View on GitHub button.
+
+  - name: stories
+    label: Stories
+    type: collection
+    path: src/content/stories
+    format: yaml-frontmatter
+    exclude:
+      - README.md
+    view:
+      primary: title
+      sort:
+        - field: order
+          order: asc
+        - field: publishedAt
+          order: desc
+      search:
+        - title
+        - summary
+        - category
+        - topic
+    operations:
+      create: true
+      delete: true
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        description: >-
+          View live article ↗ — the public URL is https://khoanvm.io.vn/stories/{slug}/
+          (use the value below, or the file name when blank).
+          Only published entries are live; drafts return 404.
+          Lowercase kebab-case.
+        required: false
+      - name: summary
+        label: Summary
+        type: text
+      - name: cover
+        label: Cover image
+        type: image
+        description: >-
+          Story cover: 864 × 432 (2:1), WebP, ideally under 150 KB. The reader renders
+          2:1.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: coverAlt
+        label: Cover alt text
+        type: string
+      - name: seoTitle
+        label: SEO title
+        type: string
+      - name: seoDescription
+        label: SEO description
+        type: text
+      - name: seoImage
+        label: SEO / social image
+        type: image
+        description: >-
+          SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+          KB.
+          To replace: press the bin icon, then Upload and Select reappear on the empty
+          slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+        options:
+          path: public/uploads
+          extensions: [webp, jpg, jpeg, png]
+      - name: published
+        label: Published
+        type: boolean
+      - name: publishedAt
+        label: Published date
+        type: date
+      - name: featured
+        label: Featured
+        type: boolean
+      - name: order
+        label: Manual order
+        type: number
+      - name: category
+        label: Category
+        type: string
+      - name: location
+        label: Location / scope
+        type: string
+      - name: topic
+        label: Topic
+        type: string
+      - name: relatedCaseStudies
+        label: Related case studies
+        type: string
+        list: true
+        description: Enter case-study slugs (audibene, clevermann, tam-phat-real).
+      - name: summaryItems
+        label: '"In brief" summary'
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.question}'
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: text
+            required: true
+      - name: gallery
+        label: Gallery
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.alt}'
+        fields:
+          - name: src
+            label: Image
+            type: image
+            description: >-
+              Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+              WebP, ideally under 200 KB.
+              To replace this one: press the bin icon, then Upload and Select reappear
+              on the empty slot. Clearing a reference does not delete the file from
+              GitHub. To add another image, press Add below the list instead — that
+              creates a new item. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+            required: true
+          - name: alt
+            label: Alt text
+            type: string
+            required: true
+          - name: caption
+            label: Caption
+            type: string
+      - name: metrics
+        label: Metrics and outcomes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.label}'
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: value
+            label: Value
+            type: string
+            required: true
+          - name: detail
+            label: Detail
+            type: string
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          path: public/uploads
+        description: >-
+          Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+          Add, change or remove images freely here — there is no single-image slot to
+          fill. Open it at full size with the View on GitHub button.
 
 settings:
   commit:
