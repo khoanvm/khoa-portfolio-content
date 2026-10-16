@@ -35,8 +35,8 @@ services:
   - CRO
   - Experimentation
   - Consumer Psychology
-period: 2019–2022
 location: Berlin
+period: 2019–2022
 evidenceCaption: Hearing-care context · audibene
 ---
 Hearing care is a category shaped by trust, personal concerns, and decisions that customers may not feel ready to make.
