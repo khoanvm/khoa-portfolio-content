@@ -5,7 +5,7 @@ summary: A temporary verification page. It carries no portfolio claims, metrics 
   achievements and is deleted as soon as the automated publishing checks finish.
 cover: /uploads/publish-pipeline-check.png
 coverAlt: Temporary verification image used only to confirm automated publishing.
-published: true
+published: false
 featured: false
 order: 99
 ---
