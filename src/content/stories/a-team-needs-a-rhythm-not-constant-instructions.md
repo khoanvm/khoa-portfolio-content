@@ -23,7 +23,7 @@ summaryItems:
     answer: Clear ownership, shared priorities and regular feedback create more
       sustainable execution than constant supervision.
 ---
-Leading a team changes the nature of your work. 
+Leading a team changes the nature of your work.  12 231 24124
 
 When you're responsible for an individual campaign, you can focus on doing the task well.
 
