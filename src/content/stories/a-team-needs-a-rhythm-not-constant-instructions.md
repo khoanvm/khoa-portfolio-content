@@ -1,11 +1,15 @@
 ---
 title: A Team Needs a Rhythm, Not Constant Instructions
 slug: a-team-needs-a-rhythm-not-constant-instructions
-summary: Helping Marketing and Sales teams improve without making every decision depend on one manager — clear ownership, shared priorities and regular feedback create more sustainable execution.
-published: true
-order: 10
+summary: Helping Marketing and Sales teams improve without making every decision
+  depend on one manager — clear ownership, shared priorities and regular
+  feedback create more sustainable execution.
 cover: /assets/figma/case-studies/index-clevermann-3.png
 coverAlt: Group photo at a GMI partnership signing ceremony.
+published: true
+publishedAt: 2026-10-17
+featured: false
+order: 10
 category: Leadership
 location: Vietnam
 topic: Commercial Leadership
@@ -13,12 +17,13 @@ relatedCaseStudies:
   - clevermann
 summaryItems:
   - question: What was the leadership challenge?
-    answer: Helping Marketing and Sales teams improve without making every decision dependent on one manager.
+    answer: Helping Marketing and Sales teams improve without making every decision
+      dependent on one manager.
   - question: What did I learn?
-    answer: Clear ownership, shared priorities and regular feedback create more sustainable execution than constant supervision.
+    answer: Clear ownership, shared priorities and regular feedback create more
+      sustainable execution than constant supervision.
 ---
-
-Leading a team changes the nature of your work.
+Leading a team changes the nature of your work. 112233
 
 When you're responsible for an individual campaign, you can focus on doing the task well.
 
