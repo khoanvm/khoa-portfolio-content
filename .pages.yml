@@ -728,11 +728,14 @@ content:
   # Featured selection is also not here: mark a story `featured: true` (and set
   # `order` for the sequence) inside the Stories collection.
   # ---------------------------------------------------------------------------
+  # Pages CMS supports exactly three content types: collection, file and group.
+  # There is no "singleton" type — a single editable document is `type: file`,
+  # and its `path` must be the FULL FILENAME, not the containing folder.
+  # https://pagescms.org/docs/configuration/content/
   - name: homepage
     label: Homepage
-    type: singleton
-    path: src/content/homepage
-    file: homepage.md
+    type: file
+    path: src/content/homepage/homepage.md
     format: yaml-frontmatter
     fields:
       - name: published
@@ -814,7 +817,11 @@ content:
             description: Long-form narrative. A blank line starts a new paragraph.
           - name: stats
             label: Statistics
-            type: list
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.value}'
             description: Exactly three metric blocks. Only figures you can stand behind.
             fields:
               - name: value
@@ -826,7 +833,11 @@ content:
                 type: string
           - name: links
             label: Discovery links
-            type: list
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.label}'
             description: Contextual links rendered under the About copy.
             fields:
               - name: label
@@ -898,7 +909,11 @@ content:
             type: string
           - name: items
             label: Recommendations
-            type: list
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.name}'
             fields:
               - name: name
                 label: Name
