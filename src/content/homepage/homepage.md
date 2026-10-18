@@ -5,7 +5,7 @@ hero:
   wave: 👋
   intro: I'm
   name: Khoa Nguyen
-  tagline: From Customer Behavior to Commercial Growth.2233
+  tagline: From Customer Behavior to Commercial Growth.
   description: >-
     I connect customer behavior, experimentation, and commercial execution —
     from contributing to 200+ A/B experiments across 11 international markets to
