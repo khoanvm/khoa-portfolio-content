@@ -23,10 +23,6 @@ about:
   label: ABOUT ME
   heading: From Experimentation to Business Leadership
   description: >-
-    My career has taken me between Germany and Vietnam, across industries and
-    very different business environments.
-
-
     At audibene in Berlin, I contributed to more than 200 A/B experiments across
     11 international markets. I learned to challenge assumptions, understand
     customer behavior, and treat every winning result as evidence within a
