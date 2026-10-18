@@ -622,6 +622,14 @@ content:
       - name: category
         label: Category
         type: string
+      - name: homepageFeatured
+        label: Show on homepage
+        type: boolean
+        description: >-
+          Turn ON to preview this story in the three-item row on the homepage.
+          This is NOT the "Featured" switch, which controls the /stories/
+          listing — they are separate controls on purpose. The homepage shows
+          the three with the lowest "Order" among those switched on.
       - name: location
         label: Location / scope
         type: string
@@ -706,6 +714,243 @@ content:
           Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
           Add, change or remove images freely here — there is no single-image slot to
           fill. Open it at full size with the View on GitHub button.
+
+  # ---------------------------------------------------------------------------
+  # HOMEPAGE — a SINGLETON.
+  #
+  # One document, src/content/homepage/homepage.md, holds only copy the HOMEPAGE owns.
+  #
+  # Deliberately NOT here: case-study titles, story titles, summaries and cover
+  # images. Those are edited once, on their own article, in their own collection,
+  # and the homepage renders them from there. Nothing is duplicated, so the
+  # homepage can never disagree with the article it is previewing.
+  #
+  # Featured selection is also not here: mark a story `featured: true` (and set
+  # `order` for the sequence) inside the Stories collection.
+  # ---------------------------------------------------------------------------
+  - name: homepage
+    label: Homepage
+    type: singleton
+    path: src/content/homepage
+    file: homepage.md
+    format: yaml-frontmatter
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        required: true
+        description: >-
+          Must stay ON. The homepage reads this single document, so switching it
+          off leaves the site with no homepage copy at all.
+
+      # ---- Hero -------------------------------------------------------------
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - name: greeting
+            label: Greeting
+            type: string
+            description: First word of the H1, e.g. "Hello".
+          - name: wave
+            label: Wave emoji
+            type: string
+            description: The emoji shown after the greeting, e.g. "👋".
+          - name: intro
+            label: Intro
+            type: string
+            description: The word before the name, e.g. "I'm".
+          - name: name
+            label: Name
+            type: string
+            description: The name run of the H1, e.g. "Khoa Nguyen".
+          - name: tagline
+            label: Tagline
+            type: string
+            description: Short positioning line shown under the H1.
+          - name: description
+            label: Description
+            type: text
+            description: >-
+              Evidence-led statement under the tagline. Use a blank line to start
+              a new paragraph.
+          - name: ctaPrimary
+            label: Primary button
+            type: object
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: href
+                label: Link
+                type: string
+                description: Internal path, e.g. /case-studies/
+          - name: ctaSecondary
+            label: Secondary button
+            type: object
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: href
+                label: Link
+                type: string
+                description: Anchor or path, e.g. #contact
+      # ---- About ------------------------------------------------------------
+      - name: about
+        label: About me
+        type: object
+        fields:
+          - name: label
+            label: Section label
+            type: string
+            description: The small caps label above the heading, e.g. ABOUT ME.
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Body
+            type: text
+            description: Long-form narrative. A blank line starts a new paragraph.
+          - name: stats
+            label: Statistics
+            type: list
+            description: Exactly three metric blocks. Only figures you can stand behind.
+            fields:
+              - name: value
+                label: Value
+                type: string
+                description: e.g. 200+
+              - name: description
+                label: Description
+                type: string
+          - name: links
+            label: Discovery links
+            type: list
+            description: Contextual links rendered under the About copy.
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: href
+                label: Link
+                type: string
+
+      # ---- Section intros (cards come from their own collections) -----------
+      - name: caseStudies
+        label: Case Studies section intro
+        type: object
+        description: >-
+          Intro only. The cards below it are rendered from the Case Studies
+          collection — never re-entered here.
+        fields:
+          - name: label
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+      - name: stories
+        label: Stories section intro
+        type: object
+        description: >-
+          Intro only. The three previews come from the Stories collection and are
+          chosen with the "Featured" flag on each story.
+        fields:
+          - name: label
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+
+      # ---- Quotes -----------------------------------------------------------
+      - name: quote1
+        label: Quote (first)
+        type: object
+        fields:
+          - name: text
+            label: Quote
+            type: text
+          - name: attribution
+            label: Attribution
+            type: string
+      - name: quote2
+        label: Quote (second)
+        type: object
+        fields:
+          - name: text
+            label: Quote
+            type: text
+          - name: attribution
+            label: Attribution
+            type: string
+      # ---- Endorsements -----------------------------------------------------
+      - name: endorsements
+        label: Endorsements
+        type: object
+        fields:
+          - name: label
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: items
+            label: Recommendations
+            type: list
+            fields:
+              - name: name
+                label: Name
+                type: string
+              - name: role
+                label: Role
+                type: string
+              - name: quote
+                label: Full quote
+                type: text
+                description: Desktop text. Keep it verbatim.
+              - name: mobileQuote
+                label: Short quote (mobile)
+                type: text
+                description: >-
+                  Verbatim excerpt shown below 768px. This slot is REQUIRED —
+                  without it the recommendation renders at zero height on phones.
+
+      # ---- Moments + contact intro -----------------------------------------
+      - name: moments
+        label: Moments
+        type: object
+        fields:
+          - name: label
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: contact
+            label: Contact intro
+            type: object
+            description: >-
+              Copy above the four contact buttons. The four buttons themselves
+              (Gmail, LinkedIn, WhatsApp, Zalo) are not editable here — their
+              destinations are fixed in the site source so they cannot be broken
+              by a content edit.
+            fields:
+              - name: heading
+                label: Heading
+                type: string
+              - name: description
+                label: Description
+                type: text
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - name: copyright
+            label: Copyright line
+            type: string
 
 settings:
   commit:

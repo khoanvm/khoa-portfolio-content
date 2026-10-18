@@ -7,6 +7,9 @@ order: 4
 cover: /assets/figma/case-studies/index-clevermann-2.png
 coverAlt: A group of colleagues gathered around a table in the Clevermann office.
 category: Commercial Leadership
+# Homepage preview row. Not the "Featured" flag, which orders /stories/.
+# Curated: Commercial leadership / Marketing & Sales (Clevermann).
+homepageFeatured: true
 location: Vietnam
 topic: Growth Strategy
 relatedCaseStudies:

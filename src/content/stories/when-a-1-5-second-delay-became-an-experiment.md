@@ -7,6 +7,9 @@ order: 1
 cover: /assets/figma/stories/story-2.png
 coverAlt: Hourglass representing a brief pause in a customer journey.
 category: Behavioral Economics
+# Homepage preview row. Not the "Featured" flag, which orders /stories/.
+# Curated: Experimentation / customer behavior (audibene).
+homepageFeatured: true
 location: Experimentation
 topic: UX
 relatedCaseStudies:

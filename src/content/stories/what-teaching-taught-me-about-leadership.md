@@ -7,6 +7,9 @@ order: 6
 cover: /assets/figma/story-method.png
 coverAlt: Close-up of a metal ruler, a visual metaphor for measuring and method.
 category: Teaching
+# Homepage preview row. Not the "Featured" flag, which orders /stories/.
+# Curated: Teaching & knowledge transfer.
+homepageFeatured: true
 location: Berlin
 topic: Knowledge Transfer
 relatedCaseStudies:
