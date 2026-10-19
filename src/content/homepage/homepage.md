@@ -7,18 +7,103 @@ hero:
   name: Khoa Nguyen
   tagline: From Customer Behavior to Commercial Growth.
   description: >-
-    I connect customer behavior, experimentation, and commercial execution —
-    from contributing to 200+ A/B experiments across 11 international markets to
-    leading Marketing, Sales and B2B Sales at Clevermann.
-
-    My work spans CRO, growth, strategic partnerships and commercial strategy
-    across Germany and Vietnam.
+    I help businesses turn customer insight into measurable growth—combining CRO,
+    strategic partnerships, and commercial strategy across Vietnam and
+    international markets.
   ctaPrimary:
     label: Explore my work
     href: /case-studies/
   ctaSecondary:
     label: Let's connect
     href: "#contact"
+opportunities:
+  label: "WHAT I'M OPEN TO"
+  anchorId: opportunities
+  cards:
+    - title: Career Opportunities
+      description: >-
+        Growth, CRO, Marketing, Strategic Partnerships, and Commercial Strategy —
+        connecting customer insights with measurable business outcomes.
+      supportingText: Germany · Vietnam · International
+      ctaLabel: Explore roles ↗
+      modalTitle: Career Opportunities
+      faq:
+        - question: What roles would be a strong fit?
+          answer: >-
+            Growth, CRO, Marketing, Strategic Partnerships, and Commercial
+            Strategy — particularly roles connecting customer insights,
+            cross-functional execution, and business performance.
+        - question: What does Khoa bring to the table?
+          answer: >-
+            Khoa combines international experience with hands-on commercial
+            leadership. His background spans customer behavior, CRO, growth
+            strategy, marketing, strategic partnerships, and leading Sales and
+            B2B Sales teams.
+
+
+            From experimentation across 11 international markets to driving
+            commercial performance in Vietnam, his experience goes well beyond
+            any single discipline.
+
+
+            The case studies and stories throughout this portfolio offer a
+            deeper look at how he approaches complex challenges, connects
+            strategy with execution, and delivers tangible business outcomes.
+        - question: Which markets are relevant?
+          answer: >-
+            Germany, Vietnam, and international opportunities where cross-market
+            experience, strategic thinking, and commercial execution can create
+            value.
+        - question: What makes an opportunity compelling?
+          answer: >-
+            Meaningful ownership, ambitious teams, complex business challenges,
+            cross-functional collaboration, and the opportunity to create
+            measurable impact.
+      modalCtaLabel: Discuss an Opportunity ↗
+
+    - title: Advisory & Collaboration
+      description: >-
+        Independent marketing and growth advisory, strategic partnerships,
+        practical mentoring, and corporate training.
+      supportingText: Advisory · Mentoring · Training
+      ctaLabel: Explore collaboration ↗
+      modalTitle: Advisory & Collaboration
+      faq:
+        - question: What challenges can Khoa help solve?
+          answer: >-
+            Unclear growth priorities, inefficient marketing investment,
+            conversion friction, missed partnership opportunities, and the gap
+            between strategic plans and commercial execution.
+        - question: What forms of advisory are available?
+          answer: >-
+            Independent Marketing Advisory, Growth & CRO Advisory, Strategic
+            Partnerships, and Go-to-Market support.
+
+
+            Engagements can focus on reviewing existing strategies, identifying
+            opportunities, challenging assumptions, and developing practical
+            improvement priorities.
+        - question: Is mentoring or corporate training available?
+          answer: >-
+            Yes. Selected 1:1 mentoring and customized corporate workshops are
+            available for professionals and teams.
+
+
+            Topics can include Marketing, Growth, CRO, Behavioral Economics,
+            practical management, and commercial execution.
+
+
+            The emphasis is on applicable knowledge, real business challenges,
+            and actionable learning.
+        - question: How does a collaboration begin?
+          answer: >-
+            Every engagement starts with understanding the challenge.
+
+
+            Share the business context, goals, and current obstacles. From there,
+            Khoa can explore whether his experience is a good fit and what a
+            practical collaboration might look like.
+      modalCtaLabel: Discuss a Challenge ↗
 about:
   label: ABOUT ME
   heading: From Experimentation to Business Leadership

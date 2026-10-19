@@ -799,6 +799,92 @@ content:
                 label: Link
                 type: string
                 description: Anchor or path, e.g. #contact
+
+      # ---- "What I'm Open To" ----------------------------------------------
+      - name: opportunities
+        label: "What I'm Open To"
+        type: object
+        description: >-
+          The conversion section shown directly below the Hero on the homepage.
+          There is no subtitle — the visible title is generated from the label.
+        fields:
+          - name: label
+            label: Section label
+            type: string
+            description: >-
+              Uppercase source for the heading, e.g. WHAT I'M OPEN TO. The visible
+              title is derived from it as "What I'm Open To.".
+          - name: anchorId
+            label: Section anchor id
+            type: string
+            description: >-
+              The id of the section. The header's Opportunities link targets it,
+              so the link and the anchor can never drift apart.
+          - name: cards
+            label: Opportunity cards
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.title}'
+            description: >-
+              Two cards today. Each card carries its own FAQ popup, so the card
+              copy and the answers stay on the same record.
+            fields:
+              - name: title
+                label: Card title
+                type: string
+                required: true
+              - name: description
+                label: Card description
+                type: text
+                required: true
+              - name: supportingText
+                label: Supporting text
+                type: string
+                required: true
+                description: >-
+                  Quiet line under the description, e.g. "Germany · Vietnam ·
+                  International".
+              - name: ctaLabel
+                label: Card button label
+                type: string
+                required: true
+                description: >-
+                  The button that opens the popup, e.g. "Explore roles ↗". The
+                  arrow is part of the label so it stays editable.
+              - name: modalTitle
+                label: Popup title
+                type: string
+                required: true
+              - name: faq
+                label: FAQ entries
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.question}'
+                description: >-
+                  Rendered in order and numbered 01, 02, 03. The same
+                  question/answer shape as a Story's "In brief" summary.
+                fields:
+                  - name: question
+                    label: Question
+                    type: string
+                    required: true
+                  - name: answer
+                    label: Answer
+                    type: text
+                    required: true
+                    description: A blank line starts a new paragraph.
+              - name: modalCtaLabel
+                label: Popup button label
+                type: string
+                required: true
+                description: >-
+                  Closes the popup and goes to the homepage Contact section, e.g.
+                  "Discuss an Opportunity ↗".
+
       # ---- About ------------------------------------------------------------
       - name: about
         label: About me
