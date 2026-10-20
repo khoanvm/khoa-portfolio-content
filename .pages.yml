@@ -787,7 +787,7 @@ content:
               - name: href
                 label: Link
                 type: string
-                description: Internal path, e.g. /case-studies/
+                description: Internal path or homepage anchor, e.g. #case-studies
           - name: ctaSecondary
             label: Secondary button
             type: object
@@ -798,7 +798,40 @@ content:
               - name: href
                 label: Link
                 type: string
-                description: Anchor or path, e.g. #contact
+                description: Homepage anchor or path, e.g. #opportunities
+          - name: markets
+            label: International markets
+            type: object
+            description: >-
+              A quiet informational group shown under the Hero buttons. It is
+              not navigation — the chips are not links, filters or buttons.
+            fields:
+              - name: label
+                label: Group label
+                type: string
+                description: >-
+                  Uppercase label above the chips, e.g. OPEN TO INTERNATIONAL
+                  OPPORTUNITIES.
+              - name: items
+                label: Markets
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.name}'
+                fields:
+                  - name: name
+                    label: Market name
+                    type: string
+                    required: true
+                    description: The word shown in the chip, e.g. Germany.
+                  - name: icon
+                    label: Icon
+                    type: string
+                    description: >-
+                      Which small flag or globe to draw beside the name:
+                      "de" (Germany), "vn" (Vietnam) or "world" (Worldwide).
+                      Any other value shows the name on its own.
 
       # ---- "What I'm Open To" ----------------------------------------------
       - name: opportunities

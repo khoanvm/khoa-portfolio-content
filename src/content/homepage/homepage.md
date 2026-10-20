@@ -5,104 +5,140 @@ hero:
   wave: 👋
   intro: I'm
   name: Khoa Nguyen
-  tagline: From Customer Behavior to Commercial Growth.
+  tagline: From Customer Behavior to Commercial Growth
   description: >-
-    I help businesses turn customer insight into measurable growth—combining CRO,
-    strategic partnerships, and commercial strategy across Vietnam and
-    international markets.
+    I help businesses understand why customers hesitate, improve conversion, and
+    turn marketing efforts into better sales opportunities.
   ctaPrimary:
-    label: Explore my work
-    href: /case-studies/
+    label: Case Studies
+    href: "#case-studies"
   ctaSecondary:
-    label: Let's connect
-    href: "#contact"
+    label: "What I'm Open To"
+    href: "#opportunities"
+  markets:
+    label: OPEN TO INTERNATIONAL OPPORTUNITIES
+    items:
+      - name: Germany
+        icon: de
+      - name: Vietnam
+        icon: vn
+      - name: Worldwide
+        icon: world
 opportunities:
   label: "WHAT I'M OPEN TO"
   anchorId: opportunities
   cards:
     - title: Career Opportunities
       description: >-
-        Growth, CRO, Marketing, Strategic Partnerships, and Commercial Strategy —
-        connecting customer insights with measurable business outcomes.
+        Growth, CRO, and marketing roles that connect customer acquisition with
+        sales and business performance.
+
+
+        Strategic partnerships and commercial strategy roles focused on
+        cross-border collaboration, business development, and execution.
       supportingText: Germany · Vietnam · International
       ctaLabel: Explore roles ↗
       modalTitle: Career Opportunities
       faq:
         - question: What roles would be a strong fit?
           answer: >-
-            Growth, CRO, Marketing, Strategic Partnerships, and Commercial
-            Strategy — particularly roles connecting customer insights,
-            cross-functional execution, and business performance.
-        - question: What does Khoa bring to the table?
+            My strongest fit is in growth, CRO, and marketing roles where
+            customer acquisition connects with sales and business performance.
+            I’m also interested in commercial and partnership roles that draw on
+            my experience leading marketing and sales in Vietnam and working
+            across international markets.
+        - question: What experience do you bring?
           answer: >-
-            Khoa combines international experience with hands-on commercial
-            leadership. His background spans customer behavior, CRO, growth
-            strategy, marketing, strategic partnerships, and leading Sales and
-            B2B Sales teams.
+            My experience spans CRO and experimentation, growth and marketing
+            strategy, sales leadership, strategic partnerships, and independent
+            advisory.
 
 
-            From experimentation across 11 international markets to driving
-            commercial performance in Vietnam, his experience goes well beyond
-            any single discipline.
+            At audibene in Berlin, I contributed to 200+ A/B experiments across
+            11 markets. At Clevermann, I led marketing, sales, B2B sales, and
+            partnerships. Beyond these roles, I've also worked independently
+            with businesses on growth and commercial challenges.
 
 
-            The case studies and stories throughout this portfolio offer a
-            deeper look at how he approaches complex challenges, connects
-            strategy with execution, and delivers tangible business outcomes.
-        - question: Which markets are relevant?
+            Some advisory engagements remain confidential, so the published case
+            studies represent only a selection of my work.
+        - question: Which markets are you open to?
           answer: >-
-            Germany, Vietnam, and international opportunities where cross-market
-            experience, strategic thinking, and commercial execution can create
-            value.
-        - question: What makes an opportunity compelling?
+            Germany and Vietnam are particularly appealing given my professional
+            background in both markets. However, I'm open to opportunities
+            anywhere in the world. What matters most is the role, the business
+            challenge, and the opportunity to contribute.
+        - question: What level of roles are you considering?
           answer: >-
-            Meaningful ownership, ambitious teams, complex business challenges,
-            cross-functional collaboration, and the opportunity to create
-            measurable impact.
+            I'm not particularly attached to titles. What interests me is
+            meaningful ownership, challenging problems, and the opportunity to
+            make a difference. Whether that's a senior individual contributor or
+            a leadership role depends on the organization and the challenge.
+        - question: What kinds of business challenges interest you most?
+          answer: >-
+            I'm particularly interested in challenges involving customer
+            acquisition, conversion, marketing effectiveness, and commercial
+            growth. I value opportunities where these areas can be improved
+            through experimentation, better decision-making, and collaboration
+            across teams.
+        - question: How do you approach growth and experimentation?
+          answer: >-
+            I start by understanding where customers drop off and why. From
+            there, I develop hypotheses, prioritize opportunities, and test what
+            works. My experience across international CRO programs has taught me
+            that successful experimentation requires both analytical discipline
+            and a deep understanding of customer behavior.
       modalCtaLabel: Discuss an Opportunity ↗
 
     - title: Advisory & Collaboration
       description: >-
-        Independent marketing and growth advisory, strategic partnerships,
-        practical mentoring, and corporate training.
+        For companies looking to improve customer acquisition, conversion, and
+        sales performance through marketing and growth advisory.
+
+
+        For teams seeking strategic partnership support, mentoring, and
+        corporate workshops built around real business challenges.
       supportingText: Advisory · Mentoring · Training
       ctaLabel: Explore collaboration ↗
       modalTitle: Advisory & Collaboration
       faq:
-        - question: What challenges can Khoa help solve?
+        - question: What can you help my business with?
           answer: >-
-            Unclear growth priorities, inefficient marketing investment,
-            conversion friction, missed partnership opportunities, and the gap
-            between strategic plans and commercial execution.
-        - question: What forms of advisory are available?
+            If your business is investing in marketing but struggling to convert
+            interest into customers, I can help identify where the opportunities
+            are being lost and what to improve.
+
+
+            I also support businesses facing broader growth, sales, or strategic
+            partnership challenges.
+        - question: How would we work together?
           answer: >-
-            Independent Marketing Advisory, Growth & CRO Advisory, Strategic
-            Partnerships, and Go-to-Market support.
+            It usually starts with a conversation. I want to understand what's
+            working, what's not, and where you feel the business is getting
+            stuck.
 
 
-            Engagements can focus on reviewing existing strategies, identifying
-            opportunities, challenging assumptions, and developing practical
-            improvement priorities.
-        - question: Is mentoring or corporate training available?
+            Sometimes an outside perspective and a clear action plan are enough.
+            Other times, it makes sense to work more closely with your team to
+            turn ideas into execution.
+        - question: What types of collaboration are you open to?
           answer: >-
-            Yes. Selected 1:1 mentoring and customized corporate workshops are
-            available for professionals and teams.
+            You don't need a long-term consulting contract to get started.
+            Sometimes a focused review or a few working sessions can help
+            clarify the next steps.
 
 
-            Topics can include Marketing, Growth, CRO, Behavioral Economics,
-            practical management, and commercial execution.
-
-
-            The emphasis is on applicable knowledge, real business challenges,
-            and actionable learning.
-        - question: How does a collaboration begin?
+            I'm also open to longer collaborations, team mentoring, and
+            practical workshops when there's a good fit.
+        - question: Do you offer mentoring or corporate workshops?
           answer: >-
-            Every engagement starts with understanding the challenge.
+            Yes, and I prefer workshops that feel like working sessions rather
+            than lectures.
 
 
-            Share the business context, goals, and current obstacles. From there,
-            Khoa can explore whether his experience is a good fit and what a
-            practical collaboration might look like.
+            We explore real challenges, question assumptions, and use practical
+            exercises to make the ideas stick. The goal isn't just to understand
+            a concept, but to know what to do differently afterward.
       modalCtaLabel: Discuss a Challenge ↗
 
     - title: Vietnam Market Entry & Go-to-Market
