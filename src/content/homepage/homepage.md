@@ -104,6 +104,76 @@ opportunities:
             Khoa can explore whether his experience is a good fit and what a
             practical collaboration might look like.
       modalCtaLabel: Discuss a Challenge ↗
+
+    - title: Vietnam Market Entry & Go-to-Market
+      description: >-
+        Go-to-market and Vietnam expansion opportunities with international
+        companies seeking native Vietnamese market insight, local growth
+        expertise, and hands-on commercial execution.
+      supportingText: Vietnam · Go-to-Market · Expansion
+      ctaLabel: Explore market entry ↗
+      modalTitle: Vietnam Market Entry & Go-to-Market
+      faq:
+        - question: Can you help international companies enter or grow in Vietnam?
+          answer: >-
+            Absolutely. I'm particularly interested in helping international
+            companies enter, localize, or expand in the Vietnamese market.
+
+
+            I've worked within an international growth business in Europe and led
+            marketing, sales, and partnerships in Vietnam.
+
+
+            I understand international growth expectations. I know what
+            commercial execution takes in Vietnam. And I'm ready to connect the
+            two.
+        - question: Are you open to full-time roles or project-based engagements?
+          answer: >-
+            I'm open to full-time roles, fixed-term assignments, and
+            project-based engagements—whether that means driving commercial
+            growth in Vietnam, coordinating a market launch, or supporting a
+            defined stage of expansion.
+
+
+            I'm flexible about the engagement model, but clear about the
+            importance of ownership, accountability, and measurable business
+            outcomes.
+        - question: Which parts of Vietnam market entry can you support?
+          answer: >-
+            My strongest contribution would be on the commercial side:
+            understanding Vietnamese customers, adapting positioning,
+            developing acquisition and conversion strategies, building sales
+            capabilities, and establishing strategic partnerships.
+
+
+            I bring hands-on experience in these areas and can apply it to
+            go-to-market planning, working with headquarters and local teams to
+            turn strategy into execution.
+        - question: Can you coordinate the broader market-entry process, including legal, tax, licensing, and business setup?
+          answer: >-
+            Yes. With the right mandate and qualified local partners, I can help
+            headquarters coordinate legal, tax, licensing, and business setup as
+            part of a Vietnam launch—keeping these workstreams aligned with
+            commercial priorities.
+
+
+            I would take responsibility for stakeholder coordination, timelines,
+            and follow-through, while specialized advice, regulatory filings, and
+            approvals remain with the appropriate professionals and
+            decision-makers.
+        - question: Can you help before launch, or only after entering Vietnam?
+          answer: >-
+            At any stage, with the right scope. Before launch, the priority is to
+            evaluate the opportunity and make informed decisions. During launch,
+            it's about turning plans into coordinated action. After launch, it's
+            about learning from the market and improving commercial performance.
+
+
+            My hands-on experience is strongest in commercial growth and
+            execution in Vietnam. I'm ready to apply that experience to broader
+            market-entry challenges alongside headquarters and the right local
+            partners.
+      modalCtaLabel: Discuss Market Entry ↗
 about:
   label: ABOUT ME
   heading: From Experimentation to Business Leadership

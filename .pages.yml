@@ -828,7 +828,7 @@ content:
                 collapsed: true
                 summary: '{fields.title}'
             description: >-
-              Two cards today. Each card carries its own FAQ popup, so the card
+              Three cards today. Each card carries its own FAQ popup, so the card
               copy and the answers stay on the same record.
             fields:
               - name: title
