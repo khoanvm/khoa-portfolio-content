@@ -214,37 +214,36 @@ about:
   label: ABOUT ME
   heading: From Experimentation to Business Leadership
   description: >-
-    At audibene in Berlin, I contributed to more than 200 A/B experiments across
-    11 international markets. I learned to challenge assumptions, understand
-    customer behavior, and treat every winning result as evidence within a
-    particular context.
+    At audibene in Berlin, I drove more than 200 A/B experiments across 11
+    international markets and owned CRO for the Asian markets, delivering 20%+
+    cumulative conversion uplift in every market I worked on.
 
 
-    At Clevermann, my responsibilities expanded beyond conversion optimization.
-    Leading Marketing, Sales, and B2B Sales meant connecting acquisition to
-    consultation, follow-up, partnerships, and commercial outcomes.
+    At Clevermann, I moved from optimizing one step to owning the whole journey:
+    marketing, sales and partnerships. I grew the team from three people to more
+    than twenty, doubled monthly signed contract value and cut cost of sale from
+    about 30% to below 10% of revenue.
 
 
-    More recently, at Tâm Phát Real, I brought that experience into premium real
-    estate, combining creative experimentation, acquisition strategy, and
-    automation to improve the connection between marketing activity and sales
-    operations.
+    Today I build AI-powered growth systems. For a luxury real-estate developer,
+    an AI lead system I designed brings 10+ prospects to the sales gallery every
+    week, and my own AI team handles research, writing and video production.
 
 
-    My MSc in Economics, Behavior and Governance from the University of Kassel
-    adds another perspective: business decisions are ultimately shaped by
-    people, incentives, and the environments in which they operate.
+    My MSc in Economic Behavior and Governance from the University of Kassel
+    shapes how I work: every number in a funnel is a human decision, and the
+    best way to understand it is to test.
 
 
-    I also enjoy sharing what I've learned through teaching, professional
-    training, and advisory work.
+    I also teach Online Marketing at the Digital Career Institute in Berlin and
+    train teams on applied AI.
   stats:
     - value: 200+
-      description: A/B experiments contributed to across international markets.
-    - value: "11"
-      description: International markets involved in CRO and experimentation.
-    - value: ~20
-      description: People across commercial functions at Clevermann.
+      description: A/B experiments driven across 11 international markets.
+    - value: 2x
+      description: Monthly signed contract value as commercial lead at Clevermann.
+    - value: 10+ / week
+      description: In-person site visits from outbound leads via an AI lead system.
   links:
     - label: Professional experience
       href: /experiences/
