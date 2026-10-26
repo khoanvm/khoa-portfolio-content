@@ -31,7 +31,8 @@ opportunities:
     - title: Career Opportunities
       description: >-
         Growth, CRO, and marketing roles that connect customer acquisition with
-        sales and business performance.
+        sales and business performance, increasingly powered by AI and
+        automation.
 
 
         Strategic partnerships and commercial strategy roles focused on
@@ -46,7 +47,8 @@ opportunities:
             customer acquisition connects with sales and business performance.
             I’m also interested in commercial and partnership roles that draw on
             my experience leading marketing and sales in Vietnam and working
-            across international markets.
+            across international markets. I'm especially drawn to roles where AI
+            and automation are part of how growth gets done.
         - question: What experience do you bring?
           answer: >-
             My experience spans CRO and experimentation, growth and marketing
@@ -54,10 +56,11 @@ opportunities:
             advisory.
 
 
-            At audibene in Berlin, I contributed to 200+ A/B experiments across
-            11 markets. At Clevermann, I led marketing, sales, B2B sales, and
-            partnerships. Beyond these roles, I've also worked independently
-            with businesses on growth and commercial challenges.
+            At audibene in Berlin, I drove 200+ A/B experiments across 11
+            markets. At Clevermann, I led marketing, sales, B2B sales, and
+            partnerships. Today I also design AI-powered growth systems, from AI
+            lead scoring to my own multi-agent AI team, and I've worked
+            independently with businesses on growth and commercial challenges.
 
 
             Some advisory engagements remain confidential, so the published case
@@ -93,11 +96,12 @@ opportunities:
     - title: Advisory & Collaboration
       description: >-
         For companies looking to improve customer acquisition, conversion, and
-        sales performance through marketing and growth advisory.
+        sales performance through marketing, growth, and AI advisory.
 
 
         For teams seeking strategic partnership support, mentoring, and
-        corporate workshops built around real business challenges.
+        corporate workshops, including applied AI, built around real business
+        challenges.
       supportingText: Advisory · Mentoring · Training
       ctaLabel: Explore collaboration ↗
       modalTitle: Advisory & Collaboration
@@ -109,7 +113,12 @@ opportunities:
             are being lost and what to improve.
 
 
-            I also support businesses facing broader growth, sales, or strategic
+            I also help teams apply AI to marketing and sales operations, from
+            lead scoring and routing to content production, wherever it actually
+            changes results.
+
+
+            And I support businesses facing broader growth, sales, or strategic
             partnership challenges.
         - question: How would we work together?
           answer: >-
