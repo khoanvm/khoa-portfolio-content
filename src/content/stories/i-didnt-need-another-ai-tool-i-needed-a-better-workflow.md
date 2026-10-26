@@ -2,7 +2,7 @@
 title: I Didn't Need Another AI Tool. I Needed a Better Workflow.
 slug: i-didnt-need-another-ai-tool-i-needed-a-better-workflow
 summary: Disconnected AI tools required repeated handoffs, context transfers and manual checking — start with the workflow, then decide what AI can automate and where human judgment remains necessary.
-published: true
+published: false
 order: 9
 cover: /assets/figma/story-markets.png
 coverAlt: The Reichstag building in Berlin with a German flag flying in front of it.

@@ -7,7 +7,7 @@ services:
   - Partnership Execution
 location: Vietnam
 summary: Through Clevermann's Germany–Vietnam network I helped support an academic and business visit by a delegation of ten MBA participants, connecting stakeholders and coordinating university and company exchanges.
-published: true
+published: false
 featured: false
 order: 6
 seoTitle: Turning an International Academic Visit into a Collaboration

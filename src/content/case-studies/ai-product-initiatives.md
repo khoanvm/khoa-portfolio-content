@@ -1,76 +1,55 @@
 ---
-title: Building AI-Powered Tools Around Real Workflows
+title: Building AI Products Around Real Workflows
 slug: ai-product-initiatives
 services:
-  - AI Product Strategy
+  - AI Product Ownership
   - Workflow Automation
   - Human–AI Collaboration
 period: '2026'
-summary: Two internal AI products built around workflows I understood directly — a voice-led video studio and a structured content-development workflow — combining product ownership, process design, testing and hands-on acceptance.
+location: Self-hosted
+summary: Without a coding background, I act as product owner for AI tools built around workflows I know first-hand, from a voice-led video studio to a content studio and the web app my AI team runs on, defining the problem, specifying the solution, testing it and deciding what is good enough to use.
 published: true
 featured: false
 order: 5
-seoTitle: Building AI-Powered Tools Around Real Workflows — case study
-seoDescription: Two internal AI products built around real workflows — Khoa Video Studio and Khoa Content Studio — with product ownership, process design, model evaluation and testing.
+seoTitle: Building AI Products Around Real Workflows — Khoa Nguyen
+seoDescription: Product ownership of self-hosted AI tools (Video Studio, Content Studio, AI team web app) built with AI-assisted development, structured requirements and automated tests.
 metrics:
-  - label: Internal AI Products
-    value: '2'
-  - label: Automated Tests — Content Studio (snapshot 2026-10-09)
+  - label: AI products in use or testing
+    value: '3'
+    detail: video, content, team operations
+  - label: Automated tests (Content Studio)
     value: '49'
-  - label: Private Product Infrastructure
+    detail: snapshot October 2026
+  - label: Infrastructure
     value: Self-hosted
+    detail: with cost controls
 ---
 
-Modern AI tools can generate text, images, audio, and code. But connecting these capabilities into a dependable working process is a different challenge.
+## The idea
 
-In my daily work, I repeatedly encountered tasks that required switching between research, writing, content review, creative production, video editing, and operational reporting.
+The fastest way to understand what AI can really do in a business is to build with it. Not demos, but tools I depend on every week, with real users (starting with me) and real consequences when they fail.
 
-Each tool could perform part of the job. The challenge was maintaining context, consistency, traceability, and control across the entire workflow.
+My role is that of a product owner: define the problem, map the workflow, write the requirements, choose the models, direct AI-assisted development, test the result and decide what is ready.
 
-I wanted to explore a practical question: **What happens when I stop treating AI as a collection of individual tools and start designing the work around an integrated system?**
+## Three products
 
-## My approach
+**Video Studio.** A voice-led workflow for short videos. A voice recording is split into timed scenes, storyboarded, previewed and exported as a finished MP4, with the human creator in control of every scene.
 
-I began building two internal products around workflows I understood directly.
+**Content Studio.** A structured editorial workflow: discovering ideas and community discussions, collecting sources, developing an angle, writing, reviewing and keeping every version. It is covered by 49 automated tests.
 
-My role combined product ownership, process design, technical specification, model evaluation, implementation direction, testing, and hands-on acceptance.
+**The AI team web app.** The control room for my [AI team](/case-studies/ai-team/): one tab per project, each showing the team's work as a group chat I can join, approvals from a phone, and a live estimate of how much usage each AI subscription has left.
 
-I used AI-assisted development tools and software engineering frameworks to turn requirements into working applications.
+## How I work as a non-coder
 
-The objective was not to demonstrate that AI could generate code. It was to build usable systems around a clear problem, with attention to user experience, reliability, cost controls, and the ability to improve them over time.
-
-## Product 01 — Khoa Video Studio
-
-Khoa Video Studio explores a voice-led approach to short-form video production. The workflow begins with a master voice recording and organizes a video into timed scenes.
-
-It brings together transcription, storyboard planning, visual composition, scene-level editing, timeline preview, and video export.
-
-Implemented components include persistent projects, voice and scene management, browser-based preview, and FFmpeg-based MP4 generation.
-
-The broader goal is a workflow in which AI can assist with the transition from spoken content to storyboard and visual scenes while the human creator retains control over the final result.
-
-**The fully automated workflow remains under development and acceptance testing.**
-
-## Product 02 — Khoa Content Studio
-
-Khoa Content Studio is designed to turn external information and professional observations into a structured content-development workflow.
-
-It separates the process into discovering relevant ideas, collecting source evidence, developing an editorial angle, writing, reviewing, and retaining the history of revisions.
-
-The implementation includes an idea backlog, writing workspace, stored versions, configurable AI roles, and a radar for discovering news and community discussions.
-
-At the 2026-10-09 snapshot, the system had implemented research-oriented capabilities; the complete multi-model writing/review workflow was a further development stage.
-
-## Engineering and product discipline
-
-Across these projects, I have been working with structured requirements, version control, automated tests, model-selection decisions, deployment processes, and controlled spending.
-
-Some components are technically operational; others remain experimental. These are personal product initiatives, not client products with demonstrated commercial returns.
+- **Requirements first.** Every feature starts as a written problem and acceptance criteria, not a prompt.
+- **Version control and tests.** Changes go through branches and reviews; nothing goes straight to production.
+- **Cost discipline.** Free and low-cost models first, premium models only where quality demands them, and fixed monthly budgets.
+- **Honest status.** Some parts are in daily use, others are still experimental, and I say which is which.
 
 ## What I learned
 
-The most valuable part of AI adoption is often not the model itself. It is understanding the work well enough to decide what should be automated, what must remain under human control, and how to verify the output.
+A convincing demo is not a dependable tool. The real work starts after the first impressive output: error handling, cost, human review and whether anyone actually wants to use it the next day.
 
-Building these products has brought together different parts of my background: marketing processes, customer experience, operational design, experimentation, and technology.
+**AI becomes valuable when it improves a process you understand, not when it simply produces more output.**
 
-**AI becomes useful when it improves a process we understand — not when it simply produces more output.**
+That is exactly the skill companies need now: someone who understands the business process well enough to decide what AI should do, what humans must keep, and how to check the result.

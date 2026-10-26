@@ -1,42 +1,40 @@
 ---
-title: The 1.5 Seconds That Challenged a Design Rule
+title: The 1.5 Seconds That Won in All 11 Markets
 slug: when-a-1-5-second-delay-became-an-experiment
-summary: A deliberate 1.5-second loading transition produced a winning variation in an audibene questionnaire experiment — a reminder that perceived progress and commitment can matter alongside speed.
+summary: Every design rule says faster is better. At audibene I tested a deliberate 1.5-second pause in our questionnaire. It won in all 11 markets and was rolled out everywhere.
 published: true
-order: 1
+order: 2
 cover: /assets/figma/stories/story-2.png
 coverAlt: Hourglass representing a brief pause in a customer journey.
 category: Behavioral Economics
-# Homepage preview row. Not the "Featured" flag, which orders /stories/.
-# Curated: Experimentation / customer behavior (audibene).
 homepageFeatured: true
-location: Experimentation
-topic: UX
+location: Berlin
+topic: CRO
 relatedCaseStudies:
   - audibene
 summaryItems:
-  - question: What was unexpected?
-    answer: A deliberate 1.5-second loading transition produced a winning variation in an audibene experiment.
-  - question: What did I learn?
-    answer: Perceived progress and commitment can matter alongside speed. A winning result remains context-specific.
+  - question: What did I test?
+    answer: A deliberate ~1.5-second "processing" pause inside the online questionnaire.
+  - question: What happened?
+    answer: It won in all 11 markets and was rolled out company-wide.
 ---
 
-In conversion optimization, speed is almost sacred.
+In conversion work, speed is close to a religion. Every extra second of loading is supposed to cost you customers.
 
-Faster pages. Shorter forms. Fewer steps. Less waiting.
+So when I proposed adding a delay on purpose, I expected raised eyebrows.
 
-So why would anyone deliberately introduce a delay?
+At audibene, many customers started their journey with a short online questionnaire about their hearing. My hypothesis was that the moment right after their answers mattered more than we thought.
 
-At audibene, one of the experiments I worked on explored a brief loading transition of approximately 1.5 seconds within a questionnaire journey.
+If the next screen appears instantly, the result can feel generic, as if nobody looked at what you said. If there is a short, visible pause, it feels like something is being worked out for you.
 
-The idea wasn't to make the experience slower for its own sake.
+So I tested a deliberate pause of about 1.5 seconds, presented as the system working on the customer's answers.
 
-We wanted to understand whether a moment of perceived progress, after customers had already invested effort in previous steps, could influence their willingness to continue.
+I owned the experiment from hypothesis and design to analysis and rollout. **It won in all 11 markets, and it became the standard everywhere.** In CRO, that almost never happens. Most ideas that win in one country lose in another.
 
-The variation won in its tested context.
+Why did it work? I see three forces:
 
-That result didn't mean slower websites are better. It meant our assumption about speed wasn't sufficient to explain every customer decision.
+- **Labor illusion.** When people see effort being made on their behalf, they trust and value the result more.
+- **Sunk cost.** After investing time in their answers, people want that time to count, so they continue.
+- **Need for closure.** A short wait builds anticipation to see the outcome.
 
-**What stayed with me:** Even the most familiar UX principles deserve to be questioned when we have a meaningful hypothesis and a responsible way to test it.
-
-Sometimes, improving an experience begins by asking whether our definition of improvement is complete.
+**The lesson:** Best practices describe what usually works. Customers decide what works for them. The only way to know is to test, even the rules everyone agrees on.

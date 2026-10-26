@@ -2,7 +2,7 @@
 title: The 30% Improvement That Wasn't the Whole Answer
 slug: the-30-percent-improvement-that-wasnt-the-whole-answer
 summary: Satellite testing reduced CPL by approximately 30% in the tested campaign context — but lower acquisition costs matter only alongside lead quality, follow-up effectiveness and commercial progress.
-published: true
+published: false
 order: 8
 cover: /assets/figma/case-studies/index-tamphat-1.png
 coverAlt: Tâm Phát Real paid acquisition creative.

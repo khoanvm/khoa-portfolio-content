@@ -1,42 +1,39 @@
 ---
-title: A Team Needs a Rhythm, Not Constant Instructions
+title: Manage Outcomes, Not Hours
 slug: a-team-needs-a-rhythm-not-constant-instructions
-summary: Helping Marketing and Sales teams improve without making every decision
-  depend on one manager — clear ownership, shared priorities and regular
-  feedback create more sustainable execution.
-cover: /assets/figma/case-studies/index-clevermann-3.png
-coverAlt: Group photo at a GMI partnership signing ceremony.
+summary: My leadership approach in one sentence - if I trust you enough to hire you, I trust you enough to let you work. Too much hand-holding turns talented people into robots.
 published: true
-publishedAt: 2026-10-17
-featured: false
-order: 10
+order: 8
+cover: /assets/figma/case-studies/index-clevermann-3.png
+coverAlt: The Clevermann team at a partnership event.
 category: Leadership
 location: Vietnam
-topic: Commercial Leadership
+topic: Team Leadership
 relatedCaseStudies:
   - clevermann
 summaryItems:
-  - question: What was the leadership challenge?
-    answer: Helping Marketing and Sales teams improve without making every decision
-      dependent on one manager.
-  - question: What did I learn?
-    answer: Clear ownership, shared priorities and regular feedback create more
-      sustainable execution than constant supervision.
+  - question: What do I believe?
+    answer: Lead by outcomes, give people authority and budget, and stand beside them, not over them.
+  - question: Why?
+    answer: Micromanagement makes good people stop thinking.
 ---
-Leading a team changes the nature of your work.
 
-When you're responsible for an individual campaign, you can focus on doing the task well.
+People sometimes ask how I grew a team from three to more than twenty without drowning in management.
 
-When you're responsible for Marketing, Sales, and Business Development, the challenge becomes helping other people make good decisions without depending on you for every step.
+My answer starts with a question: why did you hire this person?
 
-At Clevermann, our teams conducted more than 86 Marketing and Sales experiments over approximately three years.
+If it was because you trust their skills, then you should trust them to use those skills. In Vietnamese we say *tin thì dùng*: if you trust someone, let them do the work.
 
-Regular problem-solving sessions gave people opportunities to identify bottlenecks, propose improvements, and discuss what they had learned.
+That shapes how I lead.
 
-I became increasingly interested in the difference between controlling tasks and creating an operating rhythm.
+**Outcomes over hours.** I care about results, not about who sits in the office longest. Whether someone works from Ho Chi Minh City, Da Lat or Singapore matters much less than whether the work moves the business.
 
-A manager can keep everyone busy by assigning more work. But that doesn't automatically make the organization better.
+**Authority and budget, not just tasks.** When I hand over a goal, I also hand over the means to reach it. Then I stand beside the person, ready to help, instead of standing over them.
 
-**The lesson:** Leadership is not about becoming the person who makes every decision.
+**Less hand-holding.** If I tell a talented person exactly what to do every step of the way, I slowly train them to stop thinking. They become robots. That is the most expensive mistake a manager can make.
 
-It's about creating the clarity, responsibility, and feedback that help other people make better ones.
+**Hiring is recruiting companions.** I do not look for people to execute my ideas. I look for people I want to build something with.
+
+This does not mean no structure. Clear goals, honest numbers and regular check-ins matter more, not less, when people have freedom. But inside that structure, people own their work.
+
+**The lesson:** The job of a leader is not to have all the answers. It is to build a team that does not need to ask for every one.

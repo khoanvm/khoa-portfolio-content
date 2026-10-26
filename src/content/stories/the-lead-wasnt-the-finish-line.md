@@ -1,42 +1,40 @@
 ---
-title: The Lead Wasn't the Finish Line
+title: "40 Applications, 10 Contracts: The Leak Nobody Was Looking At"
 slug: the-lead-wasnt-the-finish-line
-summary: Leading Marketing and Sales at Clevermann made me responsible for what happened after lead generation — turning a dashboard success into a longer commercial journey.
+summary: At Clevermann, some months 40 customers submitted full application files and only 10 signed. Fixing trust, emotion and timing at the end of the journey took us to 20+ contracts a month.
 published: true
-order: 4
+order: 3
 cover: /assets/figma/case-studies/index-clevermann-2.png
-coverAlt: A group of colleagues gathered around a table in the Clevermann office.
+coverAlt: Colleagues gathered around a table in the Clevermann office.
 category: Commercial Leadership
-# Homepage preview row. Not the "Featured" flag, which orders /stories/.
-# Curated: Commercial leadership / Marketing & Sales (Clevermann).
 homepageFeatured: true
-location: Vietnam
+location: Ho Chi Minh City
 topic: Growth Strategy
 relatedCaseStudies:
   - clevermann
 summaryItems:
-  - question: What changed my perspective?
-    answer: Leading Marketing and Sales made me responsible for what happened after lead generation.
-  - question: What did I learn?
-    answer: Conversion is one step in a longer commercial journey. Follow-up, customer readiness and team coordination matter.
+  - question: What was the problem?
+    answer: Only about 25% of highly committed applicants signed a contract.
+  - question: What changed?
+    answer: Trust content, community nurturing, emotional customer stories and time-bound offers took us from ~10 to 20+ contracts a month.
 ---
 
-Earlier in my career, I spent a great deal of time asking how to improve conversion.
+Our dashboards looked healthy. Leads were coming in from both paid ads and organic search. The team was busy.
 
-Later, leading Marketing and Sales at Clevermann, I found myself asking a different question.
+Then one number stopped me. Some months, about **40 customers submitted their full application files**. Only about **10 signed**.
 
-What happens after the conversion?
+That is not a marketing problem. Submitting a file at Clevermann meant phone consultations, an office meeting and a stack of documents. These people were serious. They had already said yes many times. And three out of four still walked away at the very end.
 
-A customer could submit a form and still be far from ready to sign a contract.
+When I looked closely, the drop-off came from three gaps.
 
-They might need to understand the requirements, involve their family, visit the office, gather documents, or overcome concerns about studying and working abroad.
+**Trust.** Choosing who will guide your move to another country is a big decision, and we were a young brand. So I started showing up where trust is built: events with universities and leading education organizations. Each event became content for our audience.
 
-Meanwhile, marketing dashboards could show a successful lead while the sales team was still trying to begin a meaningful conversation.
+**Emotion and evidence.** People needed to see their future, not read about it. We filmed customers at our office and shared real success stories.
 
-That experience expanded how I thought about growth.
+**Timing.** Even convinced customers delay big decisions. Tailored offers with a clear time frame gave them a reason to decide now.
 
-Acquisition, consultation, nurturing, reactivation, and team execution were connected parts of one system.
+The idea I liked most was the simplest. When a prospect went quiet, the salesperson invited them into our community group. From there, the right content kept working, together with engagement retargeting, until they were ready.
 
-**The lesson:** The definition of success changes when you become responsible for what happens after the click.
+**Signed contracts rose from about 10 to at least 20 a month, often 30, and close to 40 in the best months.**
 
-A lead is not the finish line. It is the beginning of another customer decision.
+**The lesson:** The customers you lose at the end are the most expensive ones you have. They already cost you everything except the signature.

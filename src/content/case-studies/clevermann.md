@@ -1,31 +1,37 @@
 ---
-title: Building a Marketing-to-Sales Growth System
+title: Doubling Signed Contracts When the Funnel Leaked at the End
 slug: clevermann
 client: Clevermann
 role:
-  - Chief Executive Officer
+  - Chief Executive Officer (Commercial Lead)
 services:
   - Commercial Leadership
   - Growth Strategy
   - Sales Operations
 period: 2023–2026
-location: Vietnam
-evidenceCaption: Work and partnership context · Clevermann
-summary: As CEO of Clevermann I led commercial growth across Marketing, Sales and partnerships. Around 20 people ran 86+ marketing and sales tests over roughly three years, averaging about 20 signed contracts and approximately VND 4.1B in signed contract value per month.
+location: Ho Chi Minh City
+evidenceCaption: Vietnam–Germany education and career programs · Clevermann
+summary: As commercial lead of Clevermann, I built a 20+ person marketing and sales organization, doubled monthly signed contract value and cut cost of sale from about 30% to below 10% of revenue, by finding and fixing where committed customers were still walking away.
 published: true
 featured: true
-order: 1
+order: 2
 cover: /assets/figma/case-studies/clevermann-article.png
-coverAlt: A wide view of the Clevermann partnership and education-consulting context.
-seoTitle: Building a Marketing-to-Sales Growth System — Clevermann case study
-seoDescription: Led commercial growth at Clevermann across Marketing, Sales and partnerships, running 86+ tests and averaging ~20 signed contracts and ~VND 4.1B monthly signed contract value.
+coverAlt: The Clevermann team and partnership context.
+seoTitle: Doubling Signed Contracts When the Funnel Leaked at the End — Clevermann
+seoDescription: Built a 20+ person commercial team, doubled monthly signed contract value, cut cost of sale from ~30% to below 10% and raised signed contracts from ~10 to 20+ per month.
 metrics:
-  - label: Marketing & Sales Experiments
-    value: '86+'
-  - label: Signed Contracts / Month
-    value: '~20'
-  - label: Monthly Signed Contract Value
-    value: '~VND 4.1B'
+  - label: Monthly signed contract value
+    value: 2x
+    detail: ~VND 2B to ~VND 4B average (2025)
+  - label: Cost of sale
+    value: <10%
+    detail: of revenue, down from ~30%
+  - label: Signed contracts per month
+    value: 10 → 20+
+    detail: peaking at ~40
+  - label: Commercial team
+    value: 3 → 20+
+    detail: ~40 including freelancers
 gallery:
   - src: /assets/figma/case-studies/index-clevermann-1.png
     alt: Clevermann acquisition dashboard.
@@ -35,44 +41,49 @@ gallery:
     alt: Marketing-to-sales reporting view.
 ---
 
-Selling education and career pathways between Vietnam and Germany is not a simple lead-generation business.
+## The context
 
-Customers face high-stakes decisions involving money, language requirements, documentation, career prospects, and often the expectations of their families.
+Clevermann helps Vietnamese candidates build careers and lives in Germany: language preparation, degree recognition, visas and job placement. As CEO, my real job was commercial: marketing, B2C sales and B2B partnerships.
 
-A marketing campaign might generate an inquiry today, but a meaningful business outcome can take weeks or months. That creates a challenge: performance cannot be managed by advertising metrics alone.
+I started with about three people. Three years later the team had grown to 20+ employees across two offices in Ho Chi Minh City, about 40 including freelancers, with more than VND 200M in monthly ad spend.
 
-The quality of the first conversation, the prospect's readiness, office visits, consultation quality, objections, follow-up, and coordination between teams all influence the eventual outcome.
+## Phase one: stop treating the lead as the finish line
 
-## My responsibility
+In the early days, success was measured in leads. But a lead is only the start of a long journey: a chat reply, a phone consultation, an office visit, paperwork, follow-up, sometimes months of hesitation.
 
-As CEO of Clevermann, I led commercial growth with a particular focus on Marketing, Sales, partnerships, and customer acquisition. The organization included approximately seven people in Marketing, ten in B2C Sales, and three in B2B Sales.
+So we measured every step to the signed contract and fixed the drop-offs one by one: ad content, chat responses, phone and in-office consultations, follow-up and reactivation. Over three years we ran 85+ marketing and sales experiments.
 
-My responsibilities ranged from acquisition strategy and budget allocation to sales enablement, customer journey optimization, team coordination, and partnership development.
+**Result: cost of sale (ad spend plus sales commissions) fell from about 30% of revenue to below 10%.**
 
-I was interested in a broader question than how to generate more leads: **How do we build a system that consistently turns customer interest into qualified commercial opportunities and signed agreements?**
+## Phase two: the leak nobody was looking at
 
-## What we built
+Then came a more uncomfortable finding. Some months, about 40 customers submitted their full application files, yet only about 10 signed.
 
-We connected activities that are often managed separately.
+These were not casual leads. Submitting a file meant phone consultations, a meeting and a stack of documents. Committed people were still walking away at the very end.
 
-Marketing generated demand and customer inquiries. Qualification and consultation helped identify genuine needs and readiness. Sales conversations revealed objections, missing information, and opportunities to improve messaging.
+My diagnosis: the top of the funnel was strong, but the final decision lacked three things.
 
-Remarketing, nurturing, and reactivation helped maintain continuity across a long consideration cycle. We developed and refined sales scripts, consultation materials, customer journey stages, and team working practices.
+1. **Trust in the brand.** I put Clevermann in front of universities and major education partners, and turned every event into content.
+2. **Emotion and evidence.** We filmed real customers at our office and their success stories, so people could see their future selves.
+3. **A reason to decide now.** Tailored offers with a clear time frame.
 
-Over approximately three years, the teams conducted more than 86 Marketing and Sales tests. These experiments explored different ways to attract, qualify, engage, and move prospects through the process.
+To keep hesitant customers close, we built community groups. When a prospect went quiet, the salesperson invited them in, and the right content kept doing its work, combined with engagement retargeting. [Read the full story.](/stories/the-lead-wasnt-the-finish-line/)
 
-Regular problem-solving sessions and an Agile-inspired operating rhythm made improvement a shared responsibility rather than an isolated marketing initiative.
+**Result: signed contracts rose from about 10 to at least 20 per month, often 30, peaking near 40.**
 
-## Commercial results
+## Results
 
-The business averaged approximately 20 new signed contracts per month, reaching around 40 in stronger periods. Average monthly signed contract value was approximately VND 4.1 billion, with peaks around VND 6 billion. Monthly marketing spend was above VND 200 million.
+| | Result |
+|---|---|
+| Monthly signed contract value | **roughly doubled**, from ~VND 2B (2023–24) to a ~VND 4B average in 2025, peak ~VND 6B |
+| Cost of sale | **from ~30% to below 10%** of revenue |
+| Signed contracts | **from ~10 to 20+ per month**, peak ~40 |
+| Team | **from ~3 to 20+ people** |
 
-These figures describe commercial operating performance, not the incremental effect of one experiment. Signed contract value should not be confused with collected cash or recognized revenue. The results were achieved through the combined efforts of Marketing, Sales, operations, and external partners.
+Along the way, I also negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam. [Read that case study.](/case-studies/gmi-strategic-partnership/)
 
 ## What I learned
 
-My biggest professional development at Clevermann was learning to think beyond the function I was leading.
+A strong top of funnel can hide a weak bottom. The most expensive customer is not the one who never clicks. It is the one who does everything right, submits the whole file, and still leaves.
 
-An effective commercial leader cannot optimize Marketing while ignoring Sales, or demand faster execution without understanding team capacity. Growth depends on connecting strategy, people, processes, and feedback.
-
-**The real achievement is not a single high-performing campaign. It is an organization that can identify problems, make decisions, execute, and learn repeatedly.**
+**Growth comes from the whole journey. No single fix does it; everything together does.**

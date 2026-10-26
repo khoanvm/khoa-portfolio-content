@@ -1,61 +1,66 @@
 ---
-title: Building a Strategic Education Partnership Across Borders
+title: Opening a Door No Private Company in Vietnam Had Opened
 slug: gmi-strategic-partnership
 client: German-Malaysian Institute (GMI)
 role:
-  - Commercial leadership
+  - Commercial Lead, Clevermann
 services:
   - Strategic Partnerships
   - Negotiation
   - Market Development
-location: Vietnam
-summary: I identified and negotiated a strategic partnership with the German-Malaysian Institute (GMI) giving Clevermann's Vietnam candidates access to telc examination services, under an agreed capacity ceiling of about 230 candidates per month.
+period: '2025'
+location: Vietnam ↔ Malaysia
+summary: When German exam slots in Vietnam became a bottleneck for the business, I found a partner abroad and negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam, securing priority exam scheduling for our candidates.
 published: true
-featured: true
-order: 2
-seoTitle: Building a Strategic Education Partnership — GMI
-seoDescription: Negotiated a cross-border partnership with the German-Malaysian Institute for telc examination access for candidates from Vietnam, covering roles, registration and operations.
+featured: false
+order: 6
+seoTitle: Opening a Door No Private Company in Vietnam Had Opened — GMI partnership
+seoDescription: Negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam (MOA 2025), securing priority telc exam scheduling with capacity for up to ~230 candidates per month.
 metrics:
-  - label: Agreed Examination Capacity
-    value: ≤230/mo
-  - label: Cross-Border Partnership
-    value: Vietnam ↔ Malaysia
-  - label: Examination Services Collaboration
-    value: telc
+  - label: First private partner in Vietnam
+    value: GMI
+    detail: confirmed by GMI's international office
+  - label: Exam capacity in the agreement
+    value: up to ~230 / month
+    detail: maximum capacity, not volume achieved
+  - label: Agreement
+    value: MOA 2025
+    detail: priority exam scheduling
 ---
 
-For Vietnamese candidates pursuing education and career opportunities in Germany, recognized language certification can be a critical milestone.
+## The bottleneck
 
-Yet access to examinations involves more than finding an available test date. Candidates need reliable information, registration support, predictable procedures, and confidence that the certification process is legitimate and recognized.
+For Vietnamese candidates heading to Germany, a recognized German language certificate is not optional. In Vietnam, telc exam slots had become extremely hard to get, and several local exam organizers were under investigation.
 
-For Clevermann, this represented both a customer need and an opportunity to strengthen our international partner ecosystem.
+For Clevermann, this was not an inconvenience. It was a bottleneck for the whole business: no exam, no visa, no career in Germany.
 
-## My role
+## Finding a way around it
 
-As part of my commercial leadership responsibilities, I identified and negotiated a strategic partnership opportunity with the German-Malaysian Institute (GMI), involving access to telc examination services for candidates from Vietnam.
+I picked up the phone and started calling exam centers in neighboring countries. That is how I reached the German-Malaysian Institute (GMI) in Malaysia, a large institution with strong international programs.
 
-The commercial objective was not simply to refer customers to another organization. It was to establish a working arrangement that connected an examination provider with a local business already supporting candidates along their Germany-related education and career journey.
+I led our first group of more than 20 candidates to Malaysia to take the exam. At the same time, I emailed GMI's leadership and asked for a meeting.
 
-This required alignment on roles, candidate registration, operational coordination, service expectations, and the boundaries of each partner's responsibilities.
+## The negotiation
 
-## Partnership development
+The first meeting was a normal exchange. But as we talked, I listened for what GMI really needed, and found it.
 
-The process involved bringing together organizations operating in different markets and understanding what each needed from the relationship.
+- **GMI wanted to recruit students in Vietnam.** Clevermann had the network to help.
+- **GMI's CEO had worked in Vietnam for years**, and saw branding and partnerships much the way I did.
 
-From Clevermann's perspective, the partnership could create a more coherent support journey for candidates. From the partner's perspective, a structured local relationship could help organize candidate registrations, communication, and coordination.
+That changed what I put on the table. Clevermann would gain significant brand credibility in Vietnam. GMI would lose nothing, and gain access to major universities in Ho Chi Minh City, where I could open doors.
 
-The agreed examination capacity framework included a maximum of approximately 230 candidates per month at GMI. **This was an operational capacity ceiling, not a claim of actual monthly candidate throughput.**
+The hardest question they had to answer internally was: *why Clevermann?* My job was to make that answer easy. It took a long process of building trust, including hosting GMI's leadership at Clevermann more than twice, before we signed a Memorandum of Agreement in 2025.
 
-Clevermann described the resulting relationship as a strategic private-sector partnership for the Vietnam market.
+## The outcome
 
-## Outcome
+- **GMI's first partnership with a private company in Vietnam**, as confirmed by GMI's Head of International.
+- **Priority exam scheduling for Clevermann candidates**, always within telc rules, with capacity for up to ~230 candidates per month.
+- **A business bottleneck turned into a competitive advantage**, and a story we could tell every customer.
 
-The collaboration established an institutional partnership supporting the registration and examination journey for Vietnamese candidates.
+[Read how it started.](/stories/the-agreement-was-only-the-beginning/)
 
-It also became part of Clevermann's broader effort to build credibility and develop international service relationships beyond domestic customer acquisition.
+## What I learned
 
-## The leadership lesson
+Good negotiations start long before the table. Find what the other side truly needs, know your own walk-away point, and build trust with the people who decide.
 
-Partnership development is more than acquiring a logo for a company's website. A valuable agreement requires a customer problem worth solving, aligned interests, practical delivery responsibilities, and an operating model that both organizations can support.
-
-**A signed partnership creates the opportunity. The operating relationship determines its value.**
+**A partnership is not won with a pitch. It is won by making "why you?" easy to answer.**

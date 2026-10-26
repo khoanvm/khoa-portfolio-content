@@ -4,7 +4,7 @@ slug: five-sales-leaders-six-markets-one-difficult-question
 summary: Master's research exploring how sales strategies and representative capabilities differ across international healthcare markets, drawing on interviews with five senior sales leaders.
 # Owner confirmed the research counts are from the master's thesis (2026-10-13).
 published: true
-order: 7
+order: 12
 cover: /assets/figma/insights/understanding-people.png
 coverAlt: A monochrome close-up of a ruler marking a measurement.
 category: International Research

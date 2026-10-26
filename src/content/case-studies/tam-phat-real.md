@@ -1,74 +1,82 @@
 ---
-title: Connecting Customer Acquisition with Sales Execution
+title: Getting Outbound Leads to the Sales Gallery in a High-Rate Market
 slug: tam-phat-real
 client: Tâm Phát Real
 role:
-  - Marketing Director
+  - Marketing Director (contract)
 services:
-  - Performance Strategy
-  - Experimentation
-  - Automation
+  - Performance Marketing
+  - Conversion Rate Optimization
+  - AI Automation
 period: '2026'
 location: Ho Chi Minh City
-evidenceCaption: Premium-property marketing context · Tâm Phát Real
-summary: As Marketing Director on two premium property projects I combined satellite testing with a lead-routing workflow, reducing CPL by about 30% in the tested campaigns while connecting acquisition to sales follow-up.
+evidenceCaption: Luxury and high-end apartments · primary developer sales · Tâm Phát Real
+summary: In a luxury property market squeezed by high interest rates, I tripled monthly leads, cut cost per lead by about 75%, tripled the contact rate and built an AI-powered lead system that now brings 10+ prospects to the sales gallery every week.
 published: true
 featured: true
-order: 4
+order: 1
 cover: /assets/figma/case-studies/tamphat-article.png
-coverAlt: A wide view of the premium-property marketing context for Tâm Phát Real.
-seoTitle: Connecting Customer Acquisition with Sales Execution
-seoDescription: Marketing Director on two premium property projects, using satellite testing to reduce CPL by about 30% in the tested campaigns and connecting lead routing with sales follow-up.
+coverAlt: Premium-property marketing context for Tâm Phát Real.
+seoTitle: Getting Outbound Leads to the Sales Gallery in a High-Rate Market
+seoDescription: 3x leads, about 75% lower cost per lead, 3x contact rate and 10+ in-person site visits every week from outbound leads, using behavioral lead forms and an AI-powered lead system.
 metrics:
-  - label: Lower CPL in Satellite Tests
-    value: ~30%
-  - label: Premium Property Projects
-    value: '2'
-  - label: Routing & Follow-Up Workflow
-    value: Lead → Sales
+  - label: Monthly leads
+    value: 3x
+    detail: from ~100 to 300+
+  - label: Cost per lead
+    value: −75%
+    detail: with ~30% less ad spend
+  - label: Lead contact rate
+    value: 60%+
+    detail: roughly 3x the previous level
+  - label: In-person site visits
+    value: 10+ / week
+    detail: from outbound marketing leads
 gallery:
   - src: /assets/figma/case-studies/index-tamphat-1.png
     alt: Tâm Phát Real paid acquisition creative.
   - src: /assets/figma/case-studies/index-tamphat-2.png
     alt: Lead routing and follow-up workflow.
   - src: /assets/figma/case-studies/index-tamphat-3.png
-    alt: Reporting view showing CPL trend.
+    alt: Reporting view of lead performance.
 ---
 
-Premium real estate is a highly competitive advertising environment. Many agencies promote similar projects, compete for overlapping audiences, and use creative approaches that can be replicated quickly.
+## The context: a market that pushed back from both sides
 
-It is possible to generate a large volume of leads without creating an equally valuable pipeline.
+I joined a primary developer selling luxury and high-end apartments in Ho Chi Minh City at a difficult moment. High interest rates squeezed demand from two directions at once.
 
-The commercial problem is therefore not just how to lower cost per lead. It is how to find prospects with meaningful interest and create the conditions for a timely, relevant sales conversation.
+- **Cash buyers** could earn safe, attractive returns simply by keeping their money in the bank.
+- **Leveraged investors** faced floating rates that made buying to resell far too risky.
 
-## My responsibility
+Competitors answered by spending more on ads. I believed the problem was not reach. It was what happened between the first click and the first real conversation.
 
-As Marketing Director, I worked on performance strategy, creative experimentation, acquisition processes, and Marketing–Sales coordination for premium property projects, including Palm River and The Privé.
+## Diagnosis: three leaks in the funnel
 
-I combined strategic planning with hands-on execution, ranging from audience and creative hypotheses to campaign operations, video production, and lead management workflows.
+1. **The lead form asked the wrong first question.** Most projects in the market asked "How many bedrooms?" before anything else, a hard question for someone who does not yet know prices or layouts.
+2. **Leads arrived too late.** They moved by hand from one sales team to the next, sometimes waiting up to an hour, while Messenger enquiries mostly ended after "what's the price?".
+3. **Every lead was treated the same.** Strong and weak leads competed for the same attention from a team of about ten salespeople.
 
-## The approach
+## What I changed
 
-Rather than concentrating learning in only a few large campaigns, I introduced a satellite-testing approach using smaller creative and audience experiments. This allowed different ideas to be evaluated before making larger budget commitments.
+**A lead form built as a conversation.** I moved Meta campaigns from messages to a five-question form designed around buyer psychology: investor or home buyer first, then experience, then what matters most, then a small commitment to visit the sales gallery and a choice of contact channel. The form is longer, yet it converts better, because every answer makes the next one easier. [Read the story behind the form.](/stories/the-lead-form-that-asks-the-easy-question-first/)
 
-At the same time, I worked to connect the marketing funnel with the next operational steps.
+**Many small tests instead of a few big bets.** I ran satellite tests across creatives and audiences, more than 50 Meta ad tests in total, and moved budget only to what proved itself.
 
-A Telegram-based lead distribution workflow supported routing incoming opportunities. Automated call reminders, CRM processes, and remarketing tools helped structure follow-up activities.
+**An AI-powered Lead Game.** I designed and built, with AI throughout, a system that processes the data, scores every lead and connects directly to our tools through APIs. Three times a day, at convenient hours, each salesperson receives 20 leads to call. Call outcomes feed back into the score, so the best leads rise to the top of the list and the weakest sink to the bottom.
 
-The intention was to reduce the gap between generating a customer signal and responding to it appropriately.
+## Results
 
-Creative development also became an area for experimenting with AI-assisted production workflows, allowing more concepts to be explored without treating every asset as a large production exercise.
+| | Result |
+|---|---|
+| Monthly leads | **3x**, from ~100 to 300+ |
+| Cost per lead | **about −75%**, with ~30% less total ad spend |
+| Lead contact rate | **60%+**, roughly 3x the previous level |
+| In-person visits | **10+ prospects at the sales gallery every week**, a first for the company from marketing leads |
 
-## Observed results
-
-The satellite-testing approach reduced CPL by approximately 30% in the tested campaign context, with no clear decline in lead quality observed during that work.
-
-This was an acquisition-efficiency result, not proof of equivalent growth in completed property transactions.
-
-The wider operating question remained: how many qualified conversations and meaningful commercial opportunities were created after the initial inquiry?
+The last number matters most. These were outbound leads, people the team called after they left their details, not customers who searched for us on Google. Bringing them to a luxury sales gallery every week, in this market, is the result I am proudest of.
 
 ## What I learned
 
-A cheaper lead is a useful improvement only when considered alongside its commercial potential. Better advertising, faster routing, customer relevance, and disciplined follow-up reinforce one another.
+Spending more does not fix a funnel. Fixing the moments where people hesitate does: the first question they are asked, the minutes before someone calls them back, and which lead gets the best salesperson's attention.
 
-**Optimizing an isolated metric is not the same as optimizing the business process it represents.**
+**In a hard market, the advantage goes to the team that wastes the fewest good leads.**

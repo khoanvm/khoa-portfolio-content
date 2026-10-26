@@ -1,16 +1,11 @@
 ---
-title: "Experimenting Across 11 Markets: From Behavioral Insights to Better Decisions"
+title: "200+ Experiments, 11 Markets, 20%+ Uplift in Every One"
 slug: audibene
-summary: As CRO Manager in Berlin I worked across eleven international markets,
-  contributing to more than 200 A/B experiments that turned customer behavior
-  into testable hypotheses and evaluated whether wins travelled between markets.
+summary: As CRO Manager at audibene in Berlin, I drove more than 200 behavioral-science-led A/B tests across 11 international markets, delivered 20%+ cumulative conversion uplift in every market I worked on, and owned CRO for the Asian markets.
 cover: /assets/figma/case-studies/audibene-article.png
-coverAlt: A wide view of the audibene experiment context showing the
-  hearing-care customer journey.
-seoTitle: Experimenting Across 11 Markets — audibene case study
-seoDescription: CRO Manager in Berlin contributing to 200+ A/B experiments
-  across 11 international markets, testing credibility, progressive commitment,
-  perceived progress and local relevance.
+coverAlt: The audibene hearing-care customer journey.
+seoTitle: 200+ Experiments, 11 Markets, 20%+ Uplift — audibene case study
+seoDescription: CRO Manager in Berlin. 200+ behavioral-science-led A/B tests across 11 markets, 20%+ cumulative conversion uplift in every market worked on, and CRO ownership for India, South Korea and Malaysia.
 published: true
 featured: true
 order: 3
@@ -22,61 +17,57 @@ gallery:
   - src: /assets/figma/case-studies/index-audibene-3.png
     alt: Results view from an audibene experiment.
 metrics:
-  - label: A/B Experiments Contributed To
+  - label: A/B tests driven
     value: 200+
-  - label: International Markets
-    value: "11"
-  - label: Cross-functional
-    value: Marketing, Product & Engineering
+    detail: across ad and landing-page journeys
+  - label: International markets
+    value: '11'
+    detail: CRO owner for Asia
+  - label: Cumulative conversion uplift
+    value: 20%+
+    detail: in every market worked on
 client: audibene
 role:
   - CRO Manager
 services:
   - CRO
   - Experimentation
-  - Consumer Psychology
+  - Behavioral Science
 period: 2019–2022
 location: Berlin
-evidenceCaption: Hearing-care context · audibene
+evidenceCaption: Hearing-care customer journey · audibene
 ---
-Hearing care is a category shaped by trust, personal concerns, and decisions that customers may not feel ready to make.
 
-The same landing page, message, or questionnaire can produce different responses across markets. What reassures a customer in Germany may not provide the same reassurance to someone in another country.
+## The context
 
-The business therefore needed more than a collection of conversion best practices. It needed a structured approach to finding opportunities, testing hypotheses, and evaluating whether improvements worked within their market context.
+audibene helps people with hearing loss find the right hearing aid. The journey usually starts with an ad and a short online questionnaire, and ends with a consultation. It is a sensitive decision: many customers have postponed it for years.
 
-## My responsibility
+I joined the central CRO team at headquarters in Berlin as an intern in 2019, became full-time six months later, and grew into the CRO Manager role, working across 11 international markets and owning CRO for the Asian markets: India, South Korea and Malaysia.
 
-As CRO Manager in Berlin, I worked across eleven international markets, contributing to more than 200 A/B experiments.
+## The approach: behavioral science, tested at scale
 
-My responsibilities included investigating customer behavior, developing hypotheses, prioritizing tests, collaborating with design and engineering, evaluating experiment results, and sharing learnings across teams.
+Every test started from a question about people, not pixels. Why would someone hesitate here? What makes the next step feel safe? What does this person need to believe before they continue?
 
-The work connected behavioral principles with practical website and funnel optimization.
+We turned those questions into hypotheses on credibility, commitment, perceived effort and local relevance, and tested them in ad and landing-page journeys. Over three years I drove more than 200 of these tests, working with front-end, analytics, MarTech, design and copy.
 
-## How we approached experimentation
+## One test I am proud of
 
-**Credibility and trust:** Could relevant authority cues, third-party recognition, or changes to the presentation of information help customers feel more confident?
+Everyone knows the rule: faster is better. I proposed the opposite. A deliberate pause of about 1.5 seconds in the questionnaire, as if the system were working on the customer's answers.
 
-**Progressive commitment:** Could the sequence of a questionnaire make the decision to continue feel more manageable?
+I owned it from hypothesis and design to analysis and rollout. It won in all 11 markets and became the standard everywhere. [Read the story.](/stories/when-a-1-5-second-delay-became-an-experiment/)
 
-**Perceived progress:** Would the experience of a brief loading transition influence how customers perceived their investment in the journey?
+## Working with the Asian markets
 
-**Local relevance:** Which elements of a successful variation could be transferred to another market, and which required fresh validation?
+Twice a year, audibene ran an Asia Summit in India, South Korea or Malaysia, bringing together the Managing Director, the country heads and other leaders. I represented the HQ CRO team. Real market problems were put on the table and solved together in hackathons, and each country went home to implement.
 
-Each question became a testable hypothesis rather than an assumed universal rule.
+I also travelled to work with local teams directly, including a two-week assignment in India to train the team there. It taught me that the hardest part of international work is rarely the language. [Read the story.](/stories/a-cup-of-chai-in-india/)
 
-## Results and organizational learning
+## Results
 
-The experimentation program produced winning variations in several of these areas.
-
-More importantly, the work created repeated opportunities to distinguish an appealing idea from an intervention supported by evidence. A winning experiment was not automatically a global rollout recommendation.
-
-Its value depended on the market, the customer, the metric being optimized, and the downstream implications for the business.
-
-The 200+ tests represent a program I contributed to alongside colleagues across multiple functions, rather than outcomes attributable to me alone.
+**20%+ cumulative conversion uplift in every market I worked on**, including the largest ones such as Germany, South Korea and India. In markets with multi-million-euro monthly revenue, that is a significant commercial impact.
 
 ## What I learned
 
-Behavioral Economics gave me a useful language for understanding customer decisions. Experimentation taught me that even persuasive explanations can be wrong. Working across international markets taught me to question whether a successful answer could travel.
+A winning test is evidence, not a law. Some ideas travel across all 11 markets; many need to be rebuilt for local customers. [Read why.](/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
 
-**The discipline of growth is not finding a trick that works once. It is building a reliable way to decide what deserves to work next.**
+**Conversion is not a design problem. It is a question about people, and the best way to answer it is to ask them through a test.**

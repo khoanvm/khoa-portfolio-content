@@ -10,7 +10,7 @@ services:
   - AI Workflow Development
 location: Germany ↔ Vietnam
 summary: 'How teaching marketing and building two AI-powered workflow tools became deliberate ways to deepen my knowledge, communicate more clearly, and make my professional thinking visible.'
-published: true
+published: false
 featured: false
 order: 7
 seoTitle: 'Teaching, AI Building & Professional Growth — Khoa Nguyen'
