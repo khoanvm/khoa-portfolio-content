@@ -26,9 +26,6 @@ metrics:
   - label: Cost per lead
     value: −75%
     detail: with ~30% less ad spend
-  - label: Lead contact rate
-    value: 60%+
-    detail: roughly 3x the previous level
   - label: In-person site visits
     value: 10+ / week
     detail: from outbound marketing leads

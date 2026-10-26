@@ -29,9 +29,6 @@ metrics:
   - label: Signed contracts per month
     value: 10 → 20+
     detail: peaking at ~40
-  - label: Commercial team
-    value: 3 → 20+
-    detail: ~40 including freelancers
 gallery:
   - src: /assets/figma/case-studies/index-clevermann-1.png
     alt: Clevermann acquisition dashboard.
