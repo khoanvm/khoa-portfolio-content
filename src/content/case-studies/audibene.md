@@ -5,7 +5,7 @@ summary: As CRO Manager at audibene in Berlin, I drove more than 200 behavioral-
 cover: /assets/figma/case-studies/audibene-article.png
 coverAlt: The audibene hearing-care customer journey.
 seoTitle: 200+ Experiments, 11 Markets, 20%+ Uplift — audibene case study
-seoDescription: CRO Manager in Berlin. 200+ behavioral-science-led A/B tests across 11 markets, 20%+ cumulative conversion uplift in every market worked on, and CRO ownership for India, South Korea and Malaysia.
+seoDescription: "CRO Manager in Berlin: 200+ behavioral-science-led A/B tests across 11 markets and 20%+ cumulative conversion uplift in every market worked on."
 published: true
 featured: true
 order: 3

@@ -14,8 +14,8 @@ summary: When German exam slots in Vietnam became a bottleneck for the business,
 published: true
 featured: false
 order: 6
-seoTitle: Opening a Door No Private Company in Vietnam Had Opened — GMI partnership
-seoDescription: Negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam (MOA 2025), securing priority telc exam scheduling with capacity for up to ~230 candidates per month.
+seoTitle: "Opening a Door No Private Company in Vietnam Had — GMI"
+seoDescription: "Negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam (MOA 2025), with priority telc exam scheduling."
 metrics:
   - label: First private partner in Vietnam
     value: GMI

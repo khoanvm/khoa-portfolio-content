@@ -17,7 +17,7 @@ featured: true
 order: 2
 cover: /assets/figma/case-studies/clevermann-article.png
 coverAlt: The Clevermann team and partnership context.
-seoTitle: Doubling Signed Contracts When the Funnel Leaked at the End — Clevermann
+seoTitle: "Doubling Signed Contracts When the Funnel Leaked — Clevermann"
 seoDescription: Built a 20+ person commercial team, doubled monthly signed contract value, cut cost of sale from ~30% to below 10% and raised signed contracts from ~10 to 20+ per month.
 metrics:
   - label: Monthly signed contract value

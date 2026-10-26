@@ -258,11 +258,11 @@ stories:
   label: STORIES
   heading: Small Moments. Lasting Lessons.
 quote1:
-  text: In a growth mindset, challenges are exciting rather than threatening.
-  attribution: Carol Dweck
+  text: The moment you step out the door, your life as a negotiator begins.
+  attribution: Khoa Nguyen
 quote2:
-  text: Face reality as it is, not as it was or as you wish it to be.
-  attribution: Jack Welch
+  text: Spending more does not fix a funnel. Fixing the moments where people hesitate does.
+  attribution: Khoa Nguyen
 endorsements:
   label: ENDORSEMENTS
   heading: What Others Noticed
@@ -350,7 +350,8 @@ moments:
     and Moments Along the Way.
   contact:
     heading: Let's talk.
-    description: Roles, growth challenges, or teaching invitations — I'd be glad to
+    description: Hiring for growth, CRO or commercial leadership? Solving a
+      conversion or AI challenge? Planning a talk or workshop? I'd be glad to
       hear from you.
 footer:
   copyright: © 2026 Khoa Nguyen. All rights reserved.
