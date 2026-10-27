@@ -92,6 +92,8 @@ opportunities:
             that successful experimentation requires both analytical discipline
             and a deep understanding of customer behavior.
       modalCtaLabel: Discuss an Opportunity ↗
+      image: /uploads/opp-career.webp
+      imageAlt: Khoa with the audibene team, about twenty-five colleagues, in a courtyard in Berlin.
 
     - title: Advisory & Collaboration
       description: >-
@@ -149,6 +151,8 @@ opportunities:
             exercises to make the ideas stick. The goal isn't just to understand
             a concept, but to know what to do differently afterward.
       modalCtaLabel: Discuss a Challenge ↗
+      image: /uploads/opp-advisory.webp
+      imageAlt: Khoa speaking in an HTV9 television interview.
 
     - title: Vietnam Market Entry & Go-to-Market
       description: >-
@@ -219,6 +223,8 @@ opportunities:
             market-entry challenges alongside headquarters and the right local
             partners.
       modalCtaLabel: Discuss Market Entry ↗
+      image: /uploads/opp-market-entry.webp
+      imageAlt: Khoa signing a memorandum of understanding between Clevermann and Cao Dang Viet My (APC) on stage.
 about:
   label: ABOUT ME
   heading: From Experimentation to Business Leadership
@@ -258,16 +264,7 @@ about:
       label: Cost per lead
       context: AI lead system
       trend: down
-  photos:
-    - src: /uploads/about-berlin.webp
-      alt: "Khoa with the audibene team in a courtyard in Berlin."
-      caption: "Berlin · International team"
-    - src: /uploads/about-mou-apc.webp
-      alt: "Khoa signing a memorandum of understanding between Clevermann and Cao Dang Viet My (APC) on stage."
-      caption: "MoU with APC College"
-    - src: /uploads/about-htv9.webp
-      alt: "Khoa speaking in an HTV9 television interview."
-      caption: "On HTV9"
+  photos: []
   links:
     - label: Professional experience
       href: /experiences/

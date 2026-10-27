@@ -964,6 +964,22 @@ content:
                   Closes the popup and goes to the homepage Contact section, e.g.
                   "Discuss an Opportunity ↗".
 
+              - name: image
+                label: Card photo
+                type: image
+                description: >-
+                  Optional photo across the top of the card: 1200×800 (3:2), WebP,
+                  ideally under 200 KB. No caption is shown.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+              - name: imageAlt
+                label: Photo alt text
+                type: string
+                description: Describe the photo for screen readers.
       # ---- About ------------------------------------------------------------
       - name: about
         label: About me
