@@ -275,6 +275,7 @@ about:
       href: /case-studies/
     - label: Stories
       href: /stories/
+  cvFile: /uploads/khoa-nguyen-cv.pdf
 caseStudies:
   label: CASE STUDIES
   heading: "Different Challenges. One Discipline: Understand, Test, Improve."
