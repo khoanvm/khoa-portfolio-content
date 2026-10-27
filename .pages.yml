@@ -941,15 +941,75 @@ content:
               collapsible:
                 collapsed: true
                 summary: '{fields.value}'
-            description: Exactly three metric blocks. Only figures you can stand behind.
+            description: >-
+              Exactly three metric blocks, in this order: 200+ / 2x / 75%.
+              Only figures you can stand behind.
             fields:
               - name: value
                 label: Value
                 type: string
                 description: e.g. 200+
-              - name: description
-                label: Description
+              - name: label
+                label: Label
                 type: string
+                description: e.g. A/B tests — the bold line under the value.
+              - name: context
+                label: Context
+                type: string
+                description: e.g. 11 markets — the muted line under the label.
+              - name: trend
+                label: Trend arrow
+                type: select
+                options:
+                  - { label: '↑ Up (increase)', value: up }
+                  - { label: '↓ Down (decrease)', value: down }
+                description: >-
+                  Optional. Shows a green arrow BEFORE the value for sighted
+                  readers and a hidden "Increased"/"Decreased" cue for screen
+                  readers. Leave empty when the figure has no direction (e.g.
+                  200+).
+              - name: description
+                label: Description (legacy)
+                type: string
+                description: >-
+                  Legacy pre-D-0101 wording; kept so previously published
+                  content stays editable. Prefer label + context for new
+                  figures.
+          - name: photos
+            label: Authority photos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            description: >-
+              0–3 photos in meaningful order: Berlin (3:2 landscape), UEF
+              (square), HTV9 (square). An empty list renders the complete
+              text-only About section — never upload placeholders.
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Authority photo: Berlin 1600×1067 (3:2 landscape), UEF and
+                  HTV9 1200×1200 (square), WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. To add another image, press Add below the list instead — that
+                  creates a new item.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+                description: Describe the photo; required for every image.
+              - name: caption
+                label: Caption
+                type: string
+                description: Concise single-line caption shown muted under the photo.
           - name: links
             label: Discovery links
             type: object

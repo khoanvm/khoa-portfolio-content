@@ -247,12 +247,18 @@ about:
     I also teach Online Marketing at the Digital Career Institute in Berlin and
     train teams on applied AI.
   stats:
-    - value: 200+
-      description: A/B experiments driven across 11 international markets.
+    - value: "200+"
+      label: A/B tests
+      context: 11 markets
     - value: 2x
-      description: Monthly signed contract value as commercial lead at Clevermann.
-    - value: 10+ / week
-      description: In-person site visits from outbound leads via an AI lead system.
+      label: Contract value
+      context: Clevermann
+      trend: up
+    - value: 75%
+      label: Cost per lead
+      context: AI lead system
+      trend: down
+  photos: []
   links:
     - label: Professional experience
       href: /experiences/
