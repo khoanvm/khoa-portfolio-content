@@ -277,7 +277,7 @@ endorsements:
   heading: What Others Noticed
   items:
     - name: Andrea Cigana
-      role: Former colleague · Engineering, audibene
+      role: Marketing Tech Full Stack Engineer, audibene · Former colleague
       quote: >-
         I worked with Khoa at Audibene, where he was a CRO and Marketing Manager
         and I was a Marketing Tech Full Stack Engineer — two separate teams that
@@ -296,7 +296,7 @@ endorsements:
       mobileQuote: He owns his decisions regardless of outcome, makes space for
         others, and is not greedy for credit.
     - name: Quynh Dang
-      role: Academic collaboration · Germany–Vietnam
+      role: MBA Lecturer, Ludwigshafen University · Organizer, MBA Vietnam Trip 2025
       quote: >-
         Khoa is a master networker and leader.
 
@@ -315,7 +315,7 @@ endorsements:
         Khoa is a master networker and leader.
         Khoa and his team supported us from A-Z leaving no questions open.
     - name: Renu Y.
-      role: Lead - Performance Marketing
+      role: Lead, Performance Marketing, audibene India · Former colleague
       quote: >-
         It's my pleasure to write a recommendation for Khoa. I've had the
         absolute joy of working alongside him at Audibene, where he has been an
@@ -334,7 +334,7 @@ endorsements:
       mobileQuote: And his communication skills are top-notch, able to bridge the gap
         between technical jargon and layman's terms with ease.
     - name: Luiz Hoang
-      role: Group Internal Audit Director @ GFT Group Limited
+      role: Group Internal Audit Director, GFT Group · Thesis jury member
       quote: >-
         Khoa is a well rounded leader when it comes to the business world.
 
