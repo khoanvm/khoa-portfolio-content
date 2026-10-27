@@ -23,7 +23,7 @@ metrics:
   - label: Infrastructure
     value: Self-hosted
     detail: with cost controls
-cover: "/uploads/cs-ai-product-initiatives-cover.webp"
+cover: /uploads/cs-ai-product-initiatives-cover.webp
 coverAlt: "Illustration of friendly AI assistants turning ideas into video, articles and web products."
 ---
 

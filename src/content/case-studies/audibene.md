@@ -2,7 +2,7 @@
 title: "200+ Experiments, 11 Markets, 20%+ Uplift in Every One"
 slug: audibene
 summary: As CRO Manager at audibene in Berlin, I drove more than 200 behavioral-science-led A/B tests across 11 international markets, delivered 20%+ cumulative conversion uplift in every market I worked on, and owned CRO for the Asian markets.
-cover: "/uploads/cs-audibene-cover.webp"
+cover: /uploads/cs-audibene-cover.webp
 coverAlt: "Khoa with the audibene team, about twenty-five colleagues, in a courtyard in Berlin."
 seoTitle: 200+ Experiments, 11 Markets, 20%+ Uplift — audibene case study
 seoDescription: "CRO Manager in Berlin: 200+ behavioral-science-led A/B tests across 11 markets and 20%+ cumulative conversion uplift in every market worked on."
@@ -30,13 +30,13 @@ period: 2019–2022
 location: Berlin
 evidenceCaption: The audibene team · Berlin
 gallery:
-  - src: "/uploads/cs-audibene-gallery-1.webp"
+  - src: /uploads/cs-audibene-gallery-1.webp
     alt: "Khoa taking a selfie with two colleagues on a rooftop terrace in Berlin."
     caption: "With colleagues in Berlin"
-  - src: "/uploads/cs-audibene-gallery-2.webp"
+  - src: /uploads/cs-audibene-gallery-2.webp
     alt: "Khoa and the India team smiling around a dinner table."
     caption: "Dinner with the team in India"
-  - src: "/uploads/cs-audibene-gallery-3.webp"
+  - src: /uploads/cs-audibene-gallery-3.webp
     alt: "Khoa and colleagues in ski gear posing next to ski racks."
     caption: "Team ski trip"
 ---

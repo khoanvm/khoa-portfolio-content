@@ -4,7 +4,7 @@ slug: a-cup-of-chai-in-india
 summary: During a two-week assignment in India, a colleague who spoke no English brought me a cup of chai every day. It taught me what international work really runs on.
 published: true
 order: 6
-cover: "/uploads/story-a-cup-of-chai-in-india-cover.webp"
+cover: /uploads/story-a-cup-of-chai-in-india-cover.webp
 coverAlt: "Busy open-plan office in India decorated with balloons, colleagues gathered around a speaker."
 category: International Leadership
 location: India

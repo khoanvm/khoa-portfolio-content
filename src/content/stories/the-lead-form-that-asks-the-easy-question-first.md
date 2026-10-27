@@ -4,7 +4,7 @@ slug: the-lead-form-that-asks-the-easy-question-first
 summary: Most luxury-property ads ask "how many bedrooms?" first. I redesigned the lead form as a five-step conversation, and it helped triple leads while cutting cost per lead by about 75%.
 published: true
 order: 1
-cover: "/uploads/story-the-lead-form-that-asks-the-easy-question-first-cover.webp"
+cover: /uploads/story-the-lead-form-that-asks-the-easy-question-first-cover.webp
 coverAlt: "Khoa presenting a conversion slide to a team in a meeting room."
 category: Customer Psychology
 homepageFeatured: true

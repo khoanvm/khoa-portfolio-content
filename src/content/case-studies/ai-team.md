@@ -23,7 +23,7 @@ metrics:
   - label: AI team members
     value: '4'
     detail: each using the right model for the task
-cover: "/uploads/cs-ai-team-cover.webp"
+cover: /uploads/cs-ai-team-cover.webp
 coverAlt: "Diagram of the AI team office: coordination, research, writing, video studio, engineering and knowledge rooms."
 ---
 

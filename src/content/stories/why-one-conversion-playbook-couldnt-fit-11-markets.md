@@ -4,7 +4,7 @@ slug: why-one-conversion-playbook-couldnt-fit-11-markets
 summary: Evaluating conversion ideas across 11 markets with different customer expectations showed that a successful variation creates a hypothesis for another market, not a guaranteed result.
 published: true
 order: 10
-cover: "/uploads/story-why-one-conversion-playbook-couldnt-fit-11-markets-cover.webp"
+cover: /uploads/story-why-one-conversion-playbook-couldnt-fit-11-markets-cover.webp
 coverAlt: "Illustration comparing the same form in Germany, where it wins, and India, where it loses."
 category: International Markets
 location: Experimentation

@@ -11,7 +11,7 @@ summary: Built and led Marketing, Sales and B2B Sales operations for education a
 published: true
 featured: true
 order: 2
-cover: "/uploads/exp-clevermann-ceo-cover.webp"
+cover: /uploads/exp-clevermann-ceo-cover.webp
 coverAlt: "Khoa in a partner meeting in Germany, explaining a point across a conference table."
 ---
 
