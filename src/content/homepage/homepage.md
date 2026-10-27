@@ -277,7 +277,7 @@ endorsements:
   heading: What Others Noticed
   items:
     - name: Andrea Cigana
-      role: Marketing Tech Full Stack Engineer, audibene · Former colleague
+      role: Marketing Tech Full Stack Engineer, audibene Berlin · Former colleague
       quote: >-
         I worked with Khoa at Audibene, where he was a CRO and Marketing Manager
         and I was a Marketing Tech Full Stack Engineer — two separate teams that
