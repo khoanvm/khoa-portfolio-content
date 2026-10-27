@@ -157,6 +157,52 @@ content:
           - name: caption
             label: Caption
             type: string
+      - name: videos
+        label: Videos
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{fields.title}'
+        description: >-
+          Shown under "Videos", below the photos. Each video needs exactly ONE
+          source: a short MP4 upload (at most 60 seconds and 15 MB, H.264) OR a
+          YouTube link for anything longer (upload it to YouTube as Unlisted).
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+            description: Names the video for screen readers and shows under it.
+          - name: src
+            label: MP4 file (short videos)
+            type: file
+            description: >-
+              MP4 (H.264, 720p), at most 60 seconds and 15 MB. Leave empty when
+              you use a YouTube link instead.
+            options:
+              path: public/uploads
+              extensions: [mp4]
+          - name: youtube
+            label: YouTube link (long videos)
+            type: string
+            description: >-
+              Paste the YouTube link or the 11-character video ID. Leave empty when
+              you upload an MP4 instead.
+          - name: poster
+            label: Poster image (MP4 only)
+            type: image
+            description: >-
+              Frame shown before an MP4 plays: 1280×720 (16:9), WebP, under 150 KB.
+              To replace this one: press the bin icon, then Upload and Select reappear
+              on the empty slot. Clearing a reference does not delete the file from
+              GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: caption
+            label: Caption
+            type: string
       - name: metrics
         label: Metrics and outcomes
         type: object
@@ -1026,6 +1072,20 @@ content:
                 label: Link
                 type: string
 
+          - name: cvFile
+            label: CV (PDF)
+            type: file
+            description: >-
+              Upload the CV as a PDF. When set, the "Professional experience" link
+              becomes the CV link below and opens the PDF in a new tab. Leave empty
+              to keep the link to the Experience page.
+            options:
+              path: public/uploads
+              extensions: [pdf]
+          - name: cvLabel
+            label: CV link label
+            type: string
+            description: Optional. Defaults to "View my CV (PDF)".
       # ---- Section intros (cards come from their own collections) -----------
       - name: caseStudies
         label: Case Studies section intro
@@ -1137,6 +1197,34 @@ content:
               - name: description
                 label: Description
                 type: text
+          - name: gallery
+            label: Moments photos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            description: >-
+              Up to 8 portrait photos (3:4), shown in this order. Leave the list
+              empty to show the original design photos.
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Moments photo: 900×1200 (3:4 portrait), WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+                description: Describe the photo; required for every image.
 
       - name: footer
         label: Footer

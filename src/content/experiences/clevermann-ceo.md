@@ -11,6 +11,8 @@ summary: Built and led Marketing, Sales and B2B Sales operations for education a
 published: true
 featured: true
 order: 2
+cover: "/uploads/exp-clevermann-ceo-cover.webp"
+coverAlt: "Khoa in a partner meeting in Germany, explaining a point across a conference table."
 ---
 
 At Clevermann I served as CEO from 2023 to 2026 with a practical focus on Marketing, Sales, partnerships and commercial growth. I helped build an organization of around seven people in Marketing, ten in Sales, and three in B2B Sales.

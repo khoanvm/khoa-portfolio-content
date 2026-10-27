@@ -2,20 +2,13 @@
 title: "200+ Experiments, 11 Markets, 20%+ Uplift in Every One"
 slug: audibene
 summary: As CRO Manager at audibene in Berlin, I drove more than 200 behavioral-science-led A/B tests across 11 international markets, delivered 20%+ cumulative conversion uplift in every market I worked on, and owned CRO for the Asian markets.
-cover: /assets/figma/case-studies/audibene-article.png
-coverAlt: The audibene hearing-care customer journey.
+cover: "/uploads/cs-audibene-cover.webp"
+coverAlt: "Khoa with the audibene team, about twenty-five colleagues, in a courtyard in Berlin."
 seoTitle: 200+ Experiments, 11 Markets, 20%+ Uplift — audibene case study
 seoDescription: "CRO Manager in Berlin: 200+ behavioral-science-led A/B tests across 11 markets and 20%+ cumulative conversion uplift in every market worked on."
 published: true
 featured: true
 order: 3
-gallery:
-  - src: /assets/figma/case-studies/index-audibene-1.png
-    alt: Experiment interface from the audibene CRO programme.
-  - src: /assets/figma/case-studies/index-audibene-2.png
-    alt: Test variant showing messaging and trust elements.
-  - src: /assets/figma/case-studies/index-audibene-3.png
-    alt: Results view from an audibene experiment.
 metrics:
   - label: A/B tests driven
     value: 200+
@@ -35,7 +28,17 @@ services:
   - Behavioral Science
 period: 2019–2022
 location: Berlin
-evidenceCaption: Hearing-care customer journey · audibene
+evidenceCaption: The audibene team · Berlin
+gallery:
+  - src: "/uploads/cs-audibene-gallery-1.webp"
+    alt: "Khoa taking a selfie with two colleagues on a rooftop terrace in Berlin."
+    caption: "With colleagues in Berlin"
+  - src: "/uploads/cs-audibene-gallery-2.webp"
+    alt: "Khoa and the India team smiling around a dinner table."
+    caption: "Dinner with the team in India"
+  - src: "/uploads/cs-audibene-gallery-3.webp"
+    alt: "Khoa and colleagues in ski gear posing next to ski racks."
+    caption: "Team ski trip"
 ---
 
 ## The context

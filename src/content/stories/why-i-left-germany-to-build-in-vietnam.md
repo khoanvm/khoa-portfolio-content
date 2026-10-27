@@ -4,8 +4,8 @@ slug: why-i-left-germany-to-build-in-vietnam
 summary: At 31, with a career in Berlin, I moved back to Ho Chi Minh City to build a company from three people. Here is why.
 published: true
 order: 7
-cover: /assets/figma/case-studies/clevermann-article.png
-coverAlt: The Clevermann team in Ho Chi Minh City.
+cover: "/uploads/story-why-i-left-germany-to-build-in-vietnam-cover.webp"
+coverAlt: "Khoa presenting to his team in a Clevermann meeting room."
 category: Career
 location: Germany → Vietnam
 topic: Leadership

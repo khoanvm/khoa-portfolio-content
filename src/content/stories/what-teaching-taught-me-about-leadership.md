@@ -4,8 +4,8 @@ slug: what-teaching-taught-me-about-leadership
 summary: Explaining marketing concepts to MBA learners revealed assumptions I hadn't questioned deeply enough — clear communication and knowledge transfer are leadership capabilities, not just teaching skills.
 published: true
 order: 11
-cover: /assets/figma/story-method.png
-coverAlt: Close-up of a metal ruler, a visual metaphor for measuring and method.
+cover: "/uploads/story-what-teaching-taught-me-about-leadership-cover.webp"
+coverAlt: "Khoa speaking in front of a projected slide at a university."
 category: Teaching
 # Homepage preview row. Not the "Featured" flag, which orders /stories/.
 # Curated: Teaching & knowledge transfer.

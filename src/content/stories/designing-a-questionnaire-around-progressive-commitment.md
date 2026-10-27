@@ -4,8 +4,8 @@ slug: designing-a-questionnaire-around-progressive-commitment
 summary: At audibene, we reordered a questionnaire so that every question was a little easier to answer than the customer expected. The order of the questions, not their number, made the difference.
 published: true
 order: 9
-cover: /assets/figma/stories/story-3.png
-coverAlt: Questionnaire sequence designed around progressive commitment.
+cover: "/uploads/story-designing-a-questionnaire-around-progressive-commitment-cover.webp"
+coverAlt: "Illustration of a woman walking up steps made of questionnaire cards."
 category: Customer Psychology
 location: Berlin
 topic: CRO

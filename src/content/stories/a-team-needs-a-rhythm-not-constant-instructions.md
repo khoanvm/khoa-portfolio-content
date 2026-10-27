@@ -4,8 +4,8 @@ slug: a-team-needs-a-rhythm-not-constant-instructions
 summary: My leadership approach in one sentence - if I trust you enough to hire you, I trust you enough to let you work. Too much hand-holding turns talented people into robots.
 published: true
 order: 8
-cover: /assets/figma/case-studies/index-clevermann-3.png
-coverAlt: The Clevermann team at a partnership event.
+cover: "/uploads/story-a-team-needs-a-rhythm-not-constant-instructions-cover.webp"
+coverAlt: "The Clevermann team in matching uniforms posing in the office."
 category: Leadership
 location: Vietnam
 topic: Team Leadership

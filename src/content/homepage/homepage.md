@@ -258,7 +258,16 @@ about:
       label: Cost per lead
       context: AI lead system
       trend: down
-  photos: []
+  photos:
+    - src: "/uploads/about-berlin.webp"
+      alt: "Khoa with the audibene team in a courtyard in Berlin."
+      caption: "Berlin · International team"
+    - src: "/uploads/about-mou-apc.webp"
+      alt: "Khoa signing a memorandum of understanding between Clevermann and Cao Dang Viet My (APC) on stage."
+      caption: "MoU with APC College"
+    - src: "/uploads/about-htv9.webp"
+      alt: "Khoa speaking in an HTV9 television interview."
+      caption: "On HTV9"
   links:
     - label: Professional experience
       href: /experiences/
@@ -363,6 +372,23 @@ moments:
   heading: |-
     Conversations, Collaboration,
     and Moments Along the Way.
+  gallery:
+    - src: "/uploads/moment-01.webp"
+      alt: "Khoa and colleagues relaxing on a boat deck under an orange awning."
+    - src: "/uploads/moment-02.webp"
+      alt: "Khoa presenting in front of a screen to colleagues."
+    - src: "/uploads/moment-03.webp"
+      alt: "Khoa with five friends and colleagues posing in a kitchen in the evening."
+    - src: "/uploads/moment-04.webp"
+      alt: "Honorary Doctor of Education (Dr. h.c.) certificate awarded to Nguyen Vo Minh Khoa by Logos University International, 2025."
+    - src: "/uploads/moment-05.webp"
+      alt: "Khoa and colleagues taking a selfie around a poker table."
+    - src: "/uploads/moment-06.webp"
+      alt: "Khoa and a colleague giving a thumbs-up in an office kitchen."
+    - src: "/uploads/moment-07.webp"
+      alt: "Khoa and colleagues around a table on a beach at night."
+    - src: "/uploads/moment-08.webp"
+      alt: "A printed group photo pinned to a wall under a German motto."
   contact:
     heading: Let's talk.
     description: Hiring for growth, CRO or commercial leadership? Solving a

@@ -15,8 +15,8 @@ summary: As commercial lead of Clevermann, I built a 20+ person marketing and sa
 published: true
 featured: true
 order: 2
-cover: /assets/figma/case-studies/clevermann-article.png
-coverAlt: The Clevermann team and partnership context.
+cover: "/uploads/cs-clevermann-cover.webp"
+coverAlt: "Large group photo of a German MBA delegation with Clevermann staff and students in an office."
 seoTitle: "Doubling Signed Contracts When the Funnel Leaked — Clevermann"
 seoDescription: Built a 20+ person commercial team, doubled monthly signed contract value, cut cost of sale from ~30% to below 10% and raised signed contracts from ~10 to 20+ per month.
 metrics:
@@ -30,12 +30,15 @@ metrics:
     value: 10 → 20+
     detail: peaking at ~40
 gallery:
-  - src: /assets/figma/case-studies/index-clevermann-1.png
-    alt: Clevermann acquisition dashboard.
-  - src: /assets/figma/case-studies/index-clevermann-2.png
-    alt: Sales consultation workflow at Clevermann.
-  - src: /assets/figma/case-studies/index-clevermann-3.png
-    alt: Marketing-to-sales reporting view.
+  - src: "/uploads/cs-clevermann-gallery-1.webp"
+    alt: "Clevermann team and students in matching uniforms posing in the office."
+    caption: "The Clevermann team"
+  - src: "/uploads/cs-clevermann-gallery-2.webp"
+    alt: "Students holding Cambodian, German and Vietnamese flags in a Clevermann hall."
+    caption: "Candidates from Vietnam and Cambodia"
+  - src: "/uploads/cs-clevermann-gallery-3.webp"
+    alt: "Business meeting in a German seminar room with a presenter at a projector screen."
+    caption: "Meeting with partners in Germany"
 ---
 
 ## The context

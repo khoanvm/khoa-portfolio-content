@@ -26,6 +26,18 @@ metrics:
   - label: Agreement
     value: MOA 2025
     detail: priority exam scheduling
+cover: "/uploads/cs-gmi-strategic-partnership-cover.webp"
+coverAlt: "Delegations from GMI and Clevermann standing together after signing the agreement, in front of a GMI banner."
+gallery:
+  - src: "/uploads/cs-gmi-strategic-partnership-gallery-1.webp"
+    alt: "Students waving in front of the German-Malaysian Institute building and a \"#GMI Generation\" sign."
+    caption: "Candidates at GMI in Malaysia"
+  - src: "/uploads/cs-gmi-strategic-partnership-gallery-2.webp"
+    alt: "Students posing in a hallway decorated with German landmarks, under a Clevermann logo."
+    caption: "Candidates at GMI"
+  - src: "/uploads/cs-gmi-strategic-partnership-gallery-3.webp"
+    alt: "Khoa and a GMI leader exchanging a framed painting in front of GMI banners."
+    caption: "Exchanging gifts with GMI"
 ---
 
 ## The bottleneck

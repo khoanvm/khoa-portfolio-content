@@ -15,8 +15,8 @@ summary: In a luxury property market squeezed by high interest rates, I tripled 
 published: true
 featured: true
 order: 1
-cover: /assets/figma/case-studies/tamphat-article.png
-coverAlt: Premium-property marketing context for Tâm Phát Real.
+cover: "/uploads/cs-tam-phat-real-cover.webp"
+coverAlt: "Interior render of a luxury apartment lobby with a marble counter and a sweeping staircase."
 seoTitle: Getting Outbound Leads to the Sales Gallery in a High-Rate Market
 seoDescription: 3x leads, about 75% lower cost per lead, 3x contact rate and 10+ in-person site visits every week from outbound leads, using behavioral lead forms and an AI-powered lead system.
 metrics:
@@ -30,12 +30,12 @@ metrics:
     value: 10+ / week
     detail: from outbound marketing leads
 gallery:
-  - src: /assets/figma/case-studies/index-tamphat-1.png
-    alt: Tâm Phát Real paid acquisition creative.
-  - src: /assets/figma/case-studies/index-tamphat-2.png
-    alt: Lead routing and follow-up workflow.
-  - src: /assets/figma/case-studies/index-tamphat-3.png
-    alt: Reporting view of lead performance.
+  - src: "/uploads/cs-tam-phat-real-gallery-1.webp"
+    alt: "Performance snapshot card: 3x monthly leads, 30% lower media spend, +50% early-stage response rate, 400+ leads in August, over 35% of leads with genuine interest."
+    caption: "Selected results, client name withheld"
+  - src: "/uploads/cs-tam-phat-real-gallery-2.webp"
+    alt: "Night view of a highway with an illuminated Palm City billboard."
+    caption: "Outdoor advertising on the highway"
 ---
 
 ## The context: a market that pushed back from both sides

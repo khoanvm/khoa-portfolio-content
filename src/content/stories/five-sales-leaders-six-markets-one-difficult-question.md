@@ -5,8 +5,8 @@ summary: Master's research exploring how sales strategies and representative cap
 # Owner confirmed the research counts are from the master's thesis (2026-10-13).
 published: true
 order: 12
-cover: /assets/figma/insights/understanding-people.png
-coverAlt: A monochrome close-up of a ruler marking a measurement.
+cover: "/uploads/story-five-sales-leaders-six-markets-one-difficult-question-cover.webp"
+coverAlt: "Khoa and a colleague giving a thumbs-up beside a buffet in an office kitchen."
 category: International Research
 location: Germany
 topic: Market Research
