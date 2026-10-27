@@ -63,7 +63,7 @@ Competitors answered by spending more on ads. I believed the problem was not rea
 
 ## Results
 
-| | Result |
+| Area | Result |
 |---|---|
 | Monthly leads | **3x**, from ~100 to 300+ |
 | Cost per lead | **about −75%**, with ~30% less total ad spend |

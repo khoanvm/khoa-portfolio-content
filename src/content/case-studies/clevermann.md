@@ -70,7 +70,7 @@ To keep hesitant customers close, we built community groups. When a prospect wen
 
 ## Results
 
-| | Result |
+| Area | Result |
 |---|---|
 | Monthly signed contract value | **roughly doubled**, from ~VND 2B (2023–24) to a ~VND 4B average in 2025, peak ~VND 6B |
 | Cost of sale | **from ~30% to below 10%** of revenue |

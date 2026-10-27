@@ -50,7 +50,7 @@ In 2026, I asked a simple question: could AI do that work the way a well-run dep
 
 ## Results
 
-| | Result |
+| Area | Result |
 |---|---|
 | Running cost | **about USD 85 per month** for the whole team, on a self-managed server |
 | Cost per explainer video | **from ~VND 650,000 to a few thousand dong**, previously a writer, a voice talent and manual editing |
