@@ -1,16 +1,16 @@
 ---
 title: Getting Outbound Leads to the Sales Gallery in a High-Rate Market
 slug: tam-phat-real
-client: Tâm Phát Real
+client: Independent Advisory
 role:
-  - Marketing Director (contract)
+  - Contract Marketing Director
 services:
   - Performance Marketing
   - Conversion Rate Optimization
   - AI Automation
 period: '2026'
 location: Ho Chi Minh City
-evidenceCaption: Luxury and high-end apartments · primary developer sales · Tâm Phát Real
+evidenceCaption: Luxury and high-end apartments · primary developer sales · Ho Chi Minh City
 summary: In a luxury property market squeezed by high interest rates, I tripled monthly leads, cut cost per lead by about 75%, tripled the contact rate and built an AI-powered lead system that now brings 10+ prospects to the sales gallery every week.
 published: true
 featured: true
@@ -34,7 +34,7 @@ gallery:
     alt: "Performance snapshot card: 3x monthly leads, 30% lower media spend, +50% early-stage response rate, 400+ leads in August, over 35% of leads with genuine interest."
     caption: "Selected results, client name withheld"
   - src: /uploads/cs-tam-phat-real-gallery-2.webp
-    alt: "Night view of a highway with an illuminated Palm City billboard."
+    alt: "Night view of a highway with an illuminated property billboard."
     caption: "Outdoor advertising on the highway"
 ---
 

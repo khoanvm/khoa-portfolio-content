@@ -7,7 +7,7 @@ type: full-time
 location: Ho Chi Minh City
 startDate: 2026-01-01
 summary: Led performance strategy, creative testing and Marketing–Sales coordination for premium real estate projects in Ho Chi Minh City.
-published: true
+published: false
 featured: true
 order: 3
 ---

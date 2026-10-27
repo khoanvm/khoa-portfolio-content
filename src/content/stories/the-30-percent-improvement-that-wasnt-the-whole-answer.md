@@ -5,7 +5,7 @@ summary: Satellite testing reduced CPL by approximately 30% in the tested campai
 published: false
 order: 8
 cover: /assets/figma/case-studies/index-tamphat-1.png
-coverAlt: Tâm Phát Real paid acquisition creative.
+coverAlt: Paid acquisition creative for a luxury real-estate developer.
 category: Performance Marketing
 location: Ho Chi Minh City
 topic: Experimentation
@@ -18,7 +18,7 @@ summaryItems:
     answer: Lower acquisition costs matter only alongside lead quality, follow-up effectiveness and commercial progress.
 ---
 
-At Tâm Phát Real, a satellite-testing approach helped us reduce cost per lead by approximately 30% within the campaigns being tested.
+At a luxury real-estate developer, a satellite-testing approach helped us reduce cost per lead by approximately 30% within the campaigns being tested.
 
 From a performance marketing perspective, that was an encouraging result.
 
