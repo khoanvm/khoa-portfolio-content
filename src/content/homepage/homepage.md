@@ -151,7 +151,7 @@ opportunities:
             exercises to make the ideas stick. The goal isn't just to understand
             a concept, but to know what to do differently afterward.
       modalCtaLabel: Discuss a Challenge ↗
-      image: /uploads/opp-advisory.webp
+      image: /uploads/opp-advisory-v2.webp
       imageAlt: Khoa speaking in an HTV9 television interview.
 
     - title: Vietnam Market Entry & Go-to-Market
