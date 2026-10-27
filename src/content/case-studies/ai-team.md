@@ -64,4 +64,4 @@ Not everything should be automated. When I let the members coordinate freely on 
 
 **AI does not replace judgment. It multiplies the value of good judgment, and the cost of bad judgment.**
 
-The same principle drives my work with businesses: I apply AI where it changes results, such as the AI-powered lead system behind [10+ weekly site visits for a luxury real-estate developer](/case-studies/tam-phat-real/).
+The same principle drives my work with businesses: I apply AI where it changes results, such as the AI-powered lead system behind [10+ weekly site visits for a luxury real-estate developer](/case-studies/luxury-real-estate-lead-growth/).

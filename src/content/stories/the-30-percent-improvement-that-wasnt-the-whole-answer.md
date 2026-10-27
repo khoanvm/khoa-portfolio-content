@@ -10,7 +10,7 @@ category: Performance Marketing
 location: Ho Chi Minh City
 topic: Experimentation
 relatedCaseStudies:
-  - tam-phat-real
+  - luxury-real-estate-lead-growth
 summaryItems:
   - question: What improved?
     answer: Satellite testing reduced CPL by approximately 30% in the tested campaign context.

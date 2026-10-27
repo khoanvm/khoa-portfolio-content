@@ -11,7 +11,7 @@ homepageFeatured: true
 location: Ho Chi Minh City
 topic: CRO
 relatedCaseStudies:
-  - tam-phat-real
+  - luxury-real-estate-lead-growth
 summaryItems:
   - question: What was wrong?
     answer: The market's lead forms opened with a hard question and treated investors and home buyers the same.
