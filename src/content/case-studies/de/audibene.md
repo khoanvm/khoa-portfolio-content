@@ -84,6 +84,9 @@ Außerdem reiste ich, um direkt mit den lokalen Teams zu arbeiten, unter anderem
 
 ## Was ich gelernt habe
 
-Die Tests haben sich verändert, die Kunden nicht. Der Fokus auf menschliches Verhalten und auf genau den Punkt, an dem Menschen abspringen, hat die Ergebnisse in sehr unterschiedlichen Märkten wiederholbar gemacht.
+- **Relevanz zuerst.** In den 7 Ebenen der Conversion ist Relevanz die erste. Stimmige Inhalte, bei denen ein Satz logisch auf den nächsten folgt und alles zu dem passt, weswegen jemand gekommen ist, kann das schnelle, intuitive Denken (System 1) mühelos verarbeiten. Je leichter Informationen zu verdauen sind, desto mehr wird gelesen – und je mehr Menschen aufnehmen, desto höher die Conversion.
+- **Personalisierung ist einer der stärksten Hebel.** Jedem zu zeigen, was zu seiner Situation, seinem Markt und seiner Awareness-Stufe passt, schlug jede generische „Best Practice“-Seite.
+- **Mit fremden Augen prüfen.** Wer einen Test gestaltet oder ausrollt, muss vergessen, was er weiß. Ich habe mir und dem Team angewöhnt, die eigene Voreingenommenheit beiseitezulegen und jede Variante zu erleben wie jemand, der zum ersten Mal kommt und nichts darüber weiß – und erst dann zu urteilen.
+- **Die Tests ändern sich, die Kunden nicht.** Der Fokus auf menschliches Verhalten und auf genau den Punkt, an dem Menschen abspringen, hat die Ergebnisse in sehr unterschiedlichen Märkten wiederholbar gemacht.
 
 **Conversion ist kein Designproblem. Es ist eine Frage über Menschen – und die beste Antwort darauf liefert ein Test.**

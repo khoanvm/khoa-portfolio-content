@@ -84,6 +84,9 @@ Tôi cũng sang làm việc trực tiếp với các team địa phương, trong
 
 ## Điều tôi học được
 
-Các bài test thay đổi, còn khách hàng thì không. Tập trung vào hành vi con người và đúng điểm khách rời đi là điều giúp kết quả lặp lại được ở những thị trường rất khác nhau.
+- **Sự liên quan đi trước.** Trong 7 tầng chuyển đổi, Relevance (sự liên quan) là tầng đầu tiên. Nội dung mạch lạc, câu sau nối tự nhiên câu trước và khớp đúng điều khách đang tìm, giúp "bộ não nhanh" (System 1) tiếp nhận dễ dàng. Thông tin càng dễ tiêu hoá, khách càng đọc nhiều; khách tiếp nhận càng nhiều, tỷ lệ chuyển đổi càng cao.
+- **Cá nhân hoá là một trong những kỹ thuật nâng cao nhất.** Cho mỗi người thấy đúng điều phù hợp với hoàn cảnh, thị trường và mức độ nhận thức của họ hiệu quả hơn mọi trang "best practice" chung chung.
+- **Cảm nhận như người lạ.** Người làm hay triển khai bài test phải tập bỏ đi những gì mình đã biết. Tôi rèn cho mình và cho team thói quen gạt bias sang một bên, trải nghiệm từng phiên bản như một người lần đầu ghé vào, không biết gì về nó, rồi mới đánh giá.
+- **Bài test thay đổi, khách hàng thì không.** Tập trung vào hành vi con người và đúng điểm khách rời đi là điều giúp kết quả lặp lại được ở những thị trường rất khác nhau.
 
 **Chuyển đổi không phải bài toán thiết kế. Đó là câu hỏi về con người, và cách tốt nhất để trả lời là hỏi chính họ qua một bài test.**

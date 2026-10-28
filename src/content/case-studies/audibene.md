@@ -84,6 +84,9 @@ I also travelled to work with local teams directly, including a two-week assignm
 
 ## What I learned
 
-The tests changed. The customer did not. Focusing on human behavior and on the exact point where people drop off is what made the results repeatable across very different markets.
+- **Relevance comes first.** In the 7 layers of conversion, relevance is layer one. Coherent content, where every line follows from the last and matches what the visitor came for, is easy for the fast, intuitive brain (System 1) to process. When information is easy to digest, people read more, and the more they take in, the more likely they are to convert.
+- **Personalization is one of the most advanced levers.** Showing each person what fits their situation, market and stage of awareness beat any generic "best practice" page.
+- **Look and feel like a stranger.** Whoever designs or rolls out a test has to unlearn what they know. I trained myself, and the team, to set our own bias aside and experience each variant as a first-time visitor who knows nothing about it, then judge it from there.
+- **The tests change; the customer does not.** Focusing on human behavior and on the exact point where people drop off is what made the results repeatable across very different markets.
 
 **Conversion is not a design problem. It is a question about people, and the best way to answer it is to ask them through a test.**
