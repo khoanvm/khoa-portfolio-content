@@ -47,17 +47,30 @@ audibene giúp người bị suy giảm thính lực tìm được máy trợ th
 
 Tôi vào team CRO trung tâm tại trụ sở Berlin năm 2019 với vị trí thực tập sinh, sáu tháng sau thành nhân viên chính thức, rồi dần lên vai trò CRO Manager. Tôi làm việc trên 11 thị trường quốc tế và làm chủ mảng CRO cho các thị trường châu Á: Ấn Độ, Hàn Quốc và Malaysia.
 
-## Cách tiếp cận: khoa học hành vi, kiểm chứng ở quy mô lớn
+## Cách tiếp cận: bắt đầu từ những thứ không thay đổi
 
-Mỗi bài test đều bắt đầu từ một câu hỏi về con người, không phải về từng pixel. Vì sao ai đó lại chần chừ ở đây? Điều gì khiến bước tiếp theo trở nên an toàn? Người này cần tin vào điều gì trước khi đi tiếp?
+Jeff Bezos từng nói: ai cũng hỏi ông điều gì sẽ thay đổi trong 10 năm tới, nhưng gần như không ai hỏi điều gì sẽ không thay đổi. Chẳng khách hàng nào muốn Amazon giao hàng chậm hơn với giá cao hơn.
 
-Chúng tôi biến những câu hỏi đó thành giả thuyết về độ tin cậy, mức cam kết, cảm nhận về công sức bỏ ra và sự phù hợp với từng địa phương, rồi test chúng trên hành trình quảng cáo và landing page. Trong ba năm, tôi dẫn dắt hơn 200 bài test như vậy, phối hợp cùng các team front-end, analytics, MarTech, thiết kế và copy.
+CRO cũng vậy. Giao diện, kênh và công cụ năm nào cũng đổi. Cách con người ra quyết định thì không: họ ngại tốn công, cần cảm thấy an toàn, và chần chừ khi không rõ bước tiếp theo. Vì thế tôi không bắt đầu từ trang web. Tôi bắt đầu từ hành trình khách hàng, tìm đúng bước khách rời đi, rồi hỏi: vì sao?
 
-## Một bài test tôi tự hào
+## Những lăng kính tôi dùng
 
-Ai cũng biết quy tắc: càng nhanh càng tốt. Tôi đề xuất điều ngược lại. Một khoảng dừng có chủ đích khoảng 1,5 giây trong bảng câu hỏi, như thể hệ thống đang xử lý câu trả lời của khách hàng.
+Trong ba năm, tôi dẫn dắt hơn 200 A/B test. Đằng sau chúng là một bộ công cụ nhỏ và nhất quán:
 
-Tôi làm chủ bài test này từ giả thuyết, thiết kế đến phân tích và triển khai. Nó thắng ở cả 11 thị trường và trở thành tiêu chuẩn ở mọi nơi. [Đọc câu chuyện.](/vi/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Don't Make Me Think.** Mỗi quyết định thừa đều tốn sự chú ý của khách. Bỏ nó đi, hoặc làm nó hiển nhiên.
+- **Design thinking.** Bắt đầu từ vấn đề và bối cảnh của khách, làm bản thử nhanh, học từ hành vi thật.
+- **Thinking, Fast and Slow.** Phần lớn lựa chọn diễn ra theo phản xạ. Thiết kế cho "bộ não nhanh", trấn an "bộ não chậm".
+- **7 tầng chuyển đổi (7 layers of conversion).** Soát lần lượt từng tầng xem điều gì đang cản khách đi tiếp.
+- **5 cấp độ nhận thức (5 stages of awareness).** Nói đúng với nơi khách đang đứng: chưa biết mình có vấn đề, hay đã đang so sánh giải pháp.
+- **Hiệu ứng tâm lý học hành vi.** Cam kết, bằng chứng xã hội, cảm nhận về công sức, sợ mất mát… dùng như giả thuyết để kiểm chứng, không phải mẹo.
+
+Những lăng kính này biến câu "trang này chuyển đổi kém" thành các giả thuyết cụ thể về độ tin cậy, mức cam kết, công sức bỏ ra và sự phù hợp với từng thị trường. Tôi kiểm chứng chúng trên hành trình quảng cáo và landing page, cùng các team front-end, analytics, MarTech, thiết kế và nội dung.
+
+## Trong thực tế
+
+- **Một khoảng dừng có chủ đích.** Ai cũng biết nhanh hơn là tốt hơn. Tôi thử một khoảng dừng 1,5 giây trong bảng câu hỏi, như thể hệ thống đang xử lý câu trả lời của khách. Nó thắng ở cả 11 thị trường và trở thành chuẩn. [Đọc câu chuyện.](/vi/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Câu dễ hỏi trước.** Chúng tôi sắp xếp lại bảng câu hỏi để mỗi câu trả lời dễ hơn khách nghĩ một chút. Những cái gật đầu nhỏ tạo ra cam kết trước khi đến các câu khó. [Đọc câu chuyện.](/vi/stories/designing-a-questionnaire-around-progressive-commitment/)
+- **Bản địa hoá, không sao chép.** Một bài thắng ở Đức chỉ là giả thuyết cho Hàn Quốc hay Ấn Độ, không phải thứ để triển khai ngay. Nhiều ý tưởng phải làm lại cho khách hàng địa phương. [Đọc vì sao.](/vi/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
 
 ## Làm việc với các thị trường châu Á
 
@@ -71,6 +84,6 @@ Tôi cũng sang làm việc trực tiếp với các team địa phương, trong
 
 ## Điều tôi học được
 
-Một bài test thắng là bằng chứng, không phải quy luật. Có ý tưởng áp dụng được cho cả 11 thị trường; nhưng nhiều ý tưởng phải được làm lại cho khách hàng địa phương. [Đọc vì sao.](/vi/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
+Các bài test thay đổi, còn khách hàng thì không. Tập trung vào hành vi con người và đúng điểm khách rời đi là điều giúp kết quả lặp lại được ở những thị trường rất khác nhau.
 
 **Chuyển đổi không phải bài toán thiết kế. Đó là câu hỏi về con người, và cách tốt nhất để trả lời là hỏi chính họ qua một bài test.**

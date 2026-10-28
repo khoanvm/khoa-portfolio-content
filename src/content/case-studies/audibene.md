@@ -47,17 +47,30 @@ audibene helps people with hearing loss find the right hearing aid. The journey 
 
 I joined the central CRO team at headquarters in Berlin as an intern in 2019, became full-time six months later, and grew into the CRO Manager role, working across 11 international markets and owning CRO for the Asian markets: India, South Korea and Malaysia.
 
-## The approach: behavioral science, tested at scale
+## The approach: start from what does not change
 
-Every test started from a question about people, not pixels. Why would someone hesitate here? What makes the next step feel safe? What does this person need to believe before they continue?
+Jeff Bezos once said that people keep asking him what will change in the next ten years, and almost nobody asks what will stay the same. No customer will ever want Amazon to deliver slower or charge more.
 
-We turned those questions into hypotheses on credibility, commitment, perceived effort and local relevance, and tested them in ad and landing-page journeys. Over three years I drove more than 200 of these tests, working with front-end, analytics, MarTech, design and copy.
+CRO works the same way. Layouts, channels and tools change every year. How people decide does not: they avoid effort, they need to feel safe, and they hesitate when the next step is unclear. So I did not start from the page. I started from the customer journey, found the exact step where people dropped off, and asked why.
 
-## One test I am proud of
+## The lenses I worked with
 
-Everyone knows the rule: faster is better. I proposed the opposite. A deliberate pause of about 1.5 seconds in the questionnaire, as if the system were working on the customer's answers.
+Over three years I drove more than 200 A/B tests. Behind them was a small, consistent toolkit:
 
-I owned it from hypothesis and design to analysis and rollout. It won in all 11 markets and became the standard everywhere. [Read the story.](/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Don't Make Me Think.** Every extra decision costs attention. Remove it, or make it obvious.
+- **Design thinking.** Start from the customer's problem and context, prototype fast, learn from real behavior.
+- **Thinking, Fast and Slow.** Most choices are made on autopilot. Design for the fast brain, reassure the slow one.
+- **The 7 layers of conversion.** A structured way to check, layer by layer, what stands between a visitor and the next step.
+- **The 5 stages of awareness.** Speak to where the customer is: unaware of the problem, or already comparing solutions.
+- **Behavioral psychology effects.** Commitment, social proof, effort perception, loss aversion, and others, used as testable hypotheses rather than tricks.
+
+These lenses turned "this page underperforms" into precise hypotheses about credibility, commitment, effort and local relevance. I tested them in ad and landing-page journeys, working with front-end, analytics, MarTech, design and copy.
+
+## What it looked like in practice
+
+- **A deliberate pause.** Everyone knows faster is better. I tested a 1.5-second pause in the questionnaire, as if the system were working on the customer's answers. It won in all 11 markets and became the standard. [Read the story.](/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Easy questions first.** We reordered the questionnaire so that each answer felt a little easier than expected. Small yeses built commitment before the harder questions. [Read the story.](/stories/designing-a-questionnaire-around-progressive-commitment/)
+- **Local, not copy-paste.** A winner in Germany was a hypothesis for Korea or India, not a rollout. Many ideas had to be rebuilt for local customers. [Read why.](/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
 
 ## Working with the Asian markets
 
@@ -71,6 +84,6 @@ I also travelled to work with local teams directly, including a two-week assignm
 
 ## What I learned
 
-A winning test is evidence, not a law. Some ideas travel across all 11 markets; many need to be rebuilt for local customers. [Read why.](/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
+The tests changed. The customer did not. Focusing on human behavior and on the exact point where people drop off is what made the results repeatable across very different markets.
 
 **Conversion is not a design problem. It is a question about people, and the best way to answer it is to ask them through a test.**

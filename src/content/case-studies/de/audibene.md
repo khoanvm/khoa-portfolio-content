@@ -47,17 +47,30 @@ audibene hilft Menschen mit Hörverlust, das passende Hörgerät zu finden. Die 
 
 2019 kam ich als Praktikant ins zentrale CRO-Team in der Berliner Zentrale. Sechs Monate später wurde ich fest angestellt und wuchs in die Rolle des CRO Managers hinein. Ich arbeitete mit 11 internationalen Märkten und verantwortete CRO für die asiatischen Märkte: Indien, Südkorea und Malaysia.
 
-## Der Ansatz: Verhaltenswissenschaft, im großen Maßstab getestet
+## Der Ansatz: bei dem anfangen, was sich nicht ändert
 
-Jeder Test begann mit einer Frage über Menschen, nicht über Pixel. Warum zögert jemand an dieser Stelle? Was gibt das Gefühl, dass der nächste Schritt sicher ist? Was muss diese Person glauben, bevor sie weitermacht?
+Jeff Bezos hat einmal gesagt, ständig werde er gefragt, was sich in den nächsten zehn Jahren ändern wird – aber kaum jemand frage, was gleich bleibt. Kein Kunde wird sich je wünschen, dass Amazon langsamer liefert und mehr kostet.
 
-Aus diesen Fragen formulierten wir Hypothesen zu Glaubwürdigkeit, Commitment, wahrgenommenem Aufwand und lokaler Relevanz und testeten sie in Anzeigen- und Landingpage-Journeys. In drei Jahren habe ich mehr als 200 solcher Tests vorangetrieben – gemeinsam mit Frontend, Analytics, MarTech, Design und Copywriting.
+Mit CRO ist es genauso. Layouts, Kanäle und Tools ändern sich jedes Jahr. Wie Menschen entscheiden, nicht: Sie scheuen Aufwand, wollen sich sicher fühlen und zögern, wenn der nächste Schritt unklar ist. Deshalb habe ich nicht bei der Seite angefangen, sondern bei der Customer Journey: genau den Schritt finden, an dem Menschen abspringen – und fragen, warum.
 
-## Ein Test, auf den ich stolz bin
+## Meine Denkwerkzeuge
 
-Jeder kennt die Regel: Schneller ist besser. Ich schlug das Gegenteil vor – eine bewusste Pause von etwa 1,5 Sekunden im Fragebogen, als würde das System die Antworten des Kunden gerade verarbeiten.
+In drei Jahren habe ich mehr als 200 A/B-Tests vorangetrieben. Dahinter stand ein kleines, konsequentes Set an Werkzeugen:
 
-Ich habe den Test von der Hypothese über das Design bis zur Analyse und zum Rollout verantwortet. Er gewann in allen 11 Märkten und wurde überall zum Standard. [Zur Geschichte.](/de/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Don't Make Me Think.** Jede zusätzliche Entscheidung kostet Aufmerksamkeit. Weglassen oder selbsterklärend machen.
+- **Design Thinking.** Beim Problem und Kontext der Kunden anfangen, schnell Prototypen bauen, aus echtem Verhalten lernen.
+- **Schnelles Denken, langsames Denken.** Die meisten Entscheidungen fallen im Autopiloten. Für das schnelle Denken gestalten, das langsame beruhigen.
+- **Die 7 Ebenen der Conversion.** Ebene für Ebene prüfen, was zwischen Besucher und nächstem Schritt steht.
+- **Die 5 Stufen der Awareness.** Kunden dort abholen, wo sie stehen: ohne Problembewusstsein oder schon beim Vergleichen von Lösungen.
+- **Verhaltenspsychologische Effekte.** Commitment, Social Proof, wahrgenommener Aufwand, Verlustaversion und mehr – als testbare Hypothesen, nicht als Tricks.
+
+So wurde aus „diese Seite performt schlecht“ eine präzise Hypothese zu Glaubwürdigkeit, Commitment, Aufwand und lokaler Relevanz. Getestet habe ich in Anzeigen- und Landingpage-Journeys, zusammen mit Frontend, Analytics, MarTech, Design und Text.
+
+## Wie das in der Praxis aussah
+
+- **Eine bewusste Pause.** Jeder weiß: schneller ist besser. Ich habe eine Pause von 1,5 Sekunden im Fragebogen getestet, als würde das System die Antworten auswerten. Sie gewann in allen 11 Märkten und wurde zum Standard. [Zur Geschichte.](/de/stories/when-a-1-5-second-delay-became-an-experiment/)
+- **Die leichten Fragen zuerst.** Wir haben den Fragebogen so umgestellt, dass jede Antwort etwas leichter fiel als erwartet. Kleine Zusagen bauten Commitment auf, bevor die schwierigeren Fragen kamen. [Zur Geschichte.](/de/stories/designing-a-questionnaire-around-progressive-commitment/)
+- **Lokal statt Copy-paste.** Ein Gewinner in Deutschland war für Korea oder Indien eine Hypothese, kein Rollout. Viele Ideen mussten für die Kunden vor Ort neu gebaut werden. [Warum das so ist.](/de/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
 
 ## Arbeit mit den asiatischen Märkten
 
@@ -71,6 +84,6 @@ Außerdem reiste ich, um direkt mit den lokalen Teams zu arbeiten, unter anderem
 
 ## Was ich gelernt habe
 
-Ein gewonnener Test ist ein Beleg, kein Gesetz. Manche Ideen funktionieren in allen 11 Märkten; viele müssen für die Kunden vor Ort neu gebaut werden. [Warum das so ist.](/de/stories/why-one-conversion-playbook-couldnt-fit-11-markets/)
+Die Tests haben sich verändert, die Kunden nicht. Der Fokus auf menschliches Verhalten und auf genau den Punkt, an dem Menschen abspringen, hat die Ergebnisse in sehr unterschiedlichen Märkten wiederholbar gemacht.
 
 **Conversion ist kein Designproblem. Es ist eine Frage über Menschen – und die beste Antwort darauf liefert ein Test.**
