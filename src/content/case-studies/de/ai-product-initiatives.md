@@ -17,12 +17,18 @@ metrics:
   - label: KI-Produkte im Einsatz oder im Test
     value: '3'
     detail: Video, Content, Teamsteuerung
+    trend: star
+    text: "**3 KI-Produkte** im Einsatz oder Test: Video, Content und Teamsteuerung"
   - label: Automatisierte Tests (Content Studio)
     value: '49'
     detail: Stand Oktober 2026
+    trend: star
+    text: "**49 automatisierte Tests** sichern das Content Studio ab (Oktober 2026)"
   - label: Infrastruktur
     value: Selbst gehostet
     detail: mit Kostenkontrolle
+    trend: star
+    text: "**Selbst gehostete** Infrastruktur mit Kostenkontrolle"
 cover: /uploads/cs-ai-product-initiatives-cover.webp
 coverAlt: "Illustration freundlicher KI-Assistenten, die aus Ideen Videos, Artikel und Webprodukte machen."
 ---

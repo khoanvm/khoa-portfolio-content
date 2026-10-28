@@ -23,12 +23,18 @@ metrics:
   - label: Giá trị hợp đồng ký mỗi tháng
     value: 2x
     detail: từ ~2 tỷ lên ~4 tỷ đồng trung bình (2025)
+    trend: up
+    text: "Giá trị hợp đồng ký mỗi tháng **tăng gấp đôi**, từ ~2 tỷ lên ~4 tỷ đồng (trung bình 2025)"
   - label: Chi phí bán hàng
     value: <10%
     detail: doanh thu, giảm từ ~30%
+    trend: down
+    text: "Chi phí bán hàng giảm từ **~30% xuống dưới 10%** doanh thu"
   - label: Hợp đồng ký mỗi tháng
     value: 10 → 20+
     detail: cao điểm ~40
+    trend: up
+    text: "Hợp đồng ký mỗi tháng tăng từ **~10 lên 20+**, cao nhất ~40"
 gallery:
   - src: /uploads/cs-clevermann-gallery-1.webp
     alt: "Team Clevermann và học viên mặc đồng phục chụp ảnh trong văn phòng."

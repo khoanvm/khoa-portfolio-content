@@ -23,12 +23,18 @@ metrics:
   - label: Monatlicher Wert abgeschlossener Verträge
     value: 2x
     detail: von ca. 2 Mrd. auf durchschnittlich ca. 4 Mrd. VND (2025)
+    trend: up
+    text: "Monatlicher Wert unterschriebener Verträge **verdoppelt**, von ~2 Mrd. auf ~4 Mrd. VND (Ø 2025)"
   - label: Vertriebskosten
     value: <10%
     detail: des Umsatzes, zuvor ca. 30 %
+    trend: down
+    text: "Vertriebskosten sanken von **~30 % auf unter 10 %** des Umsatzes"
   - label: Vertragsabschlüsse pro Monat
     value: 10 → 20+
     detail: in der Spitze ca. 40
+    trend: up
+    text: "Abschlüsse stiegen von **~10 auf 20+ pro Monat**, in der Spitze ~40"
 gallery:
   - src: /uploads/cs-clevermann-gallery-1.webp
     alt: "Das Clevermann-Team und Studierende in einheitlicher Kleidung posieren im Büro."

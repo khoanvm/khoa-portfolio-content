@@ -17,12 +17,18 @@ metrics:
   - label: AI products in use or testing
     value: '3'
     detail: video, content, team operations
+    trend: star
+    text: "**3 AI products** in use or testing: video, content and team operations"
   - label: Automated tests (Content Studio)
     value: '49'
     detail: snapshot October 2026
+    trend: star
+    text: "**49 automated tests** guard the Content Studio (October 2026)"
   - label: Infrastructure
     value: Self-hosted
     detail: with cost controls
+    trend: star
+    text: "**Self-hosted** infrastructure with cost controls"
 cover: /uploads/cs-ai-product-initiatives-cover.webp
 coverAlt: "Illustration of friendly AI assistants turning ideas into video, articles and web products."
 ---

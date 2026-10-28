@@ -17,12 +17,18 @@ metrics:
   - label: Sản phẩm AI đang dùng hoặc thử nghiệm
     value: '3'
     detail: video, nội dung, vận hành đội AI
+    trend: star
+    text: "**3 sản phẩm AI** đang dùng hoặc thử nghiệm: video, nội dung và vận hành đội"
   - label: Bài kiểm thử tự động (Content Studio)
     value: '49'
     detail: số liệu tháng 10/2026
+    trend: star
+    text: "**49 bài kiểm thử tự động** bảo vệ Content Studio (10/2026)"
   - label: Hạ tầng
     value: Tự vận hành
     detail: có kiểm soát chi phí
+    trend: star
+    text: "Hạ tầng **tự vận hành**, có kiểm soát chi phí"
 cover: /uploads/cs-ai-product-initiatives-cover.webp
 coverAlt: "Hình minh họa những trợ lý AI thân thiện biến ý tưởng thành video, bài viết và sản phẩm web."
 ---

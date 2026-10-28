@@ -13,12 +13,18 @@ metrics:
   - label: A/B test đã dẫn dắt
     value: 200+
     detail: trên hành trình quảng cáo và landing page
+    trend: star
+    text: "Dẫn dắt **hơn 200 A/B test** trên hành trình quảng cáo và landing page"
   - label: Thị trường quốc tế
     value: '11'
     detail: phụ trách CRO cho châu Á
+    trend: star
+    text: "Làm việc với **11 thị trường quốc tế**, phụ trách CRO cho châu Á"
   - label: Mức tăng chuyển đổi cộng dồn
     value: 20%+
     detail: ở mọi thị trường phụ trách
+    trend: up
+    text: "Tỷ lệ chuyển đổi tăng **20%+** (cộng dồn) ở mọi thị trường tôi tham gia"
 client: audibene
 role:
   - CRO Manager

@@ -13,12 +13,18 @@ metrics:
   - label: Verantwortete A/B-Tests
     value: 200+
     detail: entlang von Anzeigen- und Landingpage-Journeys
+    trend: star
+    text: "**Über 200 A/B-Tests** in Anzeigen- und Landingpage-Journeys verantwortet"
   - label: Internationale Märkte
     value: '11'
     detail: CRO-Verantwortung für Asien
+    trend: star
+    text: "In **11 internationalen Märkten** tätig, mit CRO-Verantwortung für Asien"
   - label: Kumulierter Conversion-Uplift
     value: 20%+
     detail: in jedem betreuten Markt
+    trend: up
+    text: "Conversion **um 20 %+ gesteigert** (kumuliert), in jedem meiner Märkte"
 client: audibene
 role:
   - CRO Manager

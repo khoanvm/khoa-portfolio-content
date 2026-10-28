@@ -20,12 +20,18 @@ metrics:
   - label: Erster privater Partner in Vietnam
     value: GMI
     detail: bestätigt vom International Office des GMI
+    trend: star
+    text: "**Erster privater Partner des GMI in Vietnam**, bestätigt vom International Office des GMI"
   - label: Prüfungskapazität laut Vereinbarung
     value: bis zu ~230 / Monat
     detail: maximale Kapazität, nicht erreichtes Volumen
+    trend: star
+    text: "Prüfungskapazität von **bis zu ~230 Plätzen pro Monat** laut Vereinbarung (Maximum, nicht erreichtes Volumen)"
   - label: Vereinbarung
     value: MOA 2025
     detail: bevorzugte Prüfungstermine
+    trend: star
+    text: "**MOA 2025 unterzeichnet**, mit bevorzugter Prüfungsterminvergabe"
 cover: /uploads/cs-gmi-strategic-partnership-cover.webp
 coverAlt: "Delegationen von GMI und Clevermann stehen nach der Unterzeichnung der Vereinbarung gemeinsam vor einem GMI-Banner."
 gallery:

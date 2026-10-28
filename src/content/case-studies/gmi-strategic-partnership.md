@@ -20,12 +20,18 @@ metrics:
   - label: First private partner in Vietnam
     value: GMI
     detail: confirmed by GMI's international office
+    trend: star
+    text: "**First private partner in Vietnam** of GMI, confirmed by GMI's international office"
   - label: Exam capacity in the agreement
     value: up to ~230 / month
     detail: maximum capacity, not volume achieved
+    trend: star
+    text: "Exam capacity of **up to ~230 places a month** in the agreement (a maximum, not volume achieved)"
   - label: Agreement
     value: MOA 2025
     detail: priority exam scheduling
+    trend: star
+    text: "**MOA signed in 2025**, with priority exam scheduling"
 cover: /uploads/cs-gmi-strategic-partnership-cover.webp
 coverAlt: "Delegations from GMI and Clevermann standing together after signing the agreement, in front of a GMI banner."
 gallery:

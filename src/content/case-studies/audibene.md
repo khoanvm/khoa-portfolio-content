@@ -13,12 +13,18 @@ metrics:
   - label: A/B tests driven
     value: 200+
     detail: across ad and landing-page journeys
+    trend: star
+    text: "Drove **200+ A/B tests** across ad and landing-page journeys"
   - label: International markets
     value: '11'
     detail: CRO owner for Asia
+    trend: star
+    text: "Worked across **11 international markets**, owning CRO for Asia"
   - label: Cumulative conversion uplift
     value: 20%+
     detail: in every market worked on
+    trend: up
+    text: "Conversion rose **20%+** (cumulative) in every market I worked on"
 client: audibene
 role:
   - CRO Manager

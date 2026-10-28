@@ -17,12 +17,18 @@ metrics:
   - label: Laufende Kosten
     value: ~85 USD / Monat
     detail: für das gesamte Team
+    trend: star
+    text: "Das gesamte KI-Team läuft für **~85 USD im Monat**"
   - label: Kosten pro Erklärvideo
     value: ~650k VND → wenige Tausend VND
     detail: inklusive Sprecher, Skript und Schnitt
+    trend: down
+    text: "Kosten pro Erklärvideo sanken von **~650.000 VND auf wenige Tausend Dong**, Sprecher, Skript und Schnitt inklusive"
   - label: Mitglieder im KI-Team
     value: '4'
     detail: jedes mit dem passenden Modell für die Aufgabe
+    trend: star
+    text: "**4 KI-Teammitglieder**, jedes mit dem passenden Modell für die Aufgabe"
 cover: /uploads/cs-ai-team-cover.webp
 coverAlt: "Schema des KI-Team-Büros: Räume für Koordination, Recherche, Texten, Videostudio, Entwicklung und Wissen."
 ---

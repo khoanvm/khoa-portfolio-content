@@ -23,12 +23,18 @@ metrics:
   - label: Lead mỗi tháng
     value: 3x
     detail: từ ~100 lên 300+
+    trend: up
+    text: "Lead mỗi tháng **tăng gấp 3**, từ ~100 lên 300+"
   - label: Chi phí mỗi lead
     value: −75%
     detail: với ngân sách quảng cáo giảm ~30%
+    trend: down
+    text: "Chi phí mỗi lead giảm **~75%**, trong khi ngân sách quảng cáo giảm ~30%"
   - label: Lượt khách đến nhà mẫu
     value: 10+ / tuần
     detail: từ lead marketing outbound
+    trend: star
+    text: "**Hơn 10 khách mỗi tuần** đến nhà mẫu, từ lead outbound"
 gallery:
   - src: /uploads/cs-luxury-real-estate-lead-growth-gallery-1.webp
     alt: "Thẻ tóm tắt hiệu quả: lead mỗi tháng tăng gấp 3, chi phí quảng cáo giảm 30%, tỷ lệ phản hồi giai đoạn đầu tăng 50%, hơn 400 lead trong tháng 8, hơn 35% lead có nhu cầu thật."

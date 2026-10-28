@@ -23,12 +23,18 @@ metrics:
   - label: Monthly leads
     value: 3x
     detail: from ~100 to 300+
+    trend: up
+    text: "Monthly leads **tripled**, from ~100 to 300+"
   - label: Cost per lead
     value: −75%
     detail: with ~30% less ad spend
+    trend: down
+    text: "Cost per lead fell **~75%**, with ~30% less ad spend"
   - label: In-person site visits
     value: 10+ / week
     detail: from outbound marketing leads
+    trend: star
+    text: "**10+ prospects a week** visiting the sales gallery, from outbound marketing leads"
 gallery:
   - src: /uploads/cs-luxury-real-estate-lead-growth-gallery-1.webp
     alt: "Performance snapshot card: 3x monthly leads, 30% lower media spend, +50% early-stage response rate, 400+ leads in August, over 35% of leads with genuine interest."

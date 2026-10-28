@@ -20,12 +20,18 @@ metrics:
   - label: Đối tác tư nhân đầu tiên tại Việt Nam
     value: GMI
     detail: được phòng quốc tế của GMI xác nhận
+    trend: star
+    text: "**Đối tác tư nhân đầu tiên tại Việt Nam** của GMI, được văn phòng quốc tế GMI xác nhận"
   - label: Năng lực thi theo thỏa thuận
     value: tối đa ~230 / tháng
     detail: năng lực tối đa, không phải số lượng đã đạt
+    trend: star
+    text: "Thỏa thuận cho phép **tối đa ~230 suất thi mỗi tháng** (mức tối đa, không phải số đã đạt)"
   - label: Thỏa thuận
     value: MOA 2025
     detail: ưu tiên xếp lịch thi
+    trend: star
+    text: "**Ký MOA năm 2025**, được ưu tiên xếp lịch thi"
 cover: /uploads/cs-gmi-strategic-partnership-cover.webp
 coverAlt: "Đoàn GMI và Clevermann đứng chụp ảnh chung sau lễ ký thỏa thuận, phía trước băng rôn GMI."
 gallery:

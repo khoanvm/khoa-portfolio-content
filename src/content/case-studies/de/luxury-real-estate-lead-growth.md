@@ -23,12 +23,18 @@ metrics:
   - label: Monatliche Leads
     value: 3x
     detail: von ca. 100 auf über 300
+    trend: up
+    text: "Monatliche Leads **verdreifacht**, von ~100 auf 300+"
   - label: Kosten pro Lead
     value: −75%
     detail: bei ca. 30 % weniger Werbebudget
+    trend: down
+    text: "Kosten pro Lead **um ~75 % gesenkt**, bei ~30 % weniger Werbebudget"
   - label: Besichtigungen vor Ort
     value: 10+ / Woche
     detail: aus Outbound-Marketing-Leads
+    trend: star
+    text: "**10+ Interessenten pro Woche** in der Sales Gallery, aus Outbound-Leads"
 gallery:
   - src: /uploads/cs-luxury-real-estate-lead-growth-gallery-1.webp
     alt: "Übersichtskarte mit Kennzahlen: 3x monatliche Leads, 30 % geringere Mediaausgaben, +50 % Antwortrate in der Frühphase, über 400 Leads im August, mehr als 35 % der Leads mit echtem Interesse."

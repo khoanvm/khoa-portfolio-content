@@ -23,12 +23,18 @@ metrics:
   - label: Monthly signed contract value
     value: 2x
     detail: ~VND 2B to ~VND 4B average (2025)
+    trend: up
+    text: "Monthly signed contract value **doubled**, from ~VND 2B to ~VND 4B (2025 average)"
   - label: Cost of sale
     value: <10%
     detail: of revenue, down from ~30%
+    trend: down
+    text: "Cost of sale fell from **~30% to below 10%** of revenue"
   - label: Signed contracts per month
     value: 10 → 20+
     detail: peaking at ~40
+    trend: up
+    text: "Signed contracts rose from **~10 to 20+ a month**, peaking at ~40"
 gallery:
   - src: /uploads/cs-clevermann-gallery-1.webp
     alt: "Clevermann team and students in matching uniforms posing in the office."

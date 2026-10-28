@@ -224,6 +224,20 @@ content:
           - name: detail
             label: Detail
             type: string
+          - name: trend
+            label: Icon
+            type: select
+            options:
+              - { label: '↑ Increase (green arrow up)', value: up }
+              - { label: '↓ Decrease (green arrow down — good news)', value: down }
+              - { label: '★ Milestone (star)', value: star }
+            description: Shown before the sentence. Leave empty for no icon.
+          - name: text
+            label: Sentence shown on the page
+            type: string
+            description: >-
+              One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+              Wrap the key figure in **double asterisks** to make it bold.
       # -- case-study specific ----------------------------------------------
       - name: client
         label: Client
@@ -412,6 +426,20 @@ content:
           - name: detail
             label: Detail
             type: string
+          - name: trend
+            label: Icon
+            type: select
+            options:
+              - { label: '↑ Increase (green arrow up)', value: up }
+              - { label: '↓ Decrease (green arrow down — good news)', value: down }
+              - { label: '★ Milestone (star)', value: star }
+            description: Shown before the sentence. Leave empty for no icon.
+          - name: text
+            label: Sentence shown on the page
+            type: string
+            description: >-
+              One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+              Wrap the key figure in **double asterisks** to make it bold.
       - name: body
         label: Body
         type: rich-text
@@ -574,6 +602,20 @@ content:
           - name: detail
             label: Detail
             type: string
+          - name: trend
+            label: Icon
+            type: select
+            options:
+              - { label: '↑ Increase (green arrow up)', value: up }
+              - { label: '↓ Decrease (green arrow down — good news)', value: down }
+              - { label: '★ Milestone (star)', value: star }
+            description: Shown before the sentence. Leave empty for no icon.
+          - name: text
+            label: Sentence shown on the page
+            type: string
+            description: >-
+              One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+              Wrap the key figure in **double asterisks** to make it bold.
       - name: body
         label: Body
         type: rich-text
@@ -753,6 +795,20 @@ content:
           - name: detail
             label: Detail
             type: string
+          - name: trend
+            label: Icon
+            type: select
+            options:
+              - { label: '↑ Increase (green arrow up)', value: up }
+              - { label: '↓ Decrease (green arrow down — good news)', value: down }
+              - { label: '★ Milestone (star)', value: star }
+            description: Shown before the sentence. Leave empty for no icon.
+          - name: text
+            label: Sentence shown on the page
+            type: string
+            description: >-
+              One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+              Wrap the key figure in **double asterisks** to make it bold.
       - name: body
         label: Body
         type: rich-text
@@ -1441,6 +1497,20 @@ content:
               - name: detail
                 label: Detail
                 type: string
+              - name: trend
+                label: Icon
+                type: select
+                options:
+                  - { label: '↑ Increase (green arrow up)', value: up }
+                  - { label: '↓ Decrease (green arrow down — good news)', value: down }
+                  - { label: '★ Milestone (star)', value: star }
+                description: Shown before the sentence. Leave empty for no icon.
+              - name: text
+                label: Sentence shown on the page
+                type: string
+                description: >-
+                  One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+                  Wrap the key figure in **double asterisks** to make it bold.
           # -- case-study specific ----------------------------------------------
           - name: client
             label: Client
@@ -1641,6 +1711,20 @@ content:
               - name: detail
                 label: Detail
                 type: string
+              - name: trend
+                label: Icon
+                type: select
+                options:
+                  - { label: '↑ Increase (green arrow up)', value: up }
+                  - { label: '↓ Decrease (green arrow down — good news)', value: down }
+                  - { label: '★ Milestone (star)', value: star }
+                description: Shown before the sentence. Leave empty for no icon.
+              - name: text
+                label: Sentence shown on the page
+                type: string
+                description: >-
+                  One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+                  Wrap the key figure in **double asterisks** to make it bold.
           - name: body
             label: Body
             type: rich-text
@@ -2307,6 +2391,20 @@ content:
               - name: detail
                 label: Detail
                 type: string
+              - name: trend
+                label: Icon
+                type: select
+                options:
+                  - { label: '↑ Increase (green arrow up)', value: up }
+                  - { label: '↓ Decrease (green arrow down — good news)', value: down }
+                  - { label: '★ Milestone (star)', value: star }
+                description: Shown before the sentence. Leave empty for no icon.
+              - name: text
+                label: Sentence shown on the page
+                type: string
+                description: >-
+                  One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+                  Wrap the key figure in **double asterisks** to make it bold.
           # -- case-study specific ----------------------------------------------
           - name: client
             label: Client
@@ -2507,6 +2605,20 @@ content:
               - name: detail
                 label: Detail
                 type: string
+              - name: trend
+                label: Icon
+                type: select
+                options:
+                  - { label: '↑ Increase (green arrow up)', value: up }
+                  - { label: '↓ Decrease (green arrow down — good news)', value: down }
+                  - { label: '★ Milestone (star)', value: star }
+                description: Shown before the sentence. Leave empty for no icon.
+              - name: text
+                label: Sentence shown on the page
+                type: string
+                description: >-
+                  One short sentence, e.g. "Cost of sale fell from **~30% to below 10%** of revenue".
+                  Wrap the key figure in **double asterisks** to make it bold.
           - name: body
             label: Body
             type: rich-text

@@ -17,12 +17,18 @@ metrics:
   - label: Chi phí vận hành
     value: ~85 USD / tháng
     detail: cho cả đội
+    trend: star
+    text: "Cả đội AI vận hành chỉ với **~85 USD mỗi tháng**"
   - label: Chi phí mỗi video giải thích
     value: ~650k → vài nghìn đồng
     detail: đã gồm giọng đọc, kịch bản và dựng
+    trend: down
+    text: "Chi phí mỗi video giải thích giảm từ **~650.000 đồng xuống vài nghìn đồng**, gồm cả giọng đọc, kịch bản và dựng"
   - label: Thành viên đội AI
     value: '4'
     detail: mỗi việc dùng đúng model phù hợp
+    trend: star
+    text: "**4 thành viên AI**, mỗi bạn dùng model phù hợp với việc"
 cover: /uploads/cs-ai-team-cover.webp
 coverAlt: "Sơ đồ văn phòng của đội AI: các phòng điều phối, nghiên cứu, viết, studio video, kỹ thuật và kho kiến thức."
 ---

@@ -17,12 +17,18 @@ metrics:
   - label: Running cost
     value: ~USD 85 / month
     detail: for the whole team
+    trend: star
+    text: "The whole AI team runs for **~USD 85 a month**"
   - label: Cost per explainer video
     value: ~VND 650k → a few thousand dong
     detail: voice, script and editing included
+    trend: down
+    text: "Cost per explainer video fell from **~VND 650,000 to a few thousand dong**, voice, script and editing included"
   - label: AI team members
     value: '4'
     detail: each using the right model for the task
+    trend: star
+    text: "**4 AI team members**, each using the right model for the task"
 cover: /uploads/cs-ai-team-cover.webp
 coverAlt: "Diagram of the AI team office: coordination, research, writing, video studio, engineering and knowledge rooms."
 ---
