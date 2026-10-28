@@ -82,11 +82,40 @@ Tôi cũng sang làm việc trực tiếp với các team địa phương, trong
 
 **Tăng chuyển đổi cộng dồn 20%+ ở mọi thị trường tôi phụ trách**, kể cả những thị trường lớn nhất như Đức, Hàn Quốc và Ấn Độ. Ở những thị trường có doanh thu hằng tháng hàng triệu euro, đó là một tác động kinh doanh đáng kể.
 
-## Điều tôi học được
+## Mỗi bài test là một bài học
 
-- **Sự liên quan đi trước.** Trong 7 tầng chuyển đổi, Relevance (sự liên quan) là tầng đầu tiên. Nội dung mạch lạc, câu sau nối tự nhiên câu trước và khớp đúng điều khách đang tìm, giúp "bộ não nhanh" (System 1) tiếp nhận dễ dàng. Thông tin càng dễ tiêu hoá, khách càng đọc nhiều; khách tiếp nhận càng nhiều, tỷ lệ chuyển đổi càng cao.
-- **Cá nhân hoá là một trong những kỹ thuật nâng cao nhất.** Cho mỗi người thấy đúng điều phù hợp với hoàn cảnh, thị trường và mức độ nhận thức của họ hiệu quả hơn mọi trang "best practice" chung chung.
-- **Cảm nhận như người lạ.** Người làm hay triển khai bài test phải tập bỏ đi những gì mình đã biết. Tôi rèn cho mình và cho team thói quen gạt bias sang một bên, trải nghiệm từng phiên bản như một người lần đầu ghé vào, không biết gì về nó, rồi mới đánh giá.
-- **Bài test thay đổi, khách hàng thì không.** Tập trung vào hành vi con người và đúng điểm khách rời đi là điều giúp kết quả lặp lại được ở những thị trường rất khác nhau.
+Tôi không còn xem A/B test là chỉnh sửa trang web. Mỗi bài test dạy tôi một điều về cách con người ra quyết định, và tôi dùng những bài học đó xa hơn nhiều so với landing page: trong quảng cáo performance, trong đàm phán, và cả trong đời sống hằng ngày.
+
+### 1. Sự liên quan đi trước
+
+Trong 7 tầng chuyển đổi, Relevance (sự liên quan) là tầng đầu tiên. Nội dung mạch lạc, câu sau nối tự nhiên câu trước và khớp đúng điều khách đang tìm, giúp "bộ não nhanh" (System 1) tiếp nhận dễ dàng. Dễ tiêu hoá thì khách đọc nhiều hơn, mà tiếp nhận càng nhiều thì càng dễ chuyển đổi.
+
+**Ngoài trang web:** giây đầu tiên của một quảng cáo phải khớp với điều người xem đang nghĩ. Khi đàm phán, tôi mở đầu bằng mối quan tâm của bên kia, không phải chương trình của mình.
+
+### 2. Những cái gật đầu nhỏ trước, quyết định lớn sau
+
+Đưa câu hỏi dễ lên trước giúp nhiều người hoàn thành bảng câu hỏi hơn. Mỗi cái "có" nhỏ khiến bước tiếp theo trở nên tự nhiên.
+
+**Ngoài trang web:** khi đàm phán, tôi chốt những điểm dễ đồng ý trước. Sự đồng thuận tạo ra đà.
+
+### 3. Một khoảng dừng có thể tạo niềm tin
+
+Khoảnh khắc "đang xử lý" 1,5 giây thắng ở cả 11 thị trường. Người ta tin một kết quả trông như đã được cân nhắc hơn là một kết quả hiện ra tức thì.
+
+**Ngoài trang web:** khi được hỏi giá hay cần ra quyết định, một khoảng dừng có cân nhắc có sức nặng hơn câu trả lời ngay lập tức.
+
+### 4. Cá nhân hoá là một trong những kỹ thuật nâng cao nhất
+
+Cho mỗi người thấy đúng điều phù hợp với hoàn cảnh, thị trường và mức độ nhận thức của họ hiệu quả hơn mọi trang "best practice" chung chung.
+
+**Ngoài trang web:** trong quảng cáo, thông điệp cho người chưa biết mình có vấn đề phải khác với người đang so sánh nhà cung cấp. Trong cuộc sống, nói chuyện với đúng người trước mặt, không phải với một "người trung bình".
+
+### 5. Cảm nhận như một người lạ
+
+Người làm hay triển khai bài test phải tập bỏ đi những gì mình đã biết. Tôi rèn thói quen gạt bias sang một bên, trải nghiệm từng phiên bản như người lần đầu ghé vào, không biết gì về nó, rồi mới đánh giá.
+
+**Ngoài trang web:** tôi xem quảng cáo của chính mình trên điện thoại, tắt tiếng, đúng như cách người ta lướt. Trước khi gửi một tin nhắn quan trọng, tôi đọc lại nó như thể mình là người nhận.
+
+Các bài test thay đổi, còn khách hàng thì không. Tập trung vào hành vi con người và đúng điểm khách rời đi là điều giúp kết quả lặp lại được ở những thị trường rất khác nhau.
 
 **Chuyển đổi không phải bài toán thiết kế. Đó là câu hỏi về con người, và cách tốt nhất để trả lời là hỏi chính họ qua một bài test.**

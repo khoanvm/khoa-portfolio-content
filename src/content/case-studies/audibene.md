@@ -82,11 +82,40 @@ I also travelled to work with local teams directly, including a two-week assignm
 
 **20%+ cumulative conversion uplift in every market I worked on**, including the largest ones such as Germany, South Korea and India. In markets with multi-million-euro monthly revenue, that is a significant commercial impact.
 
-## What I learned
+## Every test was a lesson
 
-- **Relevance comes first.** In the 7 layers of conversion, relevance is layer one. Coherent content, where every line follows from the last and matches what the visitor came for, is easy for the fast, intuitive brain (System 1) to process. When information is easy to digest, people read more, and the more they take in, the more likely they are to convert.
-- **Personalization is one of the most advanced levers.** Showing each person what fits their situation, market and stage of awareness beat any generic "best practice" page.
-- **Look and feel like a stranger.** Whoever designs or rolls out a test has to unlearn what they know. I trained myself, and the team, to set our own bias aside and experience each variant as a first-time visitor who knows nothing about it, then judge it from there.
-- **The tests change; the customer does not.** Focusing on human behavior and on the exact point where people drop off is what made the results repeatable across very different markets.
+I stopped seeing tests as page tweaks. Each one taught me something about how people decide, and I now use those lessons far beyond landing pages: in performance ads, in negotiations, in everyday life.
+
+### 1. Relevance comes first
+
+In the 7 layers of conversion, relevance is layer one. Coherent content, where each line follows from the last and matches what people came for, is easy for the fast, intuitive brain (System 1) to process. Easy to digest means people read more, and the more they take in, the more they convert.
+
+**Beyond the page:** the first second of an ad has to match what the viewer is already thinking about. In a negotiation, I open with the other side's concern, not my agenda.
+
+### 2. Small yeses before big ones
+
+Reordering the questionnaire so the easy questions came first raised completion. Each small yes made the next step feel natural.
+
+**Beyond the page:** in a negotiation, I lock in the easy points first. Agreement builds momentum.
+
+### 3. A pause can build trust
+
+The 1.5-second "thinking" moment won in all 11 markets. People trust a result that feels considered more than one that appears instantly.
+
+**Beyond the page:** when someone asks me for a price or a decision, a considered pause carries more weight than an instant answer.
+
+### 4. Personalization is one of the most advanced levers
+
+Showing each person what fits their situation, market and stage of awareness beat any generic "best practice" page.
+
+**Beyond the page:** in ads, a different message for someone who has never heard of the problem and someone comparing providers. In life, talking to the person in front of me, not to an average.
+
+### 5. Look and feel like a stranger
+
+Whoever designs or rolls out a test has to unlearn what they know. I trained myself to set my own bias aside and experience each variant as a first-time visitor who knows nothing about it, and only then judge it.
+
+**Beyond the page:** I watch my own ads on a phone with the sound off, the way people scroll. I reread an important message as the person receiving it before I send it.
+
+The tests changed. The customer did not. Focusing on human behavior and on the exact point where people drop off is what made the results repeatable across very different markets.
 
 **Conversion is not a design problem. It is a question about people, and the best way to answer it is to ask them through a test.**
