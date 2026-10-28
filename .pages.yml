@@ -45,6 +45,7 @@ content:
     type: collection
     path: src/content/case-studies
     format: yaml-frontmatter
+    subfolders: false
     exclude:
       - README.md
     view:
@@ -588,6 +589,7 @@ content:
     type: collection
     path: src/content/stories
     format: yaml-frontmatter
+    subfolders: false
     exclude:
       - README.md
     view:
@@ -1249,6 +1251,1742 @@ content:
           - name: copyright
             label: Copyright line
             type: string
+
+  # ---------------------------------------------------------------------------
+  # D-0107 — translations. Same fields as English; files live in vi/ and de/
+  # sub-folders. A missing translation falls back to English on the site.
+  # ---------------------------------------------------------------------------
+  - name: i18n-vi
+    label: Tiếng Việt
+    type: group
+    items:
+      - name: case-studies-vi
+        label: Dự án tiêu biểu
+        type: collection
+        path: src/content/case-studies/vi
+        format: yaml-frontmatter
+        exclude:
+          - README.md
+        view:
+          primary: title
+          sort:
+            - field: featured
+              order: desc
+            - field: order
+              order: asc
+            - field: publishedAt
+              order: desc
+          search:
+            - title
+            - summary
+            - client
+        operations:
+          create: true
+          delete: true
+        fields:
+          # -- shared ------------------------------------------------------------
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: slug
+            label: Slug
+            type: string
+            description: >-
+              Bản tiếng Việt của bài tiếng Anh có CÙNG slug. Thiếu bản dịch thì trang /vi/ tự hiện bản tiếng Anh. Ẩn/hiện bài vẫn do bản tiếng Anh quyết định.
+              Public URL: https://khoanvm.io.vn/vi/case-studies/{slug}/
+            required: false
+          - name: summary
+            label: Summary
+            type: text
+          - name: cover
+            label: Cover image
+            type: image
+            description: >-
+              Case Study cover: 1600 × 800 (2:1), WebP, ideally under 250 KB. The detail
+              page renders 2:1.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: coverAlt
+            label: Cover alt text
+            type: string
+            description: Required whenever a cover image is set.
+          - name: seoTitle
+            label: SEO title
+            type: string
+            description: Used verbatim. Leave blank to use the title plus site name.
+          - name: seoDescription
+            label: SEO description
+            type: text
+          - name: seoImage
+            label: SEO / social image
+            type: image
+            description: >-
+              SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+              KB.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: published
+            label: Published
+            type: boolean
+            description: Drafts never reach the built site.
+          - name: publishedAt
+            label: Published date
+            type: date
+          - name: featured
+            label: Featured
+            type: boolean
+          - name: order
+            label: Manual order
+            type: number
+            description: Lower sorts first. Leave blank to sort by date.
+          - name: gallery
+            label: Gallery
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+                  WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. To add another image, press Add below the list instead — that
+                  creates a new item. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+              - name: caption
+                label: Caption
+                type: string
+          - name: videos
+            label: Videos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.title}'
+            description: >-
+              Shown under "Videos", below the photos. Each video needs exactly ONE
+              source: a short MP4 upload (at most 60 seconds and 15 MB, H.264) OR a
+              YouTube link for anything longer (upload it to YouTube as Unlisted).
+            fields:
+              - name: title
+                label: Title
+                type: string
+                required: true
+                description: Names the video for screen readers and shows under it.
+              - name: src
+                label: MP4 file (short videos)
+                type: file
+                description: >-
+                  MP4 (H.264, 720p), at most 60 seconds and 15 MB. Leave empty when
+                  you use a YouTube link instead.
+                options:
+                  path: public/uploads
+                  extensions: [mp4]
+              - name: youtube
+                label: YouTube link (long videos)
+                type: string
+                description: >-
+                  Paste the YouTube link or the 11-character video ID. Leave empty when
+                  you upload an MP4 instead.
+              - name: poster
+                label: Poster image (MP4 only)
+                type: image
+                description: >-
+                  Frame shown before an MP4 plays: 1280×720 (16:9), WebP, under 150 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+              - name: caption
+                label: Caption
+                type: string
+          - name: metrics
+            label: Metrics and outcomes
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.label}'
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: value
+                label: Value
+                type: string
+                required: true
+                description: Only ever a figure Khoa has supplied.
+              - name: detail
+                label: Detail
+                type: string
+          # -- case-study specific ----------------------------------------------
+          - name: client
+            label: Client
+            type: string
+          - name: role
+            label: Role
+            type: string
+            list: true
+          - name: services
+            label: Services
+            type: string
+            list: true
+          - name: period
+            label: Period
+            type: string
+            description: For example "2019–2022".
+          - name: location
+            label: Location
+            type: string
+          - name: evidenceCaption
+            label: Evidence caption
+            type: string
+          - name: link
+            label: Public link
+            type: string
+          - name: body
+            label: Body
+            type: rich-text
+            options:
+              path: public/uploads
+            description: >-
+              Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+              Add, change or remove images freely here — there is no single-image slot to
+              fill. Open it at full size with the View on GitHub button.
+      - name: stories-vi
+        label: Câu chuyện
+        type: collection
+        path: src/content/stories/vi
+        format: yaml-frontmatter
+        exclude:
+          - README.md
+        view:
+          primary: title
+          sort:
+            - field: order
+              order: asc
+            - field: publishedAt
+              order: desc
+          search:
+            - title
+            - summary
+            - category
+            - topic
+        operations:
+          create: true
+          delete: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: slug
+            label: Slug
+            type: string
+            description: >-
+              Bản tiếng Việt của bài tiếng Anh có CÙNG slug. Thiếu bản dịch thì trang /vi/ tự hiện bản tiếng Anh. Ẩn/hiện bài vẫn do bản tiếng Anh quyết định.
+              Public URL: https://khoanvm.io.vn/vi/stories/{slug}/
+            required: false
+          - name: summary
+            label: Summary
+            type: text
+          - name: cover
+            label: Cover image
+            type: image
+            description: >-
+              Story cover: 864 × 432 (2:1), WebP, ideally under 150 KB. The reader renders
+              2:1.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: coverAlt
+            label: Cover alt text
+            type: string
+          - name: seoTitle
+            label: SEO title
+            type: string
+          - name: seoDescription
+            label: SEO description
+            type: text
+          - name: seoImage
+            label: SEO / social image
+            type: image
+            description: >-
+              SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+              KB.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: published
+            label: Published
+            type: boolean
+          - name: publishedAt
+            label: Published date
+            type: date
+          - name: featured
+            label: Featured
+            type: boolean
+          - name: order
+            label: Manual order
+            type: number
+          - name: category
+            label: Category
+            type: string
+          - name: homepageFeatured
+            label: Show on homepage
+            type: boolean
+            description: >-
+              Turn ON to preview this story in the three-item row on the homepage.
+              This is NOT the "Featured" switch, which controls the /stories/
+              listing — they are separate controls on purpose. The homepage shows
+              the three with the lowest "Order" among those switched on.
+          - name: location
+            label: Location / scope
+            type: string
+          - name: topic
+            label: Topic
+            type: string
+          - name: relatedCaseStudies
+            label: Related case studies
+            type: string
+            list: true
+            description: Enter case-study slugs (audibene, clevermann, tam-phat-real).
+          - name: summaryItems
+            label: '"In brief" summary'
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.question}'
+            fields:
+              - name: question
+                label: Question
+                type: string
+                required: true
+              - name: answer
+                label: Answer
+                type: text
+                required: true
+          - name: gallery
+            label: Gallery
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+                  WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. To add another image, press Add below the list instead — that
+                  creates a new item. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+              - name: caption
+                label: Caption
+                type: string
+          - name: metrics
+            label: Metrics and outcomes
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.label}'
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: value
+                label: Value
+                type: string
+                required: true
+              - name: detail
+                label: Detail
+                type: string
+          - name: body
+            label: Body
+            type: rich-text
+            options:
+              path: public/uploads
+            description: >-
+              Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+              Add, change or remove images freely here — there is no single-image slot to
+              fill. Open it at full size with the View on GitHub button.
+      - name: homepage-vi
+        label: Trang chủ
+        type: file
+        path: src/content/homepage/vi/homepage.md
+        format: yaml-frontmatter
+        fields:
+          - name: published
+            label: Published
+            type: boolean
+            required: true
+            description: >-
+              Must stay ON. The homepage reads this single document, so switching it
+              off leaves the site with no homepage copy at all.
+
+          # ---- Hero -------------------------------------------------------------
+          - name: hero
+            label: Hero
+            type: object
+            fields:
+              - name: greeting
+                label: Greeting
+                type: string
+                description: First word of the H1, e.g. "Hello".
+              - name: wave
+                label: Wave emoji
+                type: string
+                description: The emoji shown after the greeting, e.g. "👋".
+              - name: intro
+                label: Intro
+                type: string
+                description: The word before the name, e.g. "I'm".
+              - name: name
+                label: Name
+                type: string
+                description: The name run of the H1, e.g. "Khoa Nguyen".
+              - name: tagline
+                label: Tagline
+                type: string
+                description: Short positioning line shown under the H1.
+              - name: description
+                label: Description
+                type: text
+                description: >-
+                  Evidence-led statement under the tagline. Use a blank line to start
+                  a new paragraph.
+              - name: ctaPrimary
+                label: Primary button
+                type: object
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+                    description: Internal path or homepage anchor, e.g. #case-studies
+              - name: ctaSecondary
+                label: Secondary button
+                type: object
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+                    description: Homepage anchor or path, e.g. #opportunities
+              - name: markets
+                label: International markets
+                type: object
+                description: >-
+                  A quiet informational group shown under the Hero buttons. It is
+                  not navigation — the chips are not links, filters or buttons.
+                fields:
+                  - name: label
+                    label: Group label
+                    type: string
+                    description: >-
+                      Uppercase label above the chips, e.g. OPEN TO INTERNATIONAL
+                      OPPORTUNITIES.
+                  - name: items
+                    label: Markets
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: '{fields.name}'
+                    fields:
+                      - name: name
+                        label: Market name
+                        type: string
+                        required: true
+                        description: The word shown in the chip, e.g. Germany.
+                      - name: icon
+                        label: Icon
+                        type: string
+                        description: >-
+                          Which small flag or globe to draw beside the name:
+                          "de" (Germany), "vn" (Vietnam) or "world" (Worldwide).
+                          Any other value shows the name on its own.
+
+          # ---- "What I'm Open To" ----------------------------------------------
+          - name: opportunities
+            label: "What I'm Open To"
+            type: object
+            description: >-
+              The conversion section shown directly below the Hero on the homepage.
+              There is no subtitle — the visible title is generated from the label.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+                description: >-
+                  Uppercase source for the heading, e.g. WHAT I'M OPEN TO. The visible
+                  title is derived from it as "What I'm Open To.".
+              - name: anchorId
+                label: Section anchor id
+                type: string
+                description: >-
+                  The id of the section. The header's Opportunities link targets it,
+                  so the link and the anchor can never drift apart.
+              - name: cards
+                label: Opportunity cards
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.title}'
+                description: >-
+                  Three cards today. Each card carries its own FAQ popup, so the card
+                  copy and the answers stay on the same record.
+                fields:
+                  - name: title
+                    label: Card title
+                    type: string
+                    required: true
+                  - name: description
+                    label: Card description
+                    type: text
+                    required: true
+                  - name: supportingText
+                    label: Supporting text
+                    type: string
+                    required: true
+                    description: >-
+                      Quiet line under the description, e.g. "Germany · Vietnam ·
+                      International".
+                  - name: ctaLabel
+                    label: Card button label
+                    type: string
+                    required: true
+                    description: >-
+                      The button that opens the popup, e.g. "Explore roles ↗". The
+                      arrow is part of the label so it stays editable.
+                  - name: modalTitle
+                    label: Popup title
+                    type: string
+                    required: true
+                  - name: faq
+                    label: FAQ entries
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: '{fields.question}'
+                    description: >-
+                      Rendered in order and numbered 01, 02, 03. The same
+                      question/answer shape as a Story's "In brief" summary.
+                    fields:
+                      - name: question
+                        label: Question
+                        type: string
+                        required: true
+                      - name: answer
+                        label: Answer
+                        type: text
+                        required: true
+                        description: A blank line starts a new paragraph.
+                  - name: modalCtaLabel
+                    label: Popup button label
+                    type: string
+                    required: true
+                    description: >-
+                      Closes the popup and goes to the homepage Contact section, e.g.
+                      "Discuss an Opportunity ↗".
+
+                  - name: image
+                    label: Card photo
+                    type: image
+                    description: >-
+                      Optional photo across the top of the card: 1200×800 (3:2), WebP,
+                      ideally under 200 KB. No caption is shown.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. Open it at full size with the View on GitHub button.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                  - name: imageAlt
+                    label: Photo alt text
+                    type: string
+                    description: Describe the photo for screen readers.
+          # ---- About ------------------------------------------------------------
+          - name: about
+            label: About me
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+                description: The small caps label above the heading, e.g. ABOUT ME.
+              - name: heading
+                label: Heading
+                type: string
+              - name: description
+                label: Body
+                type: text
+                description: Long-form narrative. A blank line starts a new paragraph.
+              - name: stats
+                label: Statistics
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.value}'
+                description: >-
+                  Exactly three metric blocks, in this order: 200+ / 2x / 75%.
+                  Only figures you can stand behind.
+                fields:
+                  - name: value
+                    label: Value
+                    type: string
+                    description: e.g. 200+
+                  - name: label
+                    label: Label
+                    type: string
+                    description: e.g. A/B tests — the bold line under the value.
+                  - name: context
+                    label: Context
+                    type: string
+                    description: e.g. 11 markets — the muted line under the label.
+                  - name: trend
+                    label: Trend arrow
+                    type: select
+                    options:
+                      - { label: '↑ Up (increase)', value: up }
+                      - { label: '↓ Down (decrease)', value: down }
+                    description: >-
+                      Optional. Shows a green arrow BEFORE the value for sighted
+                      readers and a hidden "Increased"/"Decreased" cue for screen
+                      readers. Leave empty when the figure has no direction (e.g.
+                      200+).
+                  - name: description
+                    label: Description (legacy)
+                    type: string
+                    description: >-
+                      Legacy pre-D-0101 wording; kept so previously published
+                      content stays editable. Prefer label + context for new
+                      figures.
+              - name: photos
+                label: Authority photos
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.alt}'
+                description: >-
+                  0–3 photos in meaningful order: Berlin (3:2 landscape), UEF
+                  (square), HTV9 (square). An empty list renders the complete
+                  text-only About section — never upload placeholders.
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                    description: >-
+                      Authority photo: Berlin 1600×1067 (3:2 landscape), UEF and
+                      HTV9 1200×1200 (square), WebP, ideally under 200 KB.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. To add another image, press Add below the list instead — that
+                      creates a new item.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                    required: true
+                  - name: alt
+                    label: Alt text
+                    type: string
+                    required: true
+                    description: Describe the photo; required for every image.
+                  - name: caption
+                    label: Caption
+                    type: string
+                    description: Concise single-line caption shown muted under the photo.
+              - name: links
+                label: Discovery links
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.label}'
+                description: Contextual links rendered under the About copy.
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+
+              - name: cvFile
+                label: CV (PDF)
+                type: file
+                description: >-
+                  Upload the CV as a PDF. When set, the "Professional experience" link
+                  becomes the CV link below and opens the PDF in a new tab. Leave empty
+                  to keep the link to the Experience page.
+                options:
+                  path: public/uploads
+                  extensions: [pdf]
+              - name: cvLabel
+                label: CV link label
+                type: string
+                description: Optional. Defaults to "View my CV (PDF)".
+          # ---- Section intros (cards come from their own collections) -----------
+          - name: caseStudies
+            label: Case Studies section intro
+            type: object
+            description: >-
+              Intro only. The cards below it are rendered from the Case Studies
+              collection — never re-entered here.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+          - name: stories
+            label: Stories section intro
+            type: object
+            description: >-
+              Intro only. The three previews come from the Stories collection and are
+              chosen with the "Featured" flag on each story.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+
+          # ---- Quotes -----------------------------------------------------------
+          - name: quote1
+            label: Quote (first)
+            type: object
+            fields:
+              - name: text
+                label: Quote
+                type: text
+              - name: attribution
+                label: Attribution
+                type: string
+          - name: quote2
+            label: Quote (second)
+            type: object
+            fields:
+              - name: text
+                label: Quote
+                type: text
+              - name: attribution
+                label: Attribution
+                type: string
+          # ---- Endorsements -----------------------------------------------------
+          - name: endorsements
+            label: Endorsements
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: items
+                label: Recommendations
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.name}'
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: role
+                    label: Role
+                    type: string
+                  - name: quote
+                    label: Full quote
+                    type: text
+                    description: Desktop text. Keep it verbatim.
+                  - name: mobileQuote
+                    label: Short quote (mobile)
+                    type: text
+                    description: >-
+                      Verbatim excerpt shown below 768px. This slot is REQUIRED —
+                      without it the recommendation renders at zero height on phones.
+
+          # ---- Moments + contact intro -----------------------------------------
+          - name: moments
+            label: Moments
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: contact
+                label: Contact intro
+                type: object
+                description: >-
+                  Copy above the four contact buttons. The four buttons themselves
+                  (Gmail, LinkedIn, WhatsApp, Zalo) are not editable here — their
+                  destinations are fixed in the site source so they cannot be broken
+                  by a content edit.
+                fields:
+                  - name: heading
+                    label: Heading
+                    type: string
+                  - name: description
+                    label: Description
+                    type: text
+              - name: gallery
+                label: Moments photos
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.alt}'
+                description: >-
+                  Up to 8 portrait photos (3:4), shown in this order. Leave the list
+                  empty to show the original design photos.
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                    description: >-
+                      Moments photo: 900×1200 (3:4 portrait), WebP, ideally under 200 KB.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. Open it at full size with the View on GitHub button.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                    required: true
+                  - name: alt
+                    label: Alt text
+                    type: string
+                    required: true
+                    description: Describe the photo; required for every image.
+
+          - name: footer
+            label: Footer
+            type: object
+            fields:
+              - name: copyright
+                label: Copyright line
+                type: string
+
+  - name: i18n-de
+    label: Deutsch
+    type: group
+    items:
+      - name: case-studies-de
+        label: Case Studies
+        type: collection
+        path: src/content/case-studies/de
+        format: yaml-frontmatter
+        exclude:
+          - README.md
+        view:
+          primary: title
+          sort:
+            - field: featured
+              order: desc
+            - field: order
+              order: asc
+            - field: publishedAt
+              order: desc
+          search:
+            - title
+            - summary
+            - client
+        operations:
+          create: true
+          delete: true
+        fields:
+          # -- shared ------------------------------------------------------------
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: slug
+            label: Slug
+            type: string
+            description: >-
+              Bản tiếng Đức của bài tiếng Anh có CÙNG slug. Thiếu bản dịch thì trang /de/ tự hiện bản tiếng Anh. Ẩn/hiện bài vẫn do bản tiếng Anh quyết định.
+              Public URL: https://khoanvm.io.vn/de/case-studies/{slug}/
+            required: false
+          - name: summary
+            label: Summary
+            type: text
+          - name: cover
+            label: Cover image
+            type: image
+            description: >-
+              Case Study cover: 1600 × 800 (2:1), WebP, ideally under 250 KB. The detail
+              page renders 2:1.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: coverAlt
+            label: Cover alt text
+            type: string
+            description: Required whenever a cover image is set.
+          - name: seoTitle
+            label: SEO title
+            type: string
+            description: Used verbatim. Leave blank to use the title plus site name.
+          - name: seoDescription
+            label: SEO description
+            type: text
+          - name: seoImage
+            label: SEO / social image
+            type: image
+            description: >-
+              SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+              KB.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: published
+            label: Published
+            type: boolean
+            description: Drafts never reach the built site.
+          - name: publishedAt
+            label: Published date
+            type: date
+          - name: featured
+            label: Featured
+            type: boolean
+          - name: order
+            label: Manual order
+            type: number
+            description: Lower sorts first. Leave blank to sort by date.
+          - name: gallery
+            label: Gallery
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+                  WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. To add another image, press Add below the list instead — that
+                  creates a new item. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+              - name: caption
+                label: Caption
+                type: string
+          - name: videos
+            label: Videos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.title}'
+            description: >-
+              Shown under "Videos", below the photos. Each video needs exactly ONE
+              source: a short MP4 upload (at most 60 seconds and 15 MB, H.264) OR a
+              YouTube link for anything longer (upload it to YouTube as Unlisted).
+            fields:
+              - name: title
+                label: Title
+                type: string
+                required: true
+                description: Names the video for screen readers and shows under it.
+              - name: src
+                label: MP4 file (short videos)
+                type: file
+                description: >-
+                  MP4 (H.264, 720p), at most 60 seconds and 15 MB. Leave empty when
+                  you use a YouTube link instead.
+                options:
+                  path: public/uploads
+                  extensions: [mp4]
+              - name: youtube
+                label: YouTube link (long videos)
+                type: string
+                description: >-
+                  Paste the YouTube link or the 11-character video ID. Leave empty when
+                  you upload an MP4 instead.
+              - name: poster
+                label: Poster image (MP4 only)
+                type: image
+                description: >-
+                  Frame shown before an MP4 plays: 1280×720 (16:9), WebP, under 150 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+              - name: caption
+                label: Caption
+                type: string
+          - name: metrics
+            label: Metrics and outcomes
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.label}'
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: value
+                label: Value
+                type: string
+                required: true
+                description: Only ever a figure Khoa has supplied.
+              - name: detail
+                label: Detail
+                type: string
+          # -- case-study specific ----------------------------------------------
+          - name: client
+            label: Client
+            type: string
+          - name: role
+            label: Role
+            type: string
+            list: true
+          - name: services
+            label: Services
+            type: string
+            list: true
+          - name: period
+            label: Period
+            type: string
+            description: For example "2019–2022".
+          - name: location
+            label: Location
+            type: string
+          - name: evidenceCaption
+            label: Evidence caption
+            type: string
+          - name: link
+            label: Public link
+            type: string
+          - name: body
+            label: Body
+            type: rich-text
+            options:
+              path: public/uploads
+            description: >-
+              Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+              Add, change or remove images freely here — there is no single-image slot to
+              fill. Open it at full size with the View on GitHub button.
+      - name: stories-de
+        label: Geschichten
+        type: collection
+        path: src/content/stories/de
+        format: yaml-frontmatter
+        exclude:
+          - README.md
+        view:
+          primary: title
+          sort:
+            - field: order
+              order: asc
+            - field: publishedAt
+              order: desc
+          search:
+            - title
+            - summary
+            - category
+            - topic
+        operations:
+          create: true
+          delete: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: slug
+            label: Slug
+            type: string
+            description: >-
+              Bản tiếng Đức của bài tiếng Anh có CÙNG slug. Thiếu bản dịch thì trang /de/ tự hiện bản tiếng Anh. Ẩn/hiện bài vẫn do bản tiếng Anh quyết định.
+              Public URL: https://khoanvm.io.vn/de/stories/{slug}/
+            required: false
+          - name: summary
+            label: Summary
+            type: text
+          - name: cover
+            label: Cover image
+            type: image
+            description: >-
+              Story cover: 864 × 432 (2:1), WebP, ideally under 150 KB. The reader renders
+              2:1.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: coverAlt
+            label: Cover alt text
+            type: string
+          - name: seoTitle
+            label: SEO title
+            type: string
+          - name: seoDescription
+            label: SEO description
+            type: text
+          - name: seoImage
+            label: SEO / social image
+            type: image
+            description: >-
+              SEO / social image: 1200 × 630 (≈1.91:1), WebP or JPEG, ideally under 200
+              KB.
+              To replace: press the bin icon, then Upload and Select reappear on the empty
+              slot. Clearing a reference does not delete the file from GitHub. Open it at full size with the View on GitHub button.
+            options:
+              path: public/uploads
+              extensions: [webp, jpg, jpeg, png]
+          - name: published
+            label: Published
+            type: boolean
+          - name: publishedAt
+            label: Published date
+            type: date
+          - name: featured
+            label: Featured
+            type: boolean
+          - name: order
+            label: Manual order
+            type: number
+          - name: category
+            label: Category
+            type: string
+          - name: homepageFeatured
+            label: Show on homepage
+            type: boolean
+            description: >-
+              Turn ON to preview this story in the three-item row on the homepage.
+              This is NOT the "Featured" switch, which controls the /stories/
+              listing — they are separate controls on purpose. The homepage shows
+              the three with the lowest "Order" among those switched on.
+          - name: location
+            label: Location / scope
+            type: string
+          - name: topic
+            label: Topic
+            type: string
+          - name: relatedCaseStudies
+            label: Related case studies
+            type: string
+            list: true
+            description: Enter case-study slugs (audibene, clevermann, tam-phat-real).
+          - name: summaryItems
+            label: '"In brief" summary'
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.question}'
+            fields:
+              - name: question
+                label: Question
+                type: string
+                required: true
+              - name: answer
+                label: Answer
+                type: text
+                required: true
+          - name: gallery
+            label: Gallery
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.alt}'
+            fields:
+              - name: src
+                label: Image
+                type: image
+                description: >-
+                  Gallery image: 1200–1600 px wide, about 3:2 so it fills the card panes,
+                  WebP, ideally under 200 KB.
+                  To replace this one: press the bin icon, then Upload and Select reappear
+                  on the empty slot. Clearing a reference does not delete the file from
+                  GitHub. To add another image, press Add below the list instead — that
+                  creates a new item. Open it at full size with the View on GitHub button.
+                options:
+                  path: public/uploads
+                  extensions: [webp, jpg, jpeg, png]
+                required: true
+              - name: alt
+                label: Alt text
+                type: string
+                required: true
+              - name: caption
+                label: Caption
+                type: string
+          - name: metrics
+            label: Metrics and outcomes
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: '{fields.label}'
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: value
+                label: Value
+                type: string
+                required: true
+              - name: detail
+                label: Detail
+                type: string
+          - name: body
+            label: Body
+            type: rich-text
+            options:
+              path: public/uploads
+            description: >-
+              Rich-text image: at most 1200 px wide, WebP, ideally under 200 KB.
+              Add, change or remove images freely here — there is no single-image slot to
+              fill. Open it at full size with the View on GitHub button.
+      - name: homepage-de
+        label: Startseite
+        type: file
+        path: src/content/homepage/de/homepage.md
+        format: yaml-frontmatter
+        fields:
+          - name: published
+            label: Published
+            type: boolean
+            required: true
+            description: >-
+              Must stay ON. The homepage reads this single document, so switching it
+              off leaves the site with no homepage copy at all.
+
+          # ---- Hero -------------------------------------------------------------
+          - name: hero
+            label: Hero
+            type: object
+            fields:
+              - name: greeting
+                label: Greeting
+                type: string
+                description: First word of the H1, e.g. "Hello".
+              - name: wave
+                label: Wave emoji
+                type: string
+                description: The emoji shown after the greeting, e.g. "👋".
+              - name: intro
+                label: Intro
+                type: string
+                description: The word before the name, e.g. "I'm".
+              - name: name
+                label: Name
+                type: string
+                description: The name run of the H1, e.g. "Khoa Nguyen".
+              - name: tagline
+                label: Tagline
+                type: string
+                description: Short positioning line shown under the H1.
+              - name: description
+                label: Description
+                type: text
+                description: >-
+                  Evidence-led statement under the tagline. Use a blank line to start
+                  a new paragraph.
+              - name: ctaPrimary
+                label: Primary button
+                type: object
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+                    description: Internal path or homepage anchor, e.g. #case-studies
+              - name: ctaSecondary
+                label: Secondary button
+                type: object
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+                    description: Homepage anchor or path, e.g. #opportunities
+              - name: markets
+                label: International markets
+                type: object
+                description: >-
+                  A quiet informational group shown under the Hero buttons. It is
+                  not navigation — the chips are not links, filters or buttons.
+                fields:
+                  - name: label
+                    label: Group label
+                    type: string
+                    description: >-
+                      Uppercase label above the chips, e.g. OPEN TO INTERNATIONAL
+                      OPPORTUNITIES.
+                  - name: items
+                    label: Markets
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: '{fields.name}'
+                    fields:
+                      - name: name
+                        label: Market name
+                        type: string
+                        required: true
+                        description: The word shown in the chip, e.g. Germany.
+                      - name: icon
+                        label: Icon
+                        type: string
+                        description: >-
+                          Which small flag or globe to draw beside the name:
+                          "de" (Germany), "vn" (Vietnam) or "world" (Worldwide).
+                          Any other value shows the name on its own.
+
+          # ---- "What I'm Open To" ----------------------------------------------
+          - name: opportunities
+            label: "What I'm Open To"
+            type: object
+            description: >-
+              The conversion section shown directly below the Hero on the homepage.
+              There is no subtitle — the visible title is generated from the label.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+                description: >-
+                  Uppercase source for the heading, e.g. WHAT I'M OPEN TO. The visible
+                  title is derived from it as "What I'm Open To.".
+              - name: anchorId
+                label: Section anchor id
+                type: string
+                description: >-
+                  The id of the section. The header's Opportunities link targets it,
+                  so the link and the anchor can never drift apart.
+              - name: cards
+                label: Opportunity cards
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.title}'
+                description: >-
+                  Three cards today. Each card carries its own FAQ popup, so the card
+                  copy and the answers stay on the same record.
+                fields:
+                  - name: title
+                    label: Card title
+                    type: string
+                    required: true
+                  - name: description
+                    label: Card description
+                    type: text
+                    required: true
+                  - name: supportingText
+                    label: Supporting text
+                    type: string
+                    required: true
+                    description: >-
+                      Quiet line under the description, e.g. "Germany · Vietnam ·
+                      International".
+                  - name: ctaLabel
+                    label: Card button label
+                    type: string
+                    required: true
+                    description: >-
+                      The button that opens the popup, e.g. "Explore roles ↗". The
+                      arrow is part of the label so it stays editable.
+                  - name: modalTitle
+                    label: Popup title
+                    type: string
+                    required: true
+                  - name: faq
+                    label: FAQ entries
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: '{fields.question}'
+                    description: >-
+                      Rendered in order and numbered 01, 02, 03. The same
+                      question/answer shape as a Story's "In brief" summary.
+                    fields:
+                      - name: question
+                        label: Question
+                        type: string
+                        required: true
+                      - name: answer
+                        label: Answer
+                        type: text
+                        required: true
+                        description: A blank line starts a new paragraph.
+                  - name: modalCtaLabel
+                    label: Popup button label
+                    type: string
+                    required: true
+                    description: >-
+                      Closes the popup and goes to the homepage Contact section, e.g.
+                      "Discuss an Opportunity ↗".
+
+                  - name: image
+                    label: Card photo
+                    type: image
+                    description: >-
+                      Optional photo across the top of the card: 1200×800 (3:2), WebP,
+                      ideally under 200 KB. No caption is shown.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. Open it at full size with the View on GitHub button.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                  - name: imageAlt
+                    label: Photo alt text
+                    type: string
+                    description: Describe the photo for screen readers.
+          # ---- About ------------------------------------------------------------
+          - name: about
+            label: About me
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+                description: The small caps label above the heading, e.g. ABOUT ME.
+              - name: heading
+                label: Heading
+                type: string
+              - name: description
+                label: Body
+                type: text
+                description: Long-form narrative. A blank line starts a new paragraph.
+              - name: stats
+                label: Statistics
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.value}'
+                description: >-
+                  Exactly three metric blocks, in this order: 200+ / 2x / 75%.
+                  Only figures you can stand behind.
+                fields:
+                  - name: value
+                    label: Value
+                    type: string
+                    description: e.g. 200+
+                  - name: label
+                    label: Label
+                    type: string
+                    description: e.g. A/B tests — the bold line under the value.
+                  - name: context
+                    label: Context
+                    type: string
+                    description: e.g. 11 markets — the muted line under the label.
+                  - name: trend
+                    label: Trend arrow
+                    type: select
+                    options:
+                      - { label: '↑ Up (increase)', value: up }
+                      - { label: '↓ Down (decrease)', value: down }
+                    description: >-
+                      Optional. Shows a green arrow BEFORE the value for sighted
+                      readers and a hidden "Increased"/"Decreased" cue for screen
+                      readers. Leave empty when the figure has no direction (e.g.
+                      200+).
+                  - name: description
+                    label: Description (legacy)
+                    type: string
+                    description: >-
+                      Legacy pre-D-0101 wording; kept so previously published
+                      content stays editable. Prefer label + context for new
+                      figures.
+              - name: photos
+                label: Authority photos
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.alt}'
+                description: >-
+                  0–3 photos in meaningful order: Berlin (3:2 landscape), UEF
+                  (square), HTV9 (square). An empty list renders the complete
+                  text-only About section — never upload placeholders.
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                    description: >-
+                      Authority photo: Berlin 1600×1067 (3:2 landscape), UEF and
+                      HTV9 1200×1200 (square), WebP, ideally under 200 KB.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. To add another image, press Add below the list instead — that
+                      creates a new item.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                    required: true
+                  - name: alt
+                    label: Alt text
+                    type: string
+                    required: true
+                    description: Describe the photo; required for every image.
+                  - name: caption
+                    label: Caption
+                    type: string
+                    description: Concise single-line caption shown muted under the photo.
+              - name: links
+                label: Discovery links
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.label}'
+                description: Contextual links rendered under the About copy.
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: href
+                    label: Link
+                    type: string
+
+              - name: cvFile
+                label: CV (PDF)
+                type: file
+                description: >-
+                  Upload the CV as a PDF. When set, the "Professional experience" link
+                  becomes the CV link below and opens the PDF in a new tab. Leave empty
+                  to keep the link to the Experience page.
+                options:
+                  path: public/uploads
+                  extensions: [pdf]
+              - name: cvLabel
+                label: CV link label
+                type: string
+                description: Optional. Defaults to "View my CV (PDF)".
+          # ---- Section intros (cards come from their own collections) -----------
+          - name: caseStudies
+            label: Case Studies section intro
+            type: object
+            description: >-
+              Intro only. The cards below it are rendered from the Case Studies
+              collection — never re-entered here.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+          - name: stories
+            label: Stories section intro
+            type: object
+            description: >-
+              Intro only. The three previews come from the Stories collection and are
+              chosen with the "Featured" flag on each story.
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+
+          # ---- Quotes -----------------------------------------------------------
+          - name: quote1
+            label: Quote (first)
+            type: object
+            fields:
+              - name: text
+                label: Quote
+                type: text
+              - name: attribution
+                label: Attribution
+                type: string
+          - name: quote2
+            label: Quote (second)
+            type: object
+            fields:
+              - name: text
+                label: Quote
+                type: text
+              - name: attribution
+                label: Attribution
+                type: string
+          # ---- Endorsements -----------------------------------------------------
+          - name: endorsements
+            label: Endorsements
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: items
+                label: Recommendations
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.name}'
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: role
+                    label: Role
+                    type: string
+                  - name: quote
+                    label: Full quote
+                    type: text
+                    description: Desktop text. Keep it verbatim.
+                  - name: mobileQuote
+                    label: Short quote (mobile)
+                    type: text
+                    description: >-
+                      Verbatim excerpt shown below 768px. This slot is REQUIRED —
+                      without it the recommendation renders at zero height on phones.
+
+          # ---- Moments + contact intro -----------------------------------------
+          - name: moments
+            label: Moments
+            type: object
+            fields:
+              - name: label
+                label: Section label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: contact
+                label: Contact intro
+                type: object
+                description: >-
+                  Copy above the four contact buttons. The four buttons themselves
+                  (Gmail, LinkedIn, WhatsApp, Zalo) are not editable here — their
+                  destinations are fixed in the site source so they cannot be broken
+                  by a content edit.
+                fields:
+                  - name: heading
+                    label: Heading
+                    type: string
+                  - name: description
+                    label: Description
+                    type: text
+              - name: gallery
+                label: Moments photos
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: '{fields.alt}'
+                description: >-
+                  Up to 8 portrait photos (3:4), shown in this order. Leave the list
+                  empty to show the original design photos.
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                    description: >-
+                      Moments photo: 900×1200 (3:4 portrait), WebP, ideally under 200 KB.
+                      To replace this one: press the bin icon, then Upload and Select reappear
+                      on the empty slot. Clearing a reference does not delete the file from
+                      GitHub. Open it at full size with the View on GitHub button.
+                    options:
+                      path: public/uploads
+                      extensions: [webp, jpg, jpeg, png]
+                    required: true
+                  - name: alt
+                    label: Alt text
+                    type: string
+                    required: true
+                    description: Describe the photo; required for every image.
+
+          - name: footer
+            label: Footer
+            type: object
+            fields:
+              - name: copyright
+                label: Copyright line
+                type: string
 
 settings:
   commit:
