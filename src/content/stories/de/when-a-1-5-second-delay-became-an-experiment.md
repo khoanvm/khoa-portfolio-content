@@ -4,8 +4,8 @@ slug: when-a-1-5-second-delay-became-an-experiment
 summary: "Jede Designregel sagt: Schneller ist besser. Bei audibene habe ich in unserem Fragebogen eine bewusste Pause von 1,5 Sekunden getestet. Sie gewann in allen 11 Märkten und wurde überall eingeführt."
 published: true
 order: 2
-cover: /uploads/story-when-a-1-5-second-delay-became-an-experiment-cover.webp
-coverAlt: "Illustration mit dem Titel „The 1.5 seconds that won in 11 markets“ und einem Fragebogen, der 1,5 Sekunden pausiert."
+cover: /uploads/story-1-5-second-delay-cover-v2.webp
+coverAlt: "Ein schlichter Ladekreis, teilweise golden gefüllt, auf weißem Hintergrund."
 category: Verhaltensökonomie
 homepageFeatured: true
 location: Berlin

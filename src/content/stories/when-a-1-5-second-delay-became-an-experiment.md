@@ -4,8 +4,8 @@ slug: when-a-1-5-second-delay-became-an-experiment
 summary: Every design rule says faster is better. At audibene I tested a deliberate 1.5-second pause in our questionnaire. It won in all 11 markets and was rolled out everywhere.
 published: true
 order: 2
-cover: /uploads/story-when-a-1-5-second-delay-became-an-experiment-cover.webp
-coverAlt: "Illustration titled \"The 1.5 seconds that won in 11 markets\" with a questionnaire pausing for 1.5 seconds."
+cover: /uploads/story-1-5-second-delay-cover-v2.webp
+coverAlt: "A minimal loading ring, partly filled in gold, on a white background."
 category: Behavioral Economics
 homepageFeatured: true
 location: Berlin

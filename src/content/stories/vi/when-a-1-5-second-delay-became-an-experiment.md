@@ -4,8 +4,8 @@ slug: when-a-1-5-second-delay-became-an-experiment
 summary: Mọi nguyên tắc thiết kế đều nói nhanh hơn là tốt hơn. Tại audibene, tôi test một khoảng dừng có chủ đích 1,5 giây trong bảng câu hỏi. Nó thắng ở cả 11 thị trường và được áp dụng ở mọi nơi.
 published: true
 order: 2
-cover: /uploads/story-when-a-1-5-second-delay-became-an-experiment-cover.webp
-coverAlt: "Hình minh họa có tiêu đề \"1,5 giây chiến thắng ở 11 thị trường\", một bảng câu hỏi tạm dừng 1,5 giây."
+cover: /uploads/story-1-5-second-delay-cover-v2.webp
+coverAlt: "Vòng tròn tải tối giản, một phần tô màu vàng, trên nền trắng."
 category: Kinh tế học hành vi
 homepageFeatured: true
 location: Berlin
