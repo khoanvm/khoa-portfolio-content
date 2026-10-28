@@ -235,7 +235,7 @@ opportunities:
             umfassendere Markteintrittsprojekte ein – gemeinsam mit der Zentrale
             und den richtigen lokalen Partnern.
       modalCtaLabel: Über den Markteintritt sprechen ↗
-      image: /uploads/opp-market-entry.webp
+      image: /uploads/opp-market-entry-v2.webp
       imageAlt: Khoa unterzeichnet auf der Bühne eine Absichtserklärung zwischen Clevermann und Cao Dang Viet My (APC).
 about:
   label: Über mich

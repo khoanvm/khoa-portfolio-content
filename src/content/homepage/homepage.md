@@ -223,7 +223,7 @@ opportunities:
             market-entry challenges alongside headquarters and the right local
             partners.
       modalCtaLabel: Discuss Market Entry ↗
-      image: /uploads/opp-market-entry.webp
+      image: /uploads/opp-market-entry-v2.webp
       imageAlt: Khoa signing a memorandum of understanding between Clevermann and Cao Dang Viet My (APC) on stage.
 about:
   label: ABOUT ME

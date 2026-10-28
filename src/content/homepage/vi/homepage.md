@@ -220,7 +220,7 @@ opportunities:
             những bài toán thâm nhập thị trường rộng hơn, cùng trụ sở chính và
             các đối tác địa phương phù hợp.
       modalCtaLabel: Trao đổi về thâm nhập thị trường ↗
-      image: /uploads/opp-market-entry.webp
+      image: /uploads/opp-market-entry-v2.webp
       imageAlt: Khoa ký biên bản ghi nhớ hợp tác giữa Clevermann và Cao Đẳng Việt Mỹ (APC) trên sân khấu.
 about:
   label: VỀ TÔI
