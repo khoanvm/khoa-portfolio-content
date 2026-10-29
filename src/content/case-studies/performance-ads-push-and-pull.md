@@ -1,9 +1,9 @@
 ---
 title: "Push and Pull: Running Paid Ads with a CRO Mindset"
 slug: performance-ads-push-and-pull
-client: Clevermann
+client: Clevermann · audibene · Independent Advisory
 role:
-  - Commercial Lead (Performance Marketing)
+  - Performance Marketing Lead
 services:
   - Performance Marketing
   - Meta Ads
@@ -11,15 +11,15 @@ services:
   - Customer Journey
 period: '2025'
 location: Ho Chi Minh City
-evidenceCaption: Meta Ads · Google Ads · Google Business Profile · Clevermann
-summary: At Clevermann I ran Meta and Google ads myself. A solid CRO foundation meant treating them as two different kinds of traffic, push and pull, each with its own job in the customer journey, and judging every campaign by what it started, not by clicks.
+evidenceCaption: Meta Ads · Google Ads · Google Business Profile · evidence from Clevermann
+summary: Paid ads have run through my whole career, from audibene in Berlin to Clevermann and a luxury real-estate developer in Vietnam. A solid CRO foundation lets me treat push and pull as different traffic, each with its own job in the journey, and judge every campaign by what it starts, not by clicks.
 published: true
 featured: true
 order: 3
 cover: /uploads/cs-performance-ads-cover.webp
 coverAlt: "Google Ads overview for 2025: 216,000 clicks, 3.43 million impressions, average CPC VND 781 and a weekly trend chart."
 seoTitle: "Push and Pull: Paid Ads with a CRO Mindset — Clevermann"
-seoDescription: Meta and Google ads run as push and pull traffic with a CRO mindset - 216,000 Google clicks at ~VND 781 each and 3,024 Meta conversations at ~USD 2.23.
+seoDescription: Paid ads across audibene, Clevermann and luxury real estate, run as push and pull traffic with a CRO mindset - 216,000 Google clicks, 3,024 Meta conversations, 3x leads.
 metrics:
   - label: Google Ads clicks (2025)
     value: 216K
@@ -50,9 +50,13 @@ gallery:
 
 ## The context
 
-Clevermann helps Vietnamese candidates study, work and settle in Germany. Nobody buys that on impulse. People think about it for months, talk to family, compare options and come back many times before they sign.
+Paid ads are not a side skill for me. They run through every role I have had:
 
-So the ads were never the whole story. They were the first step of a long journey, and they had to fit the moment the person was in. I ran the Meta and Google accounts myself, with a monthly ad budget of more than VND 200M across channels.
+- **audibene, Berlin.** 200+ A/B tests across ad and landing-page journeys in 11 markets: the ad and the page were tested as one journey.
+- **Clevermann, Ho Chi Minh City.** I ran the Meta and Google accounts myself, with more than VND 200M a month in ad spend across channels. The screenshots on this page come from here.
+- **A luxury real-estate developer.** Moving Meta campaigns to psychology-based lead forms tripled monthly leads and cut cost per lead by about 75%. [See the case study.](/case-studies/luxury-real-estate-lead-growth/)
+
+Different products, one constant: people decide in stages. Studying in Germany or buying an apartment is not an impulse purchase. People think for months, talk to family and come back many times. The ad is only the first step of that journey, and it has to fit the moment the person is in.
 
 ## Push and pull are different traffic
 

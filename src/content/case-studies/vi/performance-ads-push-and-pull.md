@@ -1,9 +1,9 @@
 ---
 title: "Push và Pull: Chạy quảng cáo với tư duy CRO"
 slug: performance-ads-push-and-pull
-client: Clevermann
+client: Clevermann · audibene · Independent Advisory
 role:
-  - Phụ trách kinh doanh (Performance Marketing)
+  - Phụ trách Performance Marketing
 services:
   - Performance Marketing
   - Meta Ads
@@ -11,15 +11,15 @@ services:
   - Hành trình khách hàng
 period: '2025'
 location: TP. Hồ Chí Minh
-evidenceCaption: Meta Ads · Google Ads · Google Business Profile · Clevermann
-summary: Ở Clevermann, tôi trực tiếp chạy quảng cáo Meta và Google. Nền tảng CRO vững giúp tôi xem đây là hai loại traffic khác nhau, push và pull, mỗi loại một vai trò trong hành trình khách hàng, và đánh giá chiến dịch bằng những gì nó mở ra, không phải bằng lượt click.
+evidenceCaption: Meta Ads · Google Ads · Google Business Profile · số liệu minh chứng từ Clevermann
+summary: Quảng cáo performance đi cùng tôi suốt sự nghiệp, từ audibene ở Berlin đến Clevermann và một chủ đầu tư bất động sản hạng sang ở Việt Nam. Nền tảng CRO vững giúp tôi tách bạch traffic push và pull, mỗi loại một vai trò trong hành trình, và đánh giá chiến dịch bằng những gì nó mở ra.
 published: true
 featured: true
 order: 3
 cover: /uploads/cs-performance-ads-cover.webp
 coverAlt: "Tổng quan Google Ads năm 2025: 216.000 lần nhấp, 3,43 triệu lượt hiển thị, CPC trung bình 781 đồng và biểu đồ theo tuần."
 seoTitle: "Push và Pull: Chạy quảng cáo với tư duy CRO — Clevermann"
-seoDescription: Quảng cáo Meta và Google chạy như traffic push và pull với tư duy CRO - 216.000 lượt click Google, ~781 đồng mỗi click, và 3.024 cuộc trò chuyện Meta, ~2,23 USD mỗi cuộc.
+seoDescription: Quảng cáo ở audibene, Clevermann và bất động sản hạng sang, chạy theo push và pull với tư duy CRO - 216.000 click Google, 3.024 cuộc trò chuyện Meta, lead x3.
 metrics:
   - label: Lượt click Google Ads (2025)
     value: 216K
@@ -50,9 +50,13 @@ gallery:
 
 ## Bối cảnh
 
-Clevermann giúp người Việt du học, làm việc và định cư tại Đức. Không ai quyết định chuyện đó trong một phút. Người ta cân nhắc hàng tháng trời, bàn với gia đình, so sánh nhiều lựa chọn và quay lại nhiều lần trước khi ký.
+Quảng cáo performance không phải kỹ năng phụ của tôi. Nó có mặt trong mọi vai trò tôi từng đảm nhận:
 
-Vì thế quảng cáo chưa bao giờ là toàn bộ câu chuyện. Nó chỉ là bước đầu của một hành trình dài, và phải khớp với đúng thời điểm của người xem. Tôi trực tiếp vận hành tài khoản Meta và Google, với ngân sách quảng cáo hơn 200 triệu đồng mỗi tháng trên các kênh.
+- **audibene, Berlin.** Hơn 200 A/B test trên hành trình quảng cáo và landing page ở 11 thị trường: quảng cáo và trang đích được thử nghiệm như một hành trình.
+- **Clevermann, TP. Hồ Chí Minh.** Tôi trực tiếp vận hành tài khoản Meta và Google, ngân sách hơn 200 triệu đồng mỗi tháng trên các kênh. Ảnh chụp trong bài này lấy từ đây.
+- **Một chủ đầu tư bất động sản hạng sang.** Chuyển chiến dịch Meta sang form lead thiết kế theo tâm lý người mua giúp lead mỗi tháng tăng gấp 3 và chi phí mỗi lead giảm khoảng 75%. [Xem dự án.](/vi/case-studies/luxury-real-estate-lead-growth/)
+
+Sản phẩm khác nhau, nhưng có một điều không đổi: con người ra quyết định theo từng giai đoạn. Du học Đức hay mua căn hộ đều không phải mua theo cảm hứng. Người ta cân nhắc hàng tháng, bàn với gia đình và quay lại nhiều lần. Quảng cáo chỉ là bước đầu của hành trình đó, và phải khớp với đúng thời điểm của người xem.
 
 ## Push và pull là hai loại traffic khác nhau
 
