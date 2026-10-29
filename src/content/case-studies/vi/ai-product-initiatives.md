@@ -10,7 +10,7 @@ location: Tự vận hành
 summary: "Không xuất thân lập trình, tôi làm product owner cho các công cụ AI xây quanh những quy trình tôi hiểu tận tay: studio video dựng theo giọng đọc, studio nội dung và web app mà đội AI của tôi đang chạy. Tôi xác định bài toán, đặc tả giải pháp, kiểm thử và quyết định khi nào đủ tốt để dùng."
 published: true
 featured: false
-order: 5
+order: 6
 seoTitle: Xây sản phẩm AI quanh quy trình làm việc thật — Khoa Nguyen
 seoDescription: Làm product owner cho các công cụ AI tự vận hành (Video Studio, Content Studio, web app cho đội AI), phát triển với sự hỗ trợ của AI, yêu cầu rõ ràng và kiểm thử tự động.
 metrics:

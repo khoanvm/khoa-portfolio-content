@@ -10,7 +10,7 @@ location: Tự vận hành
 summary: Tôi xây và vận hành một đội gồm nhiều model AI (Claude, GPT, Gemini và model mã nguồn mở) cùng nghiên cứu, viết, review và sản xuất video mỗi ngày trên máy chủ riêng, chi phí khoảng 85 USD mỗi tháng. Một video giải thích giờ chỉ tốn vài nghìn đồng thay vì khoảng 650.000 đồng.
 published: true
 featured: true
-order: 4
+order: 5
 seoTitle: Vận hành đội AI như một phòng ban — Khoa Nguyen
 seoDescription: Đội AI đa tác tử có người điều phối, kho kiến thức chung và duyệt việc qua điện thoại, sản xuất nghiên cứu, nội dung và video với chi phí khoảng 85 USD mỗi tháng.
 metrics:

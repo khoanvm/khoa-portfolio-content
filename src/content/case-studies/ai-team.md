@@ -10,7 +10,7 @@ location: Self-hosted
 summary: I designed and run a team of AI models (Claude, GPT, Gemini and open-source models) that research, write, review and produce video every day, on a self-managed server for about USD 85 a month, cutting the cost of an explainer video from about VND 650,000 to a few thousand dong.
 published: true
 featured: true
-order: 4
+order: 5
 seoTitle: Running an AI Team Like a Department — Khoa Nguyen
 seoDescription: A multi-agent AI team with an orchestrator, shared knowledge base and phone approvals, producing research, content and video for ~USD 85/month.
 metrics:

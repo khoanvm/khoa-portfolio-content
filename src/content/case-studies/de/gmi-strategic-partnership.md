@@ -13,7 +13,7 @@ location: Vietnam ↔ Malaysia
 summary: Als knappe Termine für Deutschprüfungen in Vietnam das Geschäft bremsten, fand ich einen Partner im Ausland und verhandelte die erste Partnerschaft des German-Malaysian Institute mit einem privaten Unternehmen in Vietnam – mit bevorzugten Prüfungsterminen für unsere Kandidaten.
 published: true
 featured: false
-order: 6
+order: 7
 seoTitle: Eine Tür, die kein Privatunternehmen in Vietnam geöffnet hatte — GMI
 seoDescription: "Erste Partnerschaft des German-Malaysian Institute mit einem privaten Unternehmen in Vietnam verhandelt (MOA 2025), mit bevorzugter Vergabe von telc-Prüfungsterminen."
 metrics:

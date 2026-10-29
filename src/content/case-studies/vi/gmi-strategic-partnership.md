@@ -13,7 +13,7 @@ location: Việt Nam ↔ Malaysia
 summary: Khi suất thi tiếng Đức tại Việt Nam trở thành điểm nghẽn của cả doanh nghiệp, tôi tìm đối tác ở nước ngoài và đàm phán thành công quan hệ đối tác đầu tiên của German-Malaysian Institute với một công ty tư nhân tại Việt Nam, giúp ứng viên của chúng tôi được ưu tiên xếp lịch thi.
 published: true
 featured: false
-order: 6
+order: 7
 seoTitle: "Mở cánh cửa chưa công ty tư nhân nào ở Việt Nam mở — GMI"
 seoDescription: "Đàm phán quan hệ đối tác đầu tiên của German-Malaysian Institute với một công ty tư nhân tại Việt Nam (MOA 2025), được ưu tiên xếp lịch thi telc."
 metrics:

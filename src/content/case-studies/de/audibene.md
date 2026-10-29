@@ -8,7 +8,7 @@ seoTitle: 200+ Experimente, 11 Märkte, über 20 % Uplift — Case Study audiben
 seoDescription: "CRO Manager in Berlin: 200+ verhaltenswissenschaftlich fundierte A/B-Tests in 11 Märkten und über 20 % kumulierter Conversion-Uplift in jedem betreuten Markt."
 published: true
 featured: true
-order: 3
+order: 4
 metrics:
   - label: Verantwortete A/B-Tests
     value: 200+

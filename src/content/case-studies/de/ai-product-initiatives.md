@@ -10,7 +10,7 @@ location: Selbst gehostet
 summary: "Ohne Programmierhintergrund verantworte ich als Product Owner KI-Werkzeuge für Abläufe, die ich selbst kenne: ein sprachgesteuertes Video Studio, ein Content Studio und die Web-App meines KI-Teams. Ich definiere das Problem, spezifiziere, teste und entscheide, was reif für den Einsatz ist."
 published: true
 featured: false
-order: 5
+order: 6
 seoTitle: KI-Produkte rund um echte Arbeitsabläufe — Khoa Nguyen
 seoDescription: Produktverantwortung für selbst gehostete KI-Werkzeuge – Video Studio, Content Studio, Web-App des KI-Teams –, gebaut mit klaren Anforderungen und automatisierten Tests.
 metrics:

@@ -288,7 +288,7 @@ about:
       href: /case-studies/
     - label: Geschichten
       href: /stories/
-  cvFile: /uploads/khoa-nguyen-cv.pdf
+  cvFile: /uploads/khoa-nguyen-cv-2026-10.pdf
 caseStudies:
   label: Case Studies
   heading: "Verschiedene Herausforderungen. Ein Prinzip: verstehen, testen, verbessern."

@@ -10,7 +10,7 @@ location: Self-hosted
 summary: Without a coding background, I act as product owner for AI tools built around workflows I know first-hand, from a voice-led video studio to a content studio and the web app my AI team runs on, defining the problem, specifying the solution, testing it and deciding what is good enough to use.
 published: true
 featured: false
-order: 5
+order: 6
 seoTitle: Building AI Products Around Real Workflows — Khoa Nguyen
 seoDescription: Product ownership of self-hosted AI tools (Video Studio, Content Studio, AI team web app) built with AI-assisted development, structured requirements and automated tests.
 metrics:

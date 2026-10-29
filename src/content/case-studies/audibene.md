@@ -8,7 +8,7 @@ seoTitle: 200+ Experiments, 11 Markets, 20%+ Uplift — audibene case study
 seoDescription: "CRO Manager in Berlin: 200+ behavioral-science-led A/B tests across 11 markets and 20%+ cumulative conversion uplift in every market worked on."
 published: true
 featured: true
-order: 3
+order: 4
 metrics:
   - label: A/B tests driven
     value: 200+

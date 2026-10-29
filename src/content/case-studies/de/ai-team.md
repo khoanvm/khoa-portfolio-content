@@ -10,7 +10,7 @@ location: Selbst gehostet
 summary: Ich habe ein Team aus KI-Modellen (Claude, GPT, Gemini, Open-Source-Modelle) aufgebaut, das täglich recherchiert, schreibt, prüft und Videos produziert – auf eigenem Server für rund 85 USD im Monat. Ein Erklärvideo kostet statt ca. 650.000 VND nur noch wenige Tausend Dong.
 published: true
 featured: true
-order: 4
+order: 5
 seoTitle: Ein KI-Team, geführt wie eine Abteilung — Khoa Nguyen
 seoDescription: Ein Multi-Agenten-KI-Team mit Orchestrator, gemeinsamer Wissensbasis und Freigaben per Smartphone – für Recherche, Content und Video zu rund 85 USD im Monat.
 metrics:

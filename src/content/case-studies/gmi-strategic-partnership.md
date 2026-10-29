@@ -13,7 +13,7 @@ location: Vietnam ↔ Malaysia
 summary: When German exam slots in Vietnam became a bottleneck for the business, I found a partner abroad and negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam, securing priority exam scheduling for our candidates.
 published: true
 featured: false
-order: 6
+order: 7
 seoTitle: "Opening a Door No Private Company in Vietnam Had — GMI"
 seoDescription: "Negotiated the German-Malaysian Institute's first partnership with a private company in Vietnam (MOA 2025), with priority telc exam scheduling."
 metrics:
