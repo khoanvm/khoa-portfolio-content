@@ -14,7 +14,7 @@ evidenceCaption: Luxus- und High-End-Wohnungen · Erstvertrieb durch den Projekt
 summary: In einem von hohen Zinsen gebremsten Markt für Luxusimmobilien habe ich die monatlichen Leads verdreifacht, die Kosten pro Lead um rund 75 % gesenkt, die Erreichbarkeit verdreifacht und ein KI-gestütztes Lead-System aufgebaut, das jede Woche 10+ Interessenten in die Sales Gallery bringt.
 published: true
 featured: true
-order: 1
+order: 3
 cover: /uploads/cs-luxury-real-estate-lead-growth-cover.webp
 coverAlt: "Innenraum-Rendering einer luxuriösen Apartment-Lobby mit Marmortresen und geschwungener Treppe."
 seoTitle: Outbound-Leads in die Sales Gallery bringen – trotz hoher Zinsen

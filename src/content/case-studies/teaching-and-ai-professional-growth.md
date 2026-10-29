@@ -12,7 +12,7 @@ location: Germany ↔ Vietnam
 summary: 'How teaching marketing and building two AI-powered workflow tools became deliberate ways to deepen my knowledge, communicate more clearly, and make my professional thinking visible.'
 published: false
 featured: false
-order: 7
+order: 9
 seoTitle: 'Teaching, AI Building & Professional Growth — Khoa Nguyen'
 seoDescription: 'A personal case study about teaching marketing, building AI tools, improving communication, and developing professional credibility through practical work.'
 metrics:

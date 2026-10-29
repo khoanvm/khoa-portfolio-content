@@ -3,7 +3,7 @@ title: Biểu mẫu là một cuộc trò chuyện, không phải cơ sở dữ 
 slug: designing-a-questionnaire-around-progressive-commitment
 summary: Tại audibene, chúng tôi sắp xếp lại bảng câu hỏi để câu nào cũng dễ trả lời hơn khách hàng tưởng một chút. Tạo ra khác biệt là thứ tự câu hỏi, không phải số lượng.
 published: true
-order: 9
+order: 4
 cover: /uploads/story-designing-a-questionnaire-around-progressive-commitment-cover.webp
 coverAlt: "Hình minh họa một người phụ nữ bước lên những bậc thang làm từ các thẻ câu hỏi."
 category: Tâm lý khách hàng

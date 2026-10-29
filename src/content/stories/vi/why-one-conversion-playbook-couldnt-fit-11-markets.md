@@ -3,7 +3,7 @@ title: Một bài test thắng không đi kèm hộ chiếu
 slug: why-one-conversion-playbook-couldnt-fit-11-markets
 summary: Đánh giá các ý tưởng chuyển đổi trên 11 thị trường với kỳ vọng khách hàng khác nhau cho tôi thấy một phiên bản thắng chỉ tạo ra giả thuyết cho thị trường khác, chứ không bảo đảm kết quả.
 published: true
-order: 10
+order: 5
 cover: /uploads/story-why-one-conversion-playbook-couldnt-fit-11-markets-cover.webp
 coverAlt: "Hình minh họa so sánh cùng một biểu mẫu ở Đức, nơi nó thắng, và ở Ấn Độ, nơi nó thua."
 category: Thị trường quốc tế

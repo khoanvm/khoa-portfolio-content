@@ -3,7 +3,7 @@ title: Một tách trà chai ở Ấn Độ
 slug: a-cup-of-chai-in-india
 summary: Trong hai tuần công tác ở Ấn Độ, một đồng nghiệp không nói được tiếng Anh ngày nào cũng mang cho tôi một tách trà chai. Chuyện nhỏ ấy dạy tôi điều thực sự giữ cho công việc quốc tế vận hành.
 published: true
-order: 6
+order: 9
 cover: /uploads/story-a-cup-of-chai-in-india-cover.webp
 coverAlt: "Văn phòng mở nhộn nhịp ở Ấn Độ trang trí bóng bay, đồng nghiệp quây quanh một người đang phát biểu."
 category: Lãnh đạo quốc tế

@@ -8,7 +8,7 @@ seoTitle: 200+ thử nghiệm, 11 thị trường, tăng 20%+ — Case study aud
 seoDescription: "CRO Manager tại Berlin: hơn 200 A/B test dựa trên khoa học hành vi trên 11 thị trường, tăng chuyển đổi cộng dồn 20%+ ở mọi thị trường phụ trách."
 published: true
 featured: true
-order: 4
+order: 2
 metrics:
   - label: A/B test đã dẫn dắt
     value: 200+

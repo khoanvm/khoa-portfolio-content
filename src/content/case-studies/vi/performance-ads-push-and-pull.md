@@ -15,7 +15,7 @@ evidenceCaption: Meta Ads · Google Ads · Google Business Profile · số liệ
 summary: Quảng cáo performance đi cùng tôi suốt sự nghiệp, từ audibene ở Berlin đến Clevermann và một chủ đầu tư bất động sản hạng sang ở Việt Nam. Nền tảng CRO vững giúp tôi tách bạch traffic push và pull, mỗi loại một vai trò trong hành trình, và đánh giá chiến dịch bằng những gì nó mở ra.
 published: true
 featured: true
-order: 3
+order: 4
 cover: /uploads/cs-performance-ads-cover.webp
 coverAlt: "Tổng quan Google Ads năm 2025: 216.000 lần nhấp, 3,43 triệu lượt hiển thị, CPC trung bình 781 đồng và biểu đồ theo tuần."
 seoTitle: "Push và Pull: Chạy quảng cáo với tư duy CRO — Clevermann"

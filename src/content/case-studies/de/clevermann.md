@@ -14,7 +14,7 @@ evidenceCaption: Bildungs- und Karriereprogramme zwischen Vietnam und Deutschlan
 summary: Als kommerzieller Leiter von Clevermann habe ich ein Marketing- und Vertriebsteam mit über 20 Personen aufgebaut, den monatlichen Vertragswert verdoppelt und die Vertriebskosten von rund 30 % auf unter 10 % des Umsatzes gesenkt – indem ich fand, wo entschlossene Kunden noch absprangen.
 published: true
 featured: true
-order: 2
+order: 1
 cover: /uploads/cs-clevermann-cover.webp
 coverAlt: "Großes Gruppenfoto einer deutschen MBA-Delegation mit Mitarbeitenden und Studierenden von Clevermann in einem Büro."
 seoTitle: "Doppelt so viele Vertragsabschlüsse — Clevermann"

@@ -3,7 +3,7 @@ title: Vì sao tôi rời Đức về Việt Nam lập nghiệp
 slug: why-i-left-germany-to-build-in-vietnam
 summary: Năm 31 tuổi, đang có sự nghiệp ở Berlin, tôi trở về TP. Hồ Chí Minh để xây dựng một công ty từ ba người. Đây là lý do.
 published: true
-order: 7
+order: 10
 cover: /uploads/story-why-i-left-germany-to-build-in-vietnam-cover.webp
 coverAlt: "Khoa thuyết trình cho team trong phòng họp của Clevermann."
 category: Sự nghiệp

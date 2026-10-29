@@ -14,7 +14,7 @@ evidenceCaption: Căn hộ hạng sang và cao cấp · bán hàng trực tiếp
 summary: Giữa thị trường bất động sản hạng sang bị lãi suất cao bóp nghẹt, tôi tăng gấp ba số lead mỗi tháng, giảm khoảng 75% chi phí mỗi lead, tăng gấp ba tỷ lệ liên hệ được và xây một hệ thống lead chạy bằng AI hiện đưa hơn 10 khách tiềm năng đến nhà mẫu mỗi tuần.
 published: true
 featured: true
-order: 1
+order: 3
 cover: /uploads/cs-luxury-real-estate-lead-growth-cover.webp
 coverAlt: "Ảnh phối cảnh sảnh căn hộ hạng sang với quầy đá cẩm thạch và cầu thang uốn cong."
 seoTitle: Đưa lead outbound đến nhà mẫu giữa thời lãi suất cao

@@ -14,7 +14,7 @@ evidenceCaption: Luxury and high-end apartments · primary developer sales · Ho
 summary: In a luxury property market squeezed by high interest rates, I tripled monthly leads, cut cost per lead by about 75%, tripled the contact rate and built an AI-powered lead system that now brings 10+ prospects to the sales gallery every week.
 published: true
 featured: true
-order: 1
+order: 3
 cover: /uploads/cs-luxury-real-estate-lead-growth-cover.webp
 coverAlt: "Interior render of a luxury apartment lobby with a marble counter and a sweeping staircase."
 seoTitle: Getting Outbound Leads to the Sales Gallery in a High-Rate Market

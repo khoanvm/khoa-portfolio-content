@@ -15,7 +15,7 @@ evidenceCaption: Meta Ads · Google Ads · Google Business Profile · evidence f
 summary: Paid ads have run through my whole career, from audibene in Berlin to Clevermann and a luxury real-estate developer in Vietnam. A solid CRO foundation lets me treat push and pull as different traffic, each with its own job in the journey, and judge every campaign by what it starts, not by clicks.
 published: true
 featured: true
-order: 3
+order: 4
 cover: /uploads/cs-performance-ads-cover.webp
 coverAlt: "Google Ads overview for 2025: 216,000 clicks, 3.43 million impressions, average CPC VND 781 and a weekly trend chart."
 seoTitle: "Push and Pull: Paid Ads with a CRO Mindset — Clevermann"

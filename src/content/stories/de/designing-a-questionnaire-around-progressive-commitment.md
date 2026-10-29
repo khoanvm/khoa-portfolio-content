@@ -3,7 +3,7 @@ title: Ein Formular ist ein Gespräch, keine Datenbank
 slug: designing-a-questionnaire-around-progressive-commitment
 summary: Bei audibene haben wir einen Fragebogen so umgebaut, dass jede Frage etwas leichter zu beantworten war, als die Kunden erwartet hatten. Den Unterschied machte die Reihenfolge der Fragen, nicht ihre Anzahl.
 published: true
-order: 9
+order: 4
 cover: /uploads/story-designing-a-questionnaire-around-progressive-commitment-cover.webp
 coverAlt: "Illustration einer Frau, die eine Treppe aus Fragebogenkarten hinaufsteigt."
 category: Kundenpsychologie

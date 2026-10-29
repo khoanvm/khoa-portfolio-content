@@ -3,7 +3,7 @@ title: Ich griff zum Telefon und rief die Nachbarn an
 slug: the-agreement-was-only-the-beginning
 summary: Als es in Vietnam kaum noch Termine für deutsche Sprachprüfungen gab, rief ich Prüfungszentren in den Nachbarländern an. Einer dieser Anrufe führte zur ersten Partnerschaft des German-Malaysian Institute mit einem privaten Unternehmen in Vietnam.
 published: true
-order: 4
+order: 6
 cover: /uploads/story-the-agreement-was-only-the-beginning-cover.webp
 coverAlt: "Vertreter von GMI und Clevermann zeigen vor einer Deutschlandkarte den Daumen nach oben."
 category: Strategische Partnerschaften

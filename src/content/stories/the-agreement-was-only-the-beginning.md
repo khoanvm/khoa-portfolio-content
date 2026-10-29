@@ -3,7 +3,7 @@ title: I Picked Up the Phone and Called the Neighbors
 slug: the-agreement-was-only-the-beginning
 summary: When German exam slots in Vietnam dried up, I started calling exam centers in neighboring countries. One of those calls led to the German-Malaysian Institute's first partnership with a private company in Vietnam.
 published: true
-order: 4
+order: 6
 cover: /uploads/story-the-agreement-was-only-the-beginning-cover.webp
 coverAlt: "GMI and Clevermann representatives giving a thumbs-up in front of a map of Germany."
 category: Strategic Partnerships

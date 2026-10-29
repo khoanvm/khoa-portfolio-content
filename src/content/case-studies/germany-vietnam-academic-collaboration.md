@@ -9,7 +9,7 @@ location: Vietnam
 summary: Through Clevermann's Germany–Vietnam network I helped support an academic and business visit by a delegation of ten MBA participants, connecting stakeholders and coordinating university and company exchanges.
 published: false
 featured: false
-order: 6
+order: 8
 seoTitle: Turning an International Academic Visit into a Collaboration
 seoDescription: Coordinated an academic and business visit by a delegation of ten MBA participants from Germany, connecting stakeholders and organising university and company exchanges in Vietnam.
 metrics:

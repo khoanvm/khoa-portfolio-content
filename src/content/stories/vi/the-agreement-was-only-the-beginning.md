@@ -3,7 +3,7 @@ title: Tôi nhấc máy và gọi sang các nước láng giềng
 slug: the-agreement-was-only-the-beginning
 summary: Khi suất thi tiếng Đức ở Việt Nam gần như cạn kiệt, tôi bắt đầu gọi điện cho các trung tâm khảo thí ở những nước lân cận. Một trong những cuộc gọi đó đã dẫn tới quan hệ đối tác đầu tiên của German-Malaysian Institute với một doanh nghiệp tư nhân tại Việt Nam.
 published: true
-order: 4
+order: 6
 cover: /uploads/story-the-agreement-was-only-the-beginning-cover.webp
 coverAlt: "Đại diện GMI và Clevermann giơ ngón cái trước tấm bản đồ nước Đức."
 category: Đối tác chiến lược

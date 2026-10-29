@@ -3,7 +3,7 @@ title: A Winning Test Doesn't Come with a Passport
 slug: why-one-conversion-playbook-couldnt-fit-11-markets
 summary: Evaluating conversion ideas across 11 markets with different customer expectations showed that a successful variation creates a hypothesis for another market, not a guaranteed result.
 published: true
-order: 10
+order: 5
 cover: /uploads/story-why-one-conversion-playbook-couldnt-fit-11-markets-cover.webp
 coverAlt: "Illustration comparing the same form in Germany, where it wins, and India, where it loses."
 category: International Markets

@@ -3,7 +3,7 @@ title: Ein Testsieger hat keinen Reisepass
 slug: why-one-conversion-playbook-couldnt-fit-11-markets
 summary: "Conversion-Ideen in 11 Märkten mit unterschiedlichen Kundenerwartungen zu bewerten, hat mir gezeigt: Eine erfolgreiche Variante liefert für einen anderen Markt eine Hypothese, kein garantiertes Ergebnis."
 published: true
-order: 10
+order: 5
 cover: /uploads/story-why-one-conversion-playbook-couldnt-fit-11-markets-cover.webp
 coverAlt: "Illustration, die dasselbe Formular in Deutschland, wo es gewinnt, und in Indien, wo es verliert, gegenüberstellt."
 category: Internationale Märkte

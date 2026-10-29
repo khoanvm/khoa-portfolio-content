@@ -14,7 +14,7 @@ evidenceCaption: Chương trình giáo dục và nghề nghiệp Việt Nam–Đ
 summary: Phụ trách kinh doanh tại Clevermann, tôi xây dựng bộ máy marketing và sales hơn 20 người, tăng gấp đôi giá trị hợp đồng ký mỗi tháng và kéo chi phí bán hàng từ khoảng 30% xuống dưới 10% doanh thu, bằng cách tìm và sửa những điểm mà khách hàng đã cam kết vẫn bỏ đi.
 published: true
 featured: true
-order: 2
+order: 1
 cover: /uploads/cs-clevermann-cover.webp
 coverAlt: "Ảnh tập thể đông người gồm đoàn MBA từ Đức, nhân viên và học viên Clevermann trong văn phòng."
 seoTitle: "Tăng gấp đôi hợp đồng khi funnel rò rỉ — Clevermann"

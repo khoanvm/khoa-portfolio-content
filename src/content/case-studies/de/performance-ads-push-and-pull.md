@@ -15,7 +15,7 @@ evidenceCaption: Meta Ads · Google Ads · Google Business Profile · Belege aus
 summary: Performance-Anzeigen ziehen sich durch meine Laufbahn, von audibene in Berlin bis zu Clevermann und einem Luxusimmobilien-Entwickler in Vietnam. Mit einem soliden CRO-Fundament trenne ich Push- und Pull-Traffic, jeder mit eigener Rolle, und bewerte Kampagnen danach, was sie anstoßen.
 published: true
 featured: true
-order: 3
+order: 4
 cover: /uploads/cs-performance-ads-cover.webp
 coverAlt: "Google-Ads-Übersicht 2025: 216.000 Klicks, 3,43 Mio. Impressionen, durchschnittlicher CPC 781 VND und ein Wochenverlauf."
 seoTitle: "Push und Pull: Anzeigen mit CRO-Denken — Clevermann"

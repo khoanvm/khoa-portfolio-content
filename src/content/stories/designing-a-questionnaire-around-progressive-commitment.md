@@ -3,7 +3,7 @@ title: A Form Is a Conversation, Not a Database
 slug: designing-a-questionnaire-around-progressive-commitment
 summary: At audibene, we reordered a questionnaire so that every question was a little easier to answer than the customer expected. The order of the questions, not their number, made the difference.
 published: true
-order: 9
+order: 4
 cover: /uploads/story-designing-a-questionnaire-around-progressive-commitment-cover.webp
 coverAlt: "Illustration of a woman walking up steps made of questionnaire cards."
 category: Customer Psychology

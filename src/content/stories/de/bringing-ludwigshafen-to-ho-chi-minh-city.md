@@ -3,7 +3,7 @@ title: Eine deutsche MBA-Delegation in Ho-Chi-Minh-Stadt
 slug: bringing-ludwigshafen-to-ho-chi-minh-city
 summary: Ich habe eine Delegation der Hochschule für Wirtschaft und Gesellschaft Ludwigshafen mit Professorinnen und Professoren, MBA-Studierenden und Vertretern der Hochschule bei ihren Besuchen an Universitäten und in Unternehmen in Ho-Chi-Minh-Stadt geleitet.
 published: true
-order: 5
+order: 7
 cover: /uploads/story-bringing-ludwigshafen-to-ho-chi-minh-city-cover.webp
 coverAlt: "Die MBA-Delegation aus Ludwigshafen mit Mitarbeitenden von Clevermann und Studierenden in Ho-Chi-Minh-Stadt."
 category: Internationale Partnerschaften

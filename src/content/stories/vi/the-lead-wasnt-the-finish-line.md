@@ -3,7 +3,7 @@ title: "40 hồ sơ, 10 hợp đồng: Lỗ hổng không ai để ý"
 slug: the-lead-wasnt-the-finish-line
 summary: Ở Clevermann, có tháng 40 khách hàng nộp đủ hồ sơ nhưng chỉ 10 người ký hợp đồng. Xử lý niềm tin, cảm xúc và thời điểm ở chặng cuối hành trình đã đưa chúng tôi lên hơn 20 hợp đồng mỗi tháng.
 published: true
-order: 3
+order: 1
 cover: /uploads/story-the-lead-wasnt-the-finish-line-cover.webp
 coverAlt: "Hình minh họa một chiếc phễu bị rò, người rơi ra qua các vết nứt."
 category: Dẫn dắt kinh doanh

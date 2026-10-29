@@ -3,7 +3,7 @@ title: Warum ich Deutschland verließ, um in Vietnam etwas aufzubauen
 slug: why-i-left-germany-to-build-in-vietnam
 summary: Mit 31 Jahren und einer Karriere in Berlin bin ich nach Ho-Chi-Minh-Stadt zurückgekehrt, um ein Unternehmen aufzubauen – angefangen mit drei Leuten. Hier erzähle ich, warum.
 published: true
-order: 7
+order: 10
 cover: /uploads/story-why-i-left-germany-to-build-in-vietnam-cover.webp
 coverAlt: "Khoa präsentiert seinem Team in einem Besprechungsraum bei Clevermann."
 category: Karriere

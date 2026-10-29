@@ -3,7 +3,7 @@ title: "40 Applications, 10 Contracts: The Leak Nobody Was Looking At"
 slug: the-lead-wasnt-the-finish-line
 summary: At Clevermann, some months 40 customers submitted full application files and only 10 signed. Fixing trust, emotion and timing at the end of the journey took us to 20+ contracts a month.
 published: true
-order: 3
+order: 1
 cover: /uploads/story-the-lead-wasnt-the-finish-line-cover.webp
 coverAlt: "Illustration of a leaking funnel with people dropping out through cracks."
 category: Commercial Leadership

@@ -3,7 +3,7 @@ title: Eine Tasse Chai in Indien
 slug: a-cup-of-chai-in-india
 summary: Während eines zweiwöchigen Einsatzes in Indien brachte mir ein Kollege, der kein Englisch sprach, jeden Tag eine Tasse Chai. Er hat mir gezeigt, worauf internationale Zusammenarbeit wirklich beruht.
 published: true
-order: 6
+order: 9
 cover: /uploads/story-a-cup-of-chai-in-india-cover.webp
 coverAlt: "Belebtes Großraumbüro in Indien, mit Luftballons geschmückt; Kolleginnen und Kollegen versammeln sich um einen Redner."
 category: Internationale Führung

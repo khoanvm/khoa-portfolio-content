@@ -3,7 +3,7 @@ title: Bringing a German MBA Delegation to Ho Chi Minh City
 slug: bringing-ludwigshafen-to-ho-chi-minh-city
 summary: I led a delegation from Ludwigshafen University of Business and Society, with professors, MBA students and university representatives, on visits to universities and businesses in Ho Chi Minh City.
 published: true
-order: 5
+order: 7
 cover: /uploads/story-bringing-ludwigshafen-to-ho-chi-minh-city-cover.webp
 coverAlt: "The Ludwigshafen MBA delegation with Clevermann staff and students in Ho Chi Minh City."
 category: International Partnerships

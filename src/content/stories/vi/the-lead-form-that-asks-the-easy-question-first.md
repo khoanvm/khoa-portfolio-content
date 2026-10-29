@@ -3,7 +3,7 @@ title: Biểu mẫu thu lead hỏi câu dễ trước
 slug: the-lead-form-that-asks-the-easy-question-first
 summary: Phần lớn quảng cáo bất động sản hạng sang mở đầu bằng câu "bạn cần mấy phòng ngủ?". Tôi thiết kế lại biểu mẫu thu lead thành một cuộc trò chuyện năm bước, góp phần tăng gấp ba số lead và giảm khoảng 75% chi phí mỗi lead.
 published: true
-order: 1
+order: 3
 cover: /uploads/story-the-lead-form-that-asks-the-easy-question-first-cover.webp
 coverAlt: "Khoa trình bày slide về chuyển đổi cho team trong phòng họp."
 category: Tâm lý khách hàng

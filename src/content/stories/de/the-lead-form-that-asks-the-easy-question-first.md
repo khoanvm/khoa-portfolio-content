@@ -3,7 +3,7 @@ title: Das Lead-Formular, das zuerst die leichte Frage stellt
 slug: the-lead-form-that-asks-the-easy-question-first
 summary: "Die meisten Anzeigen für Luxusimmobilien fragen zuerst: „Wie viele Schlafzimmer?“ Ich habe das Lead-Formular als Gespräch in fünf Schritten neu gestaltet. Das hat dazu beigetragen, die Leads zu verdreifachen und die Kosten pro Lead um rund 75 % zu senken."
 published: true
-order: 1
+order: 3
 cover: /uploads/story-the-lead-form-that-asks-the-easy-question-first-cover.webp
 coverAlt: "Khoa präsentiert einem Team in einem Besprechungsraum eine Folie zum Thema Conversion."
 category: Kundenpsychologie

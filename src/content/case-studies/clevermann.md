@@ -14,7 +14,7 @@ evidenceCaption: Vietnam–Germany education and career programs · Clevermann
 summary: As commercial lead of Clevermann, I built a 20+ person marketing and sales organization, doubled monthly signed contract value and cut cost of sale from about 30% to below 10% of revenue, by finding and fixing where committed customers were still walking away.
 published: true
 featured: true
-order: 2
+order: 1
 cover: /uploads/cs-clevermann-cover.webp
 coverAlt: "Large group photo of a German MBA delegation with Clevermann staff and students in an office."
 seoTitle: "Doubling Signed Contracts When the Funnel Leaked — Clevermann"

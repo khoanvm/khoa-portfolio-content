@@ -3,7 +3,7 @@ title: Đưa đoàn MBA từ Đức đến TP. Hồ Chí Minh
 slug: bringing-ludwigshafen-to-ho-chi-minh-city
 summary: Tôi dẫn dắt một đoàn từ Ludwigshafen University of Business and Society, gồm giáo sư, học viên MBA và đại diện nhà trường, đến thăm các trường đại học và doanh nghiệp tại TP. Hồ Chí Minh.
 published: true
-order: 5
+order: 7
 cover: /uploads/story-bringing-ludwigshafen-to-ho-chi-minh-city-cover.webp
 coverAlt: "Đoàn MBA Ludwigshafen cùng nhân viên Clevermann và sinh viên tại TP. Hồ Chí Minh."
 category: Đối tác quốc tế

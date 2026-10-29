@@ -3,7 +3,7 @@ title: "40 Bewerbungen, 10 Verträge: Das Leck, das niemand im Blick hatte"
 slug: the-lead-wasnt-the-finish-line
 summary: Bei Clevermann reichten in manchen Monaten 40 Kunden vollständige Bewerbungsunterlagen ein, aber nur 10 unterschrieben. Indem wir Vertrauen, Emotion und Timing am Ende der Customer Journey verbesserten, kamen wir auf 20+ Verträge pro Monat.
 published: true
-order: 3
+order: 1
 cover: /uploads/story-the-lead-wasnt-the-finish-line-cover.webp
 coverAlt: "Illustration eines undichten Trichters, aus dessen Rissen Menschen herausfallen."
 category: Kommerzielle Führung
