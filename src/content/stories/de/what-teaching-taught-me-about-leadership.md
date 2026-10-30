@@ -37,6 +37,12 @@ Ich versuche, echte Situationen aus Marketing und Vertrieb in den Unterricht zu 
 
 Diese Erfahrung hat auch meine Zusammenarbeit mit Teams verändert.
 
+Wie sehr, habe ich erst gemerkt, als mir zwei Menschen aus meinem Team schrieben. Die eine Nachricht kam nach fast zwei gemeinsamen Jahren und nannte mich „Lehrer“: Heute erzählt diese Person Recruitern selbstbewusst, dass sie Conversion und Verhaltenspsychologie versteht. Die andere kam, als ich ein Unternehmen verließ, und erinnerte daran, sich schon im ersten Vorstellungsgespräch gehört und respektiert gefühlt zu haben.
+
+![Zwei Nachrichten von Teammitgliedern auf Vietnamesisch: ein Text über „meinen Lehrer“ und eine Abschiedsnachricht mit Dank an Khoa](/uploads/story-team-notes.webp)
+
+*Zwei Nachrichten aus meinem Team, auf Vietnamesisch. Firmennamen sind unkenntlich gemacht.*
+
 **Die Erkenntnis:** Wissen wird erst richtig wertvoll, wenn es sich weitergeben lässt.
 
 Und die Fähigkeit, ein komplexes Problem klar zu erklären, ist ein wichtiger Teil davon, anderen bei der Umsetzung zu helfen.

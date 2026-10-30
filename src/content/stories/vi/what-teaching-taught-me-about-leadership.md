@@ -37,6 +37,12 @@ Tôi cố đưa những tình huống marketing và kinh doanh thực tế vào 
 
 Trải nghiệm đó cũng thay đổi cách tôi làm việc với các team.
 
+Tôi chỉ thật sự nhận ra điều đó khi hai bạn trong team nhắn cho tôi. Một bạn, sau gần hai năm làm cùng, gọi tôi là "Thầy": giờ bạn ấy tự tin nói với nhà tuyển dụng rằng mình hiểu về chuyển đổi và tâm lý học hành vi. Bạn còn lại nhắn khi tôi rời công ty, nhớ lại cảm giác được lắng nghe và tôn trọng ngay từ buổi phỏng vấn đầu tiên.
+
+![Hai lời nhắn từ thành viên team của Khoa: bài viết "Cảm nhận về người Thầy của mình" và tin nhắn chia tay cảm ơn anh](/uploads/story-team-notes.webp)
+
+*Hai lời nhắn từ các bạn trong team. Tên công ty đã được che.*
+
 **Bài học:** Kiến thức có giá trị hơn nhiều khi nó chuyển giao được.
 
 Và khả năng giải thích rõ ràng một vấn đề phức tạp là một phần quan trọng trong việc giúp người khác thực thi.

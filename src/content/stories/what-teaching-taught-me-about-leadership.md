@@ -37,6 +37,12 @@ I try to bring real marketing and commercial situations into teaching because pr
 
 The experience has also influenced how I work with teams.
 
+I only realised how much when two people from my team wrote to me. One, after almost two years together, called me their "teacher": they now tell recruiters with confidence that they understand conversion and behavioural psychology. The other wrote when I left a company, remembering that they had felt listened to and respected from the very first interview.
+
+![Two messages from members of Khoa's team, in Vietnamese: a note titled "Thoughts on my teacher" and a farewell message thanking him](/uploads/story-team-notes.webp)
+
+*Two notes from members of my team, in Vietnamese. Company names are blurred.*
+
 **The lesson:** Knowledge becomes much more valuable when it can be transferred.
 
 And the ability to explain a complex problem clearly is an important part of helping other people execute.
