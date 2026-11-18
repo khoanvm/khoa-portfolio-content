@@ -30,25 +30,25 @@ opportunities:
   cards:
     - title: Career Opportunities
       description: >-
-        Growth, CRO, and marketing roles that connect customer acquisition with
-        sales and business performance, increasingly powered by AI and
-        automation.
+        Marketing and growth leadership roles where marketing owns revenue: from
+        the first ad to the signed contract, measured in sales, not reach.
 
 
-        Strategic partnerships and commercial strategy roles focused on
-        cross-border collaboration, business development, and execution.
+        Companies that want AI built into the growth engine with clear
+        guardrails, and a team I can build, in Germany, Vietnam or across both.
       supportingText: Germany · Vietnam · International
       ctaLabel: Explore roles ↗
       modalTitle: Career Opportunities
       faq:
         - question: What roles would be a strong fit?
           answer: >-
-            My strongest fit is in growth, CRO, and marketing roles where
-            customer acquisition connects with sales and business performance.
-            I’m also interested in commercial and partnership roles that draw on
-            my experience leading marketing and sales in Vietnam and working
-            across international markets. I'm especially drawn to roles where AI
-            and automation are part of how growth gets done.
+            My strongest fit is a marketing and growth leadership role with
+            three things: marketing that owns revenue, AI built into the growth
+            engine with clear guardrails, and a team to build and develop. I am
+            at my best owning the growth problem from first ad to signed
+            contract, rather than executing a plan set elsewhere. Commercial and
+            partnership roles that draw on my experience across Vietnam and
+            Germany are also a good fit.
         - question: What experience do you bring?
           answer: >-
             My experience spans CRO and experimentation, growth and marketing

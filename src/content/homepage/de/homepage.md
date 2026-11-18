@@ -30,28 +30,29 @@ opportunities:
   cards:
     - title: Berufliche Perspektiven
       description: >-
-        Rollen in Growth, CRO und Marketing, die Kundengewinnung mit Vertrieb
-        und Geschäftserfolg verbinden – zunehmend getragen von KI und
-        Automatisierung.
+        Führungsrollen in Marketing und Growth, in denen Marketing Verantwortung
+        für den Umsatz trägt: von der ersten Anzeige bis zum unterschriebenen
+        Vertrag, gemessen am Vertrieb, nicht an der Reichweite.
 
 
-        Rollen in strategischen Partnerschaften und kommerzieller Strategie mit
-        Fokus auf grenzüberschreitende Zusammenarbeit, Business Development und
-        Umsetzung.
+        Unternehmen, die KI mit klaren Leitplanken in ihren Wachstumsmotor
+        einbauen wollen, und ein Team, das ich aufbauen kann – in Deutschland,
+        Vietnam oder zwischen beiden.
       supportingText: Deutschland · Vietnam · International
       ctaLabel: Rollen ansehen ↗
       modalTitle: Berufliche Perspektiven
       faq:
         - question: Welche Rollen passen besonders gut?
           answer: >-
-            Am besten passe ich in Growth-, CRO- und Marketing-Rollen, in denen
-            Kundengewinnung direkt mit Vertrieb und Geschäftserfolg verknüpft
-            ist. Ebenso interessieren mich kommerzielle Rollen und
-            Partnerschaftsrollen, in denen ich meine Erfahrung als
-            Verantwortlicher für Marketing und Vertrieb in Vietnam und aus der
-            Arbeit in internationalen Märkten einbringen kann. Besonders reizen
-            mich Rollen, in denen KI und Automatisierung fester Bestandteil des
-            Wachstums sind.
+            Am besten passe ich in eine Führungsrolle in Marketing und Growth,
+            die drei Dinge verbindet: Marketing mit Umsatzverantwortung, KI mit
+            klaren Leitplanken im Wachstumsmotor und ein Team, das ich aufbauen
+            und entwickeln kann. Am stärksten bin ich, wenn ich das
+            Wachstumsproblem von der ersten Anzeige bis zum unterschriebenen
+            Vertrag verantworte, statt einen anderswo festgelegten Plan nur
+            umzusetzen. Auch kommerzielle Rollen und Partnerschaftsrollen, die
+            auf meiner Erfahrung in Vietnam und Deutschland aufbauen, passen
+            gut.
         - question: Welche Erfahrung bringen Sie mit?
           answer: >-
             Meine Erfahrung umfasst CRO und Experimentation, Growth- und

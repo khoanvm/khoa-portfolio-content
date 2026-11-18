@@ -30,25 +30,26 @@ opportunities:
   cards:
     - title: Cơ hội nghề nghiệp
       description: >-
-        Các vị trí growth, CRO và marketing gắn việc thu hút khách hàng với
-        doanh số và kết quả kinh doanh, ngày càng được vận hành bằng AI và
-        tự động hóa.
+        Vị trí lãnh đạo marketing và growth, nơi marketing chịu trách nhiệm về
+        doanh thu: từ quảng cáo đầu tiên tới hợp đồng được ký, đo bằng doanh số
+        chứ không bằng lượt tiếp cận.
 
 
-        Các vị trí về đối tác chiến lược và chiến lược kinh doanh, tập trung
-        vào hợp tác xuyên biên giới, phát triển kinh doanh và thực thi.
+        Doanh nghiệp muốn đưa AI vào cỗ máy tăng trưởng với chốt chặn rõ ràng,
+        và có một đội để tôi xây dựng, ở Đức, Việt Nam hoặc giữa hai nơi.
       supportingText: Đức · Việt Nam · Quốc tế
       ctaLabel: Xem vị trí phù hợp ↗
       modalTitle: Cơ hội nghề nghiệp
       faq:
         - question: Vị trí nào phù hợp nhất với anh?
           answer: >-
-            Tôi phù hợp nhất với các vị trí growth, CRO và marketing, nơi việc
-            thu hút khách hàng gắn trực tiếp với doanh số và kết quả kinh doanh.
-            Tôi cũng quan tâm đến các vai trò kinh doanh và phát triển đối tác,
-            nơi tôi phát huy được kinh nghiệm dẫn dắt marketing, sales tại Việt
-            Nam và làm việc với nhiều thị trường quốc tế. Tôi đặc biệt hứng thú
-            với những nơi coi AI và tự động hóa là một phần của cách làm growth.
+            Phù hợp nhất với tôi là vai trò lãnh đạo marketing và growth có đủ
+            ba điều: marketing gắn với doanh thu, AI nằm trong cỗ máy tăng
+            trưởng với chốt chặn rõ ràng, và một đội để xây dựng, phát triển.
+            Tôi làm tốt nhất khi được nắm bài toán tăng trưởng từ quảng cáo đầu
+            tiên tới hợp đồng được ký, thay vì chỉ thực thi kế hoạch người khác
+            đặt sẵn. Các vị trí kinh doanh và phát triển đối tác dựa trên kinh
+            nghiệm của tôi ở Việt Nam và Đức cũng rất phù hợp.
         - question: Anh mang đến những kinh nghiệm gì?
           answer: >-
             Kinh nghiệm của tôi trải dài từ CRO và thử nghiệm, chiến lược growth
