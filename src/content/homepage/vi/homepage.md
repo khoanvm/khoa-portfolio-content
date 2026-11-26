@@ -271,7 +271,7 @@ about:
       href: /case-studies/
     - label: Câu chuyện
       href: /stories/
-  cvFile: /uploads/khoa-nguyen-cv-2026-11b.pdf
+  cvFile: /uploads/khoa-nguyen-cv-2026-11c.pdf
 caseStudies:
   label: DỰ ÁN TIÊU BIỂU
   heading: "Mỗi bài toán một khác. Một nguyên tắc: Hiểu, Test, Cải thiện."
